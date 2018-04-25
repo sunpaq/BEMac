@@ -1,0 +1,6 @@
+framework module Pods_BEMac {
+  umbrella header "Pods-BEMac-umbrella.h"
+
+  export *
+  module * { export * }
+}

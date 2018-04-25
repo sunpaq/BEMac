@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159A41B339AF55123E99AD38 /* Pods_BEMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8DA4F8822CDF29DD04DF3C /* Pods_BEMac.framework */; };
+		FD049CC7208EF0DB00614534 /* SirenHead_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CBD208EF0DB00614534 /* SirenHead_Bm.tga */; };
+		FD049CC8208EF0DB00614534 /* Mouth.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CBE208EF0DB00614534 /* Mouth.tga */; };
+		FD049CCB208EF0DB00614534 /* maya-blender.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC1208EF0DB00614534 /* maya-blender.mtl */; };
+		FD049CCC208EF0DB00614534 /* SirenBody_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC2208EF0DB00614534 /* SirenBody_Bm.tga */; };
+		FD049CCE208EF0DB00614534 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */; };
+		FD049CD0208EF0DB00614534 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC6208EF0DB00614534 /* maya-blender.obj */; };
+		FD0E4E51208DC64400585800 /* monkey.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD0E4E50208DC64400585800 /* monkey.obj */; };
+		FDF72BFA2037CB0E00AFDF72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF72BF92037CB0E00AFDF72 /* AppDelegate.swift */; };
+		FDF72BFC2037CB0E00AFDF72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF72BFB2037CB0E00AFDF72 /* ViewController.swift */; };
+		FDF72BFE2037CB0E00AFDF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF72BFD2037CB0E00AFDF72 /* Assets.xcassets */; };
+		FDF72C012037CB0E00AFDF72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF72BFF2037CB0E00AFDF72 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16207517EED5503FBCC998E4 /* Pods-BEMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-BEMac/Pods-BEMac.release.xcconfig"; sourceTree = "<group>"; };
+		EB8DA4F8822CDF29DD04DF3C /* Pods_BEMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F448423C52BA2C4BB3B78B42 /* Pods-BEMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEMac/Pods-BEMac.debug.xcconfig"; sourceTree = "<group>"; };
+		FD049CBD208EF0DB00614534 /* SirenHead_Bm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHead_Bm.tga; sourceTree = "<group>"; };
+		FD049CBE208EF0DB00614534 /* Mouth.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mouth.tga; sourceTree = "<group>"; };
+		FD049CC1208EF0DB00614534 /* maya-blender.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "maya-blender.mtl"; sourceTree = "<group>"; };
+		FD049CC2208EF0DB00614534 /* SirenBody_Bm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenBody_Bm.tga; sourceTree = "<group>"; };
+		FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHands_Dif.tga; sourceTree = "<group>"; };
+		FD049CC6208EF0DB00614534 /* maya-blender.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "maya-blender.obj"; sourceTree = "<group>"; };
+		FD0E4E50208DC64400585800 /* monkey.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = monkey.obj; path = ../../objs/monkey.obj; sourceTree = "<group>"; };
+		FD3D017B2078BB4400E49ECF /* BEMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		FDF72BF62037CB0E00AFDF72 /* BEMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF72BF92037CB0E00AFDF72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDF72BFB2037CB0E00AFDF72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDF72BFD2037CB0E00AFDF72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF72C002037CB0E00AFDF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF72C022037CB0E00AFDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF72C032037CB0E00AFDF72 /* BEMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BEMac.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF72BF32037CB0E00AFDF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159A41B339AF55123E99AD38 /* Pods_BEMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97FB57110A1ECB7D5704ADDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8DA4F8822CDF29DD04DF3C /* Pods_BEMac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9818C9843BD1DBA4656933A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F448423C52BA2C4BB3B78B42 /* Pods-BEMac.debug.xcconfig */,
+				16207517EED5503FBCC998E4 /* Pods-BEMac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD049CBC208EF0DB00614534 /* maya2 */ = {
+			isa = PBXGroup;
+			children = (
+				FD049CBD208EF0DB00614534 /* SirenHead_Bm.tga */,
+				FD049CBE208EF0DB00614534 /* Mouth.tga */,
+				FD049CC1208EF0DB00614534 /* maya-blender.mtl */,
+				FD049CC2208EF0DB00614534 /* SirenBody_Bm.tga */,
+				FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */,
+				FD049CC6208EF0DB00614534 /* maya-blender.obj */,
+			);
+			name = maya2;
+			path = ../../objs/maya2;
+			sourceTree = "<group>";
+		};
+		FD0E4E172081B8EF00585800 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FD049CBC208EF0DB00614534 /* maya2 */,
+				FD0E4E50208DC64400585800 /* monkey.obj */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FDF72BED2037CB0E00AFDF72 = {
+			isa = PBXGroup;
+			children = (
+				FD0E4E172081B8EF00585800 /* Assets */,
+				FDF72BF82037CB0E00AFDF72 /* BEMac */,
+				FDF72BF72037CB0E00AFDF72 /* Products */,
+				A9818C9843BD1DBA4656933A /* Pods */,
+				97FB57110A1ECB7D5704ADDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF72BF72037CB0E00AFDF72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF72BF62037CB0E00AFDF72 /* BEMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF72BF82037CB0E00AFDF72 /* BEMac */ = {
+			isa = PBXGroup;
+			children = (
+				FDF72BF92037CB0E00AFDF72 /* AppDelegate.swift */,
+				FDF72BFB2037CB0E00AFDF72 /* ViewController.swift */,
+				FDF72BFD2037CB0E00AFDF72 /* Assets.xcassets */,
+				FDF72BFF2037CB0E00AFDF72 /* Main.storyboard */,
+				FDF72C022037CB0E00AFDF72 /* Info.plist */,
+				FDF72C032037CB0E00AFDF72 /* BEMac.entitlements */,
+				FD3D017B2078BB4400E49ECF /* BEMac-Bridging-Header.h */,
+			);
+			path = BEMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF72BF52037CB0E00AFDF72 /* BEMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF72C062037CB0E00AFDF72 /* Build configuration list for PBXNativeTarget "BEMac" */;
+			buildPhases = (
+				2DF713CFA601D35AD6E5EF40 /* [CP] Check Pods Manifest.lock */,
+				FDF72BF22037CB0E00AFDF72 /* Sources */,
+				FDF72BF32037CB0E00AFDF72 /* Frameworks */,
+				FDF72BF42037CB0E00AFDF72 /* Resources */,
+				A5D35BFB3B37DEAC033A548C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMac;
+			productName = BEMac;
+			productReference = FDF72BF62037CB0E00AFDF72 /* BEMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF72BEE2037CB0E00AFDF72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "孙御礼";
+				TargetAttributes = {
+					FDF72BF52037CB0E00AFDF72 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDF72BF12037CB0E00AFDF72 /* Build configuration list for PBXProject "BEMac" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF72BED2037CB0E00AFDF72;
+			productRefGroup = FDF72BF72037CB0E00AFDF72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF72BF52037CB0E00AFDF72 /* BEMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF72BF42037CB0E00AFDF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD049CC8208EF0DB00614534 /* Mouth.tga in Resources */,
+				FDF72BFE2037CB0E00AFDF72 /* Assets.xcassets in Resources */,
+				FD049CCC208EF0DB00614534 /* SirenBody_Bm.tga in Resources */,
+				FD049CCE208EF0DB00614534 /* SirenHands_Dif.tga in Resources */,
+				FDF72C012037CB0E00AFDF72 /* Main.storyboard in Resources */,
+				FD049CC7208EF0DB00614534 /* SirenHead_Bm.tga in Resources */,
+				FD0E4E51208DC64400585800 /* monkey.obj in Resources */,
+				FD049CCB208EF0DB00614534 /* maya-blender.mtl in Resources */,
+				FD049CD0208EF0DB00614534 /* maya-blender.obj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DF713CFA601D35AD6E5EF40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BEMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D35BFB3B37DEAC033A548C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BEMac/Pods-BEMac-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BohdiEngine/BohdiEngine.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BohdiEngine.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEMac/Pods-BEMac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF72BF22037CB0E00AFDF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF72BFC2037CB0E00AFDF72 /* ViewController.swift in Sources */,
+				FDF72BFA2037CB0E00AFDF72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDF72BFF2037CB0E00AFDF72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF72C002037CB0E00AFDF72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF72C042037CB0E00AFDF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		FDF72C052037CB0E00AFDF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		FDF72C072037CB0E00AFDF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F448423C52BA2C4BB3B78B42 /* Pods-BEMac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BEMac/BEMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R7BTEXA73U;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"CG_CONTEXT_SHOW_BACKTRACE=1",
+				);
+				INFOPLIST_FILE = BEMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BohdiEngine/BohdiEngine.framework/Headers\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oreisoft.BEMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BEMac/BEMac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		FDF72C082037CB0E00AFDF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16207517EED5503FBCC998E4 /* Pods-BEMac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BEMac/BEMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R7BTEXA73U;
+				INFOPLIST_FILE = BEMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oreisoft.BEMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BEMac/BEMac-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF72BF12037CB0E00AFDF72 /* Build configuration list for PBXProject "BEMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF72C042037CB0E00AFDF72 /* Debug */,
+				FDF72C052037CB0E00AFDF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF72C062037CB0E00AFDF72 /* Build configuration list for PBXNativeTarget "BEMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF72C072037CB0E00AFDF72 /* Debug */,
+				FDF72C082037CB0E00AFDF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF72BEE2037CB0E00AFDF72 /* Project object */;
+}
