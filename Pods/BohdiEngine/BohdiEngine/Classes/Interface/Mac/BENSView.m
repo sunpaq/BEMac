@@ -1,5 +1,6 @@
 #import "BENSView.h"
 
+#if TARGET_OS_OSX
 #define SUPPORT_RETINA_RESOLUTION 1
 
 @implementation BENSView
@@ -100,7 +101,7 @@ static CVReturn MyDisplayLinkCallback(CVDisplayLinkRef displayLink,
     // Init our renderer.  Use 0 for the defaultFBO which is appropriate for
     // OSX (but not iOS since iOS apps must create their own FBO)
     //_renderer = [[OpenGLRenderer alloc] initWithDefaultFBO:0];
-    renderer = [[BENSRenderer alloc] initWithFrame:self.frame];
+    renderer = [[BERenderer alloc] initWithFrame:self.frame];
 	
 	// Create a display link capable of being used with all active displays
 	CVDisplayLinkCreateWithActiveCGDisplays(&displayLink);
@@ -229,3 +230,5 @@ static CVReturn MyDisplayLinkCallback(CVDisplayLinkRef displayLink,
 	CVDisplayLinkRelease(displayLink);
 }
 @end
+
+#endif

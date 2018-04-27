@@ -6,9 +6,9 @@
 //
 //
 
-#if defined(__IOS__)
-
 #import "BEPanoramaView.h"
+
+#if TARGET_OS_IOS
 
 @implementation BEPanoramaView
 

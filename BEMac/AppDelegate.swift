@@ -13,7 +13,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        //BEResource.shared().preloadTGATextures()
+        BEResource.shared().detectObjModelNames()
+        BEResource.shared().preloadTGATextures()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
