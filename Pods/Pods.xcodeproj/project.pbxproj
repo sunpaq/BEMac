@@ -7,150 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0222EF0F6375D2E0D8117CE98F925D79 /* MCSkysphere.h in Headers */ = {isa = PBXBuildFile; fileRef = 16182084F1F6455E000CAFFC147B7C3C /* MCSkysphere.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		035E74235831BCB7A4C84B9096867B40 /* BENSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DEC93976CBF2B5E9D4E2B902A8BBB1 /* BENSView.m */; };
-		04571C388E140081DAE8FA6106B93674 /* MCGLRenderer.c in Sources */ = {isa = PBXBuildFile; fileRef = C1E8E6EDDFE322B28794985D50640F01 /* MCGLRenderer.c */; };
-		048C1DAC125EE5AE64F931443410ECD6 /* MCBits.h in Headers */ = {isa = PBXBuildFile; fileRef = B55FCCDA5D9793FCB5D558D32E60C7D4 /* MCBits.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05C4D4CBDA01348EB4F4FBF98C3894D8 /* SOIL.h in Headers */ = {isa = PBXBuildFile; fileRef = 796E33F60250A2BB2E9912FD6D4A21CB /* SOIL.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		07C10D224F6201F8C8EBCEA1E12DAC24 /* BECubeTextureData.c in Sources */ = {isa = PBXBuildFile; fileRef = 962FDBE65654228B310B5FAF8F94A70F /* BECubeTextureData.c */; };
-		0E26948DE0B3CA44BCA223C4C605639E /* MC3DNode.c in Sources */ = {isa = PBXBuildFile; fileRef = E5347BCADDE967D0ABCE6640578D8594 /* MC3DNode.c */; };
-		108170DC157BE7A3DB9B5097174494EA /* MC3DModelCache.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ACD254F556ADE79D7B662750F3DB066 /* MC3DModelCache.c */; };
-		13882486349C03B7E9EA553C10319D67 /* MCLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4CC0AE2F082497EF0258242998A18D /* MCLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13F1ED35E22162DAEC9EC145C30E182D /* MCBits.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B7611CA42C3232F2FBBB6C807019332 /* MCBits.c */; };
-		14D9AE44095A4BA5750505CE6D421809 /* MCProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F732B43B154E1C6A5AAA0C833FFE07 /* MCProcess.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14DA3E9A5D40B26F6425A734964012F5 /* MCSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 68EB986AD75790FBA5027698C374527C /* MCSort.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		197E260715913776AF0906E93D398AC3 /* MCOrbit.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCFF0014BE15112F9F6A1A78234B4E /* MCOrbit.c */; };
-		1BB7B411C580A638244190E29BCE2D44 /* MCSet.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0D63641338929225881554D53F07E /* MCSet.c */; };
-		1BE5BDCBC2F57DAB5CB31A2715863BC1 /* BEPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA449164E2DE00A9169A01D6C240FA91 /* BEPanoramaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4A9992E7A1D80BAA56DFFBFEDC1CEC /* MCPanel.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F12B18314586A96B1545CA487D7DF4B /* MCPanel.c */; };
-		21854332ED8A049BAFB525CDD444933E /* BE2DTextureData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8821592EF02D1727B5B03549092561 /* BE2DTextureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23D267E88CE732A92549956C053939C9 /* BEGameController.h in Headers */ = {isa = PBXBuildFile; fileRef = C997375C24DA081AB93EEFB9D1FEF6A3 /* BEGameController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24D656314172F8FC0ACD631F50E6798B /* MCTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 32917088BC115E0D81966490309C99A5 /* MCTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		304C16C87EB1B075E79B46E25D332F4C /* BE2DTextureData.c in Sources */ = {isa = PBXBuildFile; fileRef = B8AAE41E6EB43037099175F1DD55B1D4 /* BE2DTextureData.c */; };
-		320A467821277484E466A93589615AFA /* MC3DAxis.c in Sources */ = {isa = PBXBuildFile; fileRef = D357330ADACDA652232B2D79DA3628C8 /* MC3DAxis.c */; };
-		338A589B2675A4AAD4C750C3E95A8548 /* BohdiEngine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 178C08077413F7CE427787DEE650B173 /* BohdiEngine-dummy.m */; };
-		36E44853E7F4BFAD1215E02BDE6D9D9D /* MCArrayLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = B8DD278BD5552F38A3B330029455E747 /* MCArrayLinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39E73AC08193A39E87956C55C8E929AE /* MC3DModel.c in Sources */ = {isa = PBXBuildFile; fileRef = 70AA7900241E2D747B9BC9FE3F806960 /* MC3DModel.c */; };
-		3B0AADF58DA119B487E66E7B58C2F9C4 /* MCTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 262CBD7530D0C1D4EDD371163B1D4B31 /* MCTree.c */; };
-		3D92B1657E6374F6305F21193F2F6113 /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = AB010783247733A605CC2B8ED67D4B22 /* image_helper.c */; };
-		3EFA0B8E47739E662EC06417D9E0C722 /* stb_image_aug.c in Sources */ = {isa = PBXBuildFile; fileRef = 1381E55DCEC4448B141DBC33DF000E05 /* stb_image_aug.c */; };
-		40C7DB242D4C9DC2F28FCF058FD8B994 /* BEMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B17A38925CCCF89B2F4D19A12D4BB794 /* BEMotionManager.m */; };
-		436B95F94845F7FC0323B2E25779D5D1 /* MCMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 87CA7BCC94E2420F7DD845E4CE245E45 /* MCMath.c */; };
-		44CCF3C81A1DC33D11DF4192DDC14CF7 /* MCClock.c in Sources */ = {isa = PBXBuildFile; fileRef = 474F0AE4B8EB58466B6F2FD56C5F0D2D /* MCClock.c */; };
-		4A5505C9B614C9D5D395E4ADCDBF6230 /* BEMotionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0AE8C60A4ED477CB19EF15FAF8C253 /* BEMotionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B0308D3F77BDC7366128814C2C0C027 /* monkc.c in Sources */ = {isa = PBXBuildFile; fileRef = 28BA8DABA05B5E4BA671C947C234A174 /* monkc.c */; };
-		4DC5BB8AE2ABA7265E92091A53938177 /* MCMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A796AA0874F2DC09F8E1A02FE660A70 /* MCMap.c */; };
+		08F8204A52132252C8278B5CBF48EE06 /* MCBits.c in Sources */ = {isa = PBXBuildFile; fileRef = EA87513689EB063E7B7A047D6543591C /* MCBits.c */; };
+		0A5E1FA9A8707F890B82EC87E8B62089 /* MCSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A486BC8539A8C2DB71BFEB45A3039F0 /* MCSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF0C9D509CB58144398B0535822FCA8 /* MCException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8004128ED69703B89BA235B6A17A38 /* MCException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11A0F0A6E49211060D078F326003F338 /* MCThread.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C214EDAF3A6EC56F9946D37F5CC6F67 /* MCThread.c */; };
+		13765068B9C6BD645834873637CA3AD9 /* BEAssetsManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 8467EAE726D1ABFF0C20762494A6A6A3 /* BEAssetsManager.c */; };
+		13C196DA8FA2782198920EF937173668 /* MCTexture.c in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB04FCFD4592F3EA0D4D25DC76166E /* MCTexture.c */; };
+		14459C945DA7D122F0C40B1F43D841A2 /* BEMotionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ED77953A13876A973F2BD2925DA54D25 /* BEMotionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145F886A0F2A3F56A7734BC008F4345C /* MCMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C13352FC58B4D16E18A5B12DB7D3815 /* MCMap.c */; };
+		1547E4B9680B81FBD5D61CB4AD3B7540 /* MCBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B790811B025C108350131F3FA45E7D3D /* MCBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		159F12988382173F198A86CB9E0F0071 /* MC3DModelCache.c in Sources */ = {isa = PBXBuildFile; fileRef = C76B146CE04F0D9EF5B25660FCE532B7 /* MC3DModelCache.c */; };
+		186298F4850FD14AC72F331ACFBA80BB /* MCUnitTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 771F0405C13B94A213B214FE195C30F6 /* MCUnitTest.c */; };
+		19592A292DE1BB19819558CE011A8A47 /* BECubeTextureData.c in Sources */ = {isa = PBXBuildFile; fileRef = AD56CBD9AA4D70D63F20391D19670C4C /* BECubeTextureData.c */; };
+		1977235466F406E5DE7554664A6E5944 /* BATrianglization.c in Sources */ = {isa = PBXBuildFile; fileRef = 12677BBD186C903440A119D84537AB4B /* BATrianglization.c */; };
+		19DBE713FB4F474140F7CCCEED5E5366 /* MC3DAxis.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E82CFC9C983F2C63EC632041CA774EC /* MC3DAxis.c */; };
+		1C81A4802C65554E4F3DF3676E7324D1 /* MCGLRenderer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C3D7E022F8338DB7995D6EBA573D7 /* MCGLRenderer.c */; };
+		1EAF4405A6E72C60862155DDBB21917E /* MCUnitTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A3D015F29F0AE5C2397DC043C1F639 /* MCUnitTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F47CDB2ECF5E1F88488F040E2E8B778 /* MCContext.c in Sources */ = {isa = PBXBuildFile; fileRef = 98280AEDEAC6634C5CC62A62AF1CE6A3 /* MCContext.c */; };
+		227343FEC422AE6B51A9DA3EF2DFC462 /* MCCube.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F713FD2414B6E62E13F88E561BBC46 /* MCCube.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23EABEE762D9C04F62B2EB66FEF52868 /* MCLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A14725BB840A433D3F707AF858655C /* MCLinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23EBCBD62711919D83D4E1F81C4507F2 /* MC3DScene.c in Sources */ = {isa = PBXBuildFile; fileRef = FEC475A0D0BA5F573B8B4E198A5DDE65 /* MC3DScene.c */; };
+		258CDEC6A4FF0A30185958369513BB35 /* BENSView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A7556CC2AE5D5839624D63267EF228 /* BENSView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29A3B900DA06A265DB3B0857C9FA3018 /* BEGameController.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D01D52FCCD54FDB70D1EB649E78712 /* BEGameController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A9ACF6D31EFED50F21CAD169A920C5D /* MCMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = E30EA8D61A732123C253428D7AC627A8 /* MCMesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304EB28DE4B823975FCA61C692AF961E /* MCGLShader.c in Sources */ = {isa = PBXBuildFile; fileRef = FF41A5298A6EA19014F31F747D862C18 /* MCGLShader.c */; };
+		333C7A2743CC261509EA585562BCB089 /* BERunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE55C039700B4A22781FDBD16BF980F /* BERunLoop.m */; };
+		354D8D0238CB4B0357A32E0D1AD6B6B2 /* MCSkybox.c in Sources */ = {isa = PBXBuildFile; fileRef = 55691DB517979FE2CD1FC59A7882CCA1 /* MCSkybox.c */; };
+		3706E0B26108D6F2889ABDCF19C3F685 /* MC3DBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AD47D0A637FBCC0D9A6DA5DA9ADD48 /* MC3DBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A15513B0D481DEC47A3949CB49DB215 /* MCSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 69FF5BD6454C496B1CD5A06526357AD9 /* MCSort.c */; };
+		3BE9CB83D482E2DE68FBA7E3A2E45A4B /* MCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AF12105D71DAA64A148B97A5EE54B6 /* MCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C31F127007BE3D76FE409A17BDFCF25 /* MCLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BF301D006DBDAB0D0521481485DA43 /* MCLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C9E342F8EC2D173E7807CA16ADBF829 /* MC3DModelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E40F1E8AFE8993DE0FF0F9AF3F21603 /* MC3DModelCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D6AD7D00C094190A71C8E2811BE3EFD /* MCSkysphere.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FA879A75447105B6B377B47BC2B03EA /* MCSkysphere.c */; };
+		3E012C4B912FA2C56C56B247940EE884 /* MCContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 3096523D1620680532934856573C1887 /* MCContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E24E17E8EEE7F2A17EF759C1B098BD9 /* MCTextureCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF21D1E56CBBE9EE8CBE071A94E291A /* MCTextureCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F26EC9A900C0A6D0445562BBD66800D /* MC2DTex.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FAECE615684D0326791DE26903788F /* MC2DTex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F382F20699EA427D4FC75D5892D4493 /* MC3DScene.h in Headers */ = {isa = PBXBuildFile; fileRef = BC258F7F412A1FC5EDC5650486090C50 /* MC3DScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F7A20857A478BAC7CFC256D11FF435F /* monkc.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C48E4728F49623C26A4198258784D4 /* monkc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		403C03FCF4294CE5249CAE385C85688A /* MCWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F3D86C227042C8A83CB5FA9A9C1F14 /* MCWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		470EE54DE6BB28CC888A1D8BE6F07C1F /* MCBits.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D5455D1A96AB974A8E9EAFEFA99F13 /* MCBits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48DC0BB94A4CD2A5870FDF8F18C3EABE /* BEPanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A6590057F7BDE3AC7DEA9F765ABD8F /* BEPanoramaView.m */; };
+		4904885DCA595869D72DC91F1DFA82B8 /* MCHeap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9A0F6F339FA12D970651B43784F990 /* MCHeap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B37BBE6ADF5372EB2879F26EE52AB27 /* MCLight.c in Sources */ = {isa = PBXBuildFile; fileRef = F191DBD8A77DC57AAA1F17A0DF79BB2A /* MCLight.c */; };
+		4D3887A8DB432AC94F5291A60FF2B50D /* MCIO.c in Sources */ = {isa = PBXBuildFile; fileRef = 32951C5FC7C0619FE87A8D18ED7DA7BA /* MCIO.c */; };
+		4DDB00813D8FECE30949A5A4F5A3D1CE /* MCTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 414BF135569273A553FD81D6BE68FCC5 /* MCTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E7780245A9599785F66861862ABAEEE /* SOIL.c in Sources */ = {isa = PBXBuildFile; fileRef = 88E0CBD30F82F89C4E2611245742A50D /* SOIL.c */; };
 		50785DAF54670F0D25CE675FF789A302 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		51A4E1082C38DF91513B85B13B49C817 /* MCSkybox.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC000BB0F6142601FCF81882AB2015 /* MCSkybox.c */; };
-		553D0483C07AEC4DD11A5373505DB0E9 /* MCDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = D78CF5238EE340439F2F9F0DBEE86F10 /* MCDirector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		570E33E82F8298160B4A9AA9FDF4D945 /* MCThread.h in Headers */ = {isa = PBXBuildFile; fileRef = D072180B9AFCA538EA314E42C887CC90 /* MCThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5740D72E46B6FBD28932DB66CC732EFD /* MCHeap.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E9BF5DB2AF06BE4F9F987878F5AF587 /* MCHeap.c */; };
-		60BDFA20B7FE12A11EFA2E19E94E7640 /* stbi_DDS_aug.h in Headers */ = {isa = PBXBuildFile; fileRef = 64885906F822E528BEA0D2E8BB94798F /* stbi_DDS_aug.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		6268B82DD07BB15FA4B618CDC0F9E0EB /* BEResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 670FA3A34D09261430D14667704E9BC5 /* BEResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6491D409C69A5999C62A6298741F21C5 /* MCString.c in Sources */ = {isa = PBXBuildFile; fileRef = 6134356875DECF1475DE7F61E7836036 /* MCString.c */; };
+		51D2B45468FE2F813F7274D83E449DF9 /* MCOrbit.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C25C1A5B3C7854435D8380ABF3149AE /* MCOrbit.c */; };
+		52F63010EEFBAB07D0286059B3ED273E /* BohdiEngine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 026F18482C9D9F343AA24CB9552705F3 /* BohdiEngine-dummy.m */; };
+		53D4DA2C4A5EA233EA239651E2005CD0 /* MCArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F15AE1568F453A1B52D28757F54EDB32 /* MCArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		540EA0BB0A0741BE5E1AAE9FAE13D81E /* BENSView.m in Sources */ = {isa = PBXBuildFile; fileRef = E97590E24BAA2DCF05841731B13FF958 /* BENSView.m */; };
+		5BBBAE41BA3E08638D95A8989EB05675 /* BEAssetsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B40D3BFC15146C5452F2ACA49A4BC496 /* BEAssetsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC56FABFDBFBEFD0AD944BEF58A6F8C /* MCArrayLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 88BB01EFBF4EBAAE9A395FB181414A7A /* MCArrayLinkedList.c */; };
+		5CD1E342F03175B4E18E4E3478C5D9A7 /* BEMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4017007CE0FAE05842EAA3649DE3467C /* BEMotionManager.m */; };
+		5E16C75D53F7E0E48EEB28B4D65C0393 /* MCThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E7FBDEB95AA24D12519AAF1E68A9D7 /* MCThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F522C792055AB39780B46C7BAC38728 /* MC3DAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B94C330A96996301E571831891BF07 /* MC3DAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6054FCF724053CDA8FC63C46071862F9 /* BEModelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 949F74E0BCC99A9519E0D99279D22A91 /* BEModelCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		608F36FE69D6EFF3B40BFE5AA26E4993 /* image_DXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 86939C14165B1F11C90B1F58C6045D40 /* image_DXT.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		64D53BC228854829060D605B39040708 /* BE2DTextureData.c in Sources */ = {isa = PBXBuildFile; fileRef = 43D7501E757A8225A70F4DA79D5DE484 /* BE2DTextureData.c */; };
 		64DB8CB57238421E29923A936BC6976D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		66B2EB589E0ED420D8A28D295443FBD8 /* BAObjParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5E7ED5E695CE4075F370C11FA8EFDC /* BAObjParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66C6F4142432E3966D76758B6AE1DC35 /* MCMap.h in Headers */ = {isa = PBXBuildFile; fileRef = D3433671D2117895D88A71E18E949882 /* MCMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69CEFAF0456DB03C5894864FA2EBE3F7 /* MCCube.c in Sources */ = {isa = PBXBuildFile; fileRef = 534334233575460AF68A8C5D7C34CA53 /* MCCube.c */; };
-		69E706073E68DE96BDF80B7E45EA473B /* MCGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = E922E40DFAD1C723C8E39C90F401D28A /* MCGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BB94CEF26D2C2CB8777BCD04DE62D46 /* MCSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C98FCA505B06A2D39BE3CD623F536EE /* MCSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EE01981DFF9A871F12354FCE71FAF1D /* MCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AEE5FC48ECA56D3AFCD1BB0156D0420 /* MCGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F0CEBE8EAE55C64BA821A05B6025352 /* MCTextureCache.c in Sources */ = {isa = PBXBuildFile; fileRef = 613B4B31D6D9EB39D6DFF6F2157B3124 /* MCTextureCache.c */; };
-		7227127FB7B689E0D3814C64555338E4 /* MCOrbit.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FA3C630BC0AF4CD948A77D630E001A /* MCOrbit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72EE9D4671BA4F052136A40782AB97EB /* MCException.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B00F91228C6BF4D5862846CE166E4B4 /* MCException.c */; };
-		731A6F8DAC3EC2EB88B7201567B45213 /* BAMtlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B648D78BEF442F9D899C63A78C4895 /* BAMtlParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7372DF2CF55D2E3A09C84628622AA103 /* BERendererCAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD644F984AEFA190B6F0255F31B4C5 /* BERendererCAPI.c */; };
-		782B7A8A0C332E1E00AA1877B20EF029 /* MCSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FB1528923D92E6266FCB631F6A51A57 /* MCSocket.c */; };
-		7889A0AC5504811943B510C85CC3E1EF /* MCLight.c in Sources */ = {isa = PBXBuildFile; fileRef = 54435DF6881978A9E5BE30726420E227 /* MCLight.c */; };
-		78C7DDED91779B9D5F5E8CCC9F1CB5A9 /* MCArray.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8E155416334DEBDC6E8D73C6FA07D7 /* MCArray.c */; };
-		7AC13806D4E4A35078370489D10A9339 /* MCCamera.c in Sources */ = {isa = PBXBuildFile; fileRef = FF7B3DE214F8C84E7A80DCCCAD7780C6 /* MCCamera.c */; };
+		68F99F23435CB5EE319E6A264B6BC64B /* MCGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B17323D4A26FA903F5FA5E6FCC71576 /* MCGeometry.c */; };
+		71AA13AE85615FC34635316DADB33FA0 /* BERendererCAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 573B292F88EE4D8DA6A4E05B045C540E /* BERendererCAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72B5096017EC8C4E9859A28F2D477284 /* MCMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = 5673E90AAB83E8F00E2C3A960374A1EE /* MCMaterial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		739A31FA1A4680F45ED34EA2F42E7467 /* image_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BF58D962A02666222FB90B16913E0B /* image_helper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		748AB45E871A6426717F204F677AC0E0 /* MCSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 811B91B2992D403183F6B899D34B4E54 /* MCSort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74DFB07CFDBB5823C6C78C0EDC645451 /* MC3DModel.c in Sources */ = {isa = PBXBuildFile; fileRef = FF79A79B17AB282FA6C6E874A5524182 /* MC3DModel.c */; };
+		786C5B62844AF810C78AC49A1D78319B /* MCMaterial.c in Sources */ = {isa = PBXBuildFile; fileRef = 514AF801AE7B2A785E90BDB3DF7C40F5 /* MCMaterial.c */; };
+		788A5AB4A47C9C754C71D0B62FA61020 /* MCIO.h in Headers */ = {isa = PBXBuildFile; fileRef = BB007DDF51F9C45AA3693AAC8C3B1D8D /* MCIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE6A2C148AE7FFEAB3F4B1510255DC1 /* MCArrayLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = F7262F883938042D1F3DE25C5D4BEFE6 /* MCArrayLinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BF89CE624B1971DD56A0C8F603F7A3E /* Pods-BEMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC931B1D1E8A79410B64834A3D503B2 /* Pods-BEMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D2642A1B8D1D97492704690BD1EDD6B /* MCGLEngine.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D9748673C64A9D34E7D02C8B64261F3 /* MCGLEngine.c */; };
-		7EE5E94FC432E84F5398F18DD7F40F7C /* MC3DScene.c in Sources */ = {isa = PBXBuildFile; fileRef = 2210207552FB31CAAAF6C28B833412FC /* MC3DScene.c */; };
-		841D49B42753B6CA4F3380225900698D /* MCGLContext.c in Sources */ = {isa = PBXBuildFile; fileRef = EA35D2CD270C87316A232275E554E6B0 /* MCGLContext.c */; };
-		85521FD64EC07EFB8CE2CF606C412852 /* BEModelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FF030D75CE7194696B2F5567590D6D /* BEModelCache.m */; };
-		88486213C7C9873A2698E7536AA740C0 /* MCPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = C80639C24BFA263224D50646AF5A89D0 /* MCPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		886C5D0A9E54F99B24FAFA62E8CD2A65 /* BEModelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 647A12A82C14C1ED495E07A0E1C39B0A /* BEModelCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88A60FEE25EC9466A3F3A7EB9F229613 /* BERunLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = BD27E52A6A589D68D56D8849902E5FB7 /* BERunLoop.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8989B00A53E685B3D8104CF12A73616F /* MC2DTex.h in Headers */ = {isa = PBXBuildFile; fileRef = 245373F3B78E1BB553041D6118C50462 /* MC2DTex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C92279B1C1C73F0599E5B49BF75EE53 /* MCBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E88527A71F1E993722257AAD4CCDF9F /* MCBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D33F327590972C96DA03D2AE004006F /* MCGLBase.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BF25197C607031D9DB0EB7E694CB4E /* MCGLBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E070FAB1E01F5C9E8FB4DC6136A3117 /* MCMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CE04C23252A3BA8D608348B93DC1B2 /* MCMaterial.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EB72B3E5A95B4AE6A9415621F2C9A1C /* MCTextureCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C835EDD36B65373DB3713A431355138 /* MCTextureCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F0695D4477B61822B02BDE67F01C18A /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = 042D5FDF1D4EF13327DEF27242CFFCD4 /* image_DXT.c */; };
-		8F2450D978E248586C7D3EB231CA4E80 /* MCTree.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C99CA1A009C58318C30DDC8B401DE9 /* MCTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90D30E1AFF639D951805292A64372B1B /* MCArrayLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D40F2EE33C1C5EACBC8C99EA8D9662 /* MCArrayLinkedList.c */; };
-		914C47493CE379827C04AE05CAD97B44 /* BERenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB6413BF488A3D96DE45A0D185C97EE /* BERenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		916182E385B9D3383AF757C72FC1B049 /* BERenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = F74B3339252A6C601DF5690B7EC64453 /* BERenderer.m */; };
-		94716E2091D0FF01B8A40500A14E1730 /* MCLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 0330A7140DB779280988DB73B20D6FEB /* MCLinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		979CA00C3780E652D0AECB5DE88C140E /* MCBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA2B42C8C02D85A7A612E32F799369 /* MCBuffer.c */; };
-		9888246F829363FF320EB354A42B9277 /* MCMaterial.c in Sources */ = {isa = PBXBuildFile; fileRef = DDAADF806A189688B2271F599844CB3E /* MCMaterial.c */; };
-		9B6ECC0D4CBB2D0E3CFC5324B7B72369 /* MCUnitTest.c in Sources */ = {isa = PBXBuildFile; fileRef = FD698CB4FEFD193874F001D9C35E2C52 /* MCUnitTest.c */; };
-		9CBE15D489D27B0F232C3EF9FB5F604F /* MCArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D75C20C0D66CCDBE802C4CCFE9CC2342 /* MCArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E7540E18954DE1CC78560A8C3CF071A /* MCGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CAF22D9691081D412DB7B49C2F0161 /* MCGLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E77C85FC50B8109211FE22F1F128879 /* MC3DModelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A355B4A3C5D4102D7240A533FAB1BD0 /* MC3DModelCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F8CD6E8DC90E49FA5C114606670D294 /* MCCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 9528F2334FFB57B2D7A107405EAB03AC /* MCCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0B62A48A3757499357908DBD4803CD9 /* MCWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BD72472FC6FD7F844A940689788CA2 /* MCWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1F2624CB79156C68ED860B68BA50E48 /* MCWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = B3C2EA0437B5860CFC8810ADFDA68DC4 /* MCWorld.c */; };
-		A214E70AE4FF1E987F6532B3B4E4DFE5 /* MCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8890048E0D4C66BFCF9144B6BC7C87ED /* MCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A491B223272F65D412C8025B2CB496E1 /* MCIO.h in Headers */ = {isa = PBXBuildFile; fileRef = E2103BD6F36DEE49C0A55DB3C69E529B /* MCIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C905EA21B194AEBFDD9D58A87850CE8 /* MCJNI.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F7F4F87F8FB28BF87D0BBD401958F4 /* MCJNI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80323B2A55A9353AB12CD17820CE5C89 /* MCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 692067D6EC6A4BED8815DDA65E365B8D /* MCGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80A18AAE6543A0BE173AB8DBCFAC92DD /* MCDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = 0752FCC2D5F18212E458CA6B8E96CFE9 /* MCDirector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		818ADFBE0E6949BF8F3534EC168764DE /* MCHeap.c in Sources */ = {isa = PBXBuildFile; fileRef = 89CA5B73EFF0632022D15A03680FB5DF /* MCHeap.c */; };
+		82053367BC0A3EF6A512746CE1CEB8D2 /* BohdiEngine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F4DCECCED5BFC1252DC8AF9B05DC9D /* BohdiEngine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A1658CECC6BAF0A61AB64EC42D7F40 /* MCSkybox.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F0FB6C611AC48F11B9799F28EB39E8 /* MCSkybox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8819E5621F0F8E1FBB1F87118D7E53B5 /* MCProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = AC82505FB9444660BB16740BD0F1E028 /* MCProcess.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888723ADC39982C336B3EF61FA443775 /* BEPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9967E8F4A4929A2F3C25EFCEB3326CF6 /* BEPanoramaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BEE5BD4B6552980D5C0C9C8A58A90C0 /* BERunLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8A00CBF2AEF5269CD5D9ACA901EE65 /* BERunLoop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CDEA1D6521CAE4BA5A902AD4F770978 /* MC3DModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 32650CECE0EA2E405CE4560EDB9B62DC /* MC3DModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D9F40772B573E05BA5DA6F516ACF6AA /* MC3DShapeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1CC35311656FF3DDC3712419650324 /* MC3DShapeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92142FC5A54E3DE6E8D77F11D3193391 /* MCString.c in Sources */ = {isa = PBXBuildFile; fileRef = 30628E3EF26BD26AE608B5836D7A9AD4 /* MCString.c */; };
+		93E9056674177D9A34485A1F1D209707 /* BERenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 145B1020BD278F7DCE689ECA37512D78 /* BERenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FEE6FFDEC19F34279C5FF64711D0E3 /* MCClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C31C88BAFB4592F009E6D8739FADBB7 /* MCClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94532ED121A33FE5983559D332EC57C7 /* stbi_DDS_aug_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9F7B72D91856E21A363652FA90B3C1 /* stbi_DDS_aug_c.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		97B50E6AE72D6B3502A485B6E275209F /* BEView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5F5AD1492113DC12B2CA061571214F /* BEView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		985153A0596F3ABDC669FE715E0C5BBC /* BECubeTextureData.h in Headers */ = {isa = PBXBuildFile; fileRef = C741044DAE9DF36C2F8E24E802F5E1EE /* BECubeTextureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9966613870F6D942B1D9C3340A53C38D /* MCMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0169003722BFE23E23C5908A7CF2BB /* MCMath.c */; };
+		9A0B0BF6568E0E1E17B24EB9EE1527D7 /* MCMesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DD093D5AB93357FCEFE7B255206C88D /* MCMesh.c */; };
+		9C4DC8AD16DE4E8B065601A9D1291635 /* MCCamera.c in Sources */ = {isa = PBXBuildFile; fileRef = 10596ADB3DDF76D5FFB203996393CD6E /* MCCamera.c */; };
+		9E6CA31C3756109069DFE47E99B8658E /* MCSet.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D42586AA303CB69851EEACD1BCFC9 /* MCSet.c */; };
+		9F4C5BE6317CF980BBD409100B8E0A29 /* MCOrbit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1178AA4F3A0E19108ED1C4AC5622CEC4 /* MCOrbit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F88E028E8193F08229381AF664F60EE /* BERendererCAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = FD45F5A805BB100C701561FA191314BD /* BERendererCAPI.c */; };
+		9FD1B5A4DAFA9EB2F6D72753FE4A70C3 /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = E351385EC6D0985342DBBEC6E89C60CB /* image_helper.c */; };
+		A0AC317081634CA02CA0CD0FB86C2464 /* MC3DNode.c in Sources */ = {isa = PBXBuildFile; fileRef = DC47A1903E74052CB94186699D5EBA45 /* MC3DNode.c */; };
+		A12438C8E2C52547AEC2A8F9B2DB9416 /* BEModelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E9C74E462F233C86DD10FA83DBBD6 /* BEModelCache.m */; };
+		A33D6C634917D65F33AB3350685534FF /* MCTree.c in Sources */ = {isa = PBXBuildFile; fileRef = D17E3E19CF12A1987DDAF6FE73EC4963 /* MCTree.c */; };
 		A54FFF8D4E2772109FC3AD32F0ECAB3C /* Pods-BEMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ECDB3E00BF74C3BDA6B9B398164C6B /* Pods-BEMac-dummy.m */; };
-		A56639C347C29AC2098B805EBBDF4FC8 /* MCProcess.c in Sources */ = {isa = PBXBuildFile; fileRef = 0BB08F5A6C9BBBA412BED8EE1DFF82BD /* MCProcess.c */; };
-		A66B538B5F65B2A54E059197C861601F /* MC3DAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0471F75D2D2047556583D67E8823C9 /* MC3DAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8BE684B8F83E3A9CDC7B61645E8FB9B /* BECubeTextureData.h in Headers */ = {isa = PBXBuildFile; fileRef = E5033996C57264BAEF67059479839B13 /* BECubeTextureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9569948D9F2392CB9133F7C7B3ACCFD /* MCUIBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E78D46D4B88041764519067696F0614 /* MCUIBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC677AD8BB1162ABDF44426A3FFA50DD /* MCSkybox.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5AD5B58C05D82963CDEFA4728B7805 /* MCSkybox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD21246E4FEE673D55BDFE62606E9303 /* MCCube.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FFED6F45E6F92F8F65B05F4632CE47 /* MCCube.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD819F5F95D3E3D277C27C0555542335 /* MCContext.c in Sources */ = {isa = PBXBuildFile; fileRef = 44C7CB085E0677FAD3C925FA3B4D8A56 /* MCContext.c */; };
-		B1D83C25A01E06BCA5819B1B01DE746F /* MCSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 05E3683C2C013851244BA3A1D571D683 /* MCSort.c */; };
-		B4A1CD57C23AD597DAFFCE49429B6A0A /* MCGLEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B07D2E5944911006B06315EDE8B03F /* MCGLEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5386ECD70AD2ABCF9117B9ED57B00FD /* BEPanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E43ECE1EE868F85D657AF9857A77AC /* BEPanoramaView.m */; };
-		B70869BBB950DDB8E4D706CAFFCE2900 /* BEAssetsManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DF922FB67703587A33D60C3567A8F59 /* BEAssetsManager.c */; };
-		B776676C0B9B831F9AB757D4BC786BA2 /* MC3DBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DF641F241A5C4E79E456C7F77BF4FDC0 /* MC3DBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9179FA449C666E0562483182D043703 /* MCIO.c in Sources */ = {isa = PBXBuildFile; fileRef = DF209E6818C06A0C4800A06CC3F6F9A0 /* MCIO.c */; };
-		BAFE125D1FCB1700A3B6A72A45D5FDBE /* MCGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = AD9A5190C5886C5D0FB8D085CCF1AAD5 /* MCGeometry.c */; };
-		BE9523F218C89C0BC72BF222498A3D9E /* stbi_DDS_aug_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FA6B1EA542D0AB7C38A756177F3CD6 /* stbi_DDS_aug_c.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BFA74F421408C08DBD0DBD5CCCE85E5E /* MC3DNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4714C529E49CE60079ED6378A89FD1 /* MC3DNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFFC1D857C4C5DADFD4B9FB83FB83AAC /* monkc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0917D2BA2A1A6FE9EF6DBDE58852E019 /* monkc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0224B993785677B59D63B329CD527D4 /* MCHeap.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E429410A0005A6AACBF7ED555AF646 /* MCHeap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C24DFC3495A7EE44E739A27C0E50706E /* BEGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3BE7754513FA10BED5B7CB4E898C11 /* BEGameController.m */; };
-		C3B1E6F27418A442C38C01BD18E64250 /* BERunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 185AA6078C2C64AD6DF42D1CD7D20987 /* BERunLoop.m */; };
-		C3C790756007E1328381EA9124C2E895 /* MCDirector.c in Sources */ = {isa = PBXBuildFile; fileRef = 45C4A7F6402F0C06C2C850A880CEACC2 /* MCDirector.c */; };
-		C51411C77A1976051CB3ED5628375E7B /* BATrianglization.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3F12CA8A6A8EE859EFC41AD635D1 /* BATrianglization.c */; };
-		C57223FB60746DAC331426B9790F38D5 /* MCMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF0C95E18230A0C8BB12C7EA70A8692 /* MCMesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDA5A5CD3FE0C4B04F84AC67F24D6977 /* MC3DScene.h in Headers */ = {isa = PBXBuildFile; fileRef = F65982FA194E87EE21A03E710F2683EF /* MC3DScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE538E21338AB7F45CA0D0951194EECA /* MCSkysphere.c in Sources */ = {isa = PBXBuildFile; fileRef = AD860FBA035BA9E8B27EE088B7112A75 /* MCSkysphere.c */; };
-		D2594B46D2A1DD61593E5A9B8E1B97F3 /* BEResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1281AFE660DA79771D3FF462E357BC75 /* BEResource.m */; };
-		D28A1BC8CB96DE34C9D9E3E545E4FE03 /* MCString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5BF3885A28015A031977B783D81932 /* MCString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D50DE05EB5F78239B49DDA74444E6AC1 /* stb_image_aug.h in Headers */ = {isa = PBXBuildFile; fileRef = C649ABDFE41A51897A4725E3D6EA4329 /* stb_image_aug.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D6E2289B05145467646306CFC509BF42 /* BEView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E9C0DCA2145A6C26F8E8DFCD34FCB3 /* BEView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8E6614C50D1B77AE6E465C809493084 /* BENSView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7029959CCD787D6900E3F059E3590B44 /* BENSView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC4260FCAF98A992C0D75298A1ADF7CF /* MCJNI.h in Headers */ = {isa = PBXBuildFile; fileRef = 947C5F9615AED3750EE8E8AC4BF7BD6B /* MCJNI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2D92FFA5C9FA40D38E86CC082032D7 /* MCClock.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B378227F43EF8B71C679E93308CB32 /* MCClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2F75DECB1BB2EA85E457C3E94D25EC /* image_DXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E6B71A99C0604694F07D75E8E7CE60 /* image_DXT.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DD4D934D1FE651D648A0472975D4C187 /* BATrianglization.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A882C8804A4AFDE91606F37151CC1F /* BATrianglization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF4792C7249F15C8D9A98708B9874F41 /* image_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E77237510336B6E86F1D9C8742E95B /* image_helper.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DF4ECB181CC86A2AC5866C8838A21C14 /* BohdiEngine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D070C547B6CBFEB86901F6AFD4B78C7B /* BohdiEngine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E128419269EC294AC7FDF5192B5DB59B /* MCLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = A5FD7F6A582EEFBBC3BF7FC2308D5751 /* MCLinkedList.c */; };
-		E14AACF93935C014F75A8ED6170BA7C9 /* MCLight.h in Headers */ = {isa = PBXBuildFile; fileRef = A014AE44EEB303BF1E1EED6F2C47958D /* MCLight.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1A8632122B8BCD71E934AD96489023D /* MCException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0D952246C8E47B251070E1994A6A7D /* MCException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2F1788728BC37C2D39298D5A5E52454 /* MCThread.c in Sources */ = {isa = PBXBuildFile; fileRef = A7944EE03377CBC40BFE002B5B2EEC53 /* MCThread.c */; };
-		E86145BED010B5BCBB27125D05FDFAF2 /* MCTexture.c in Sources */ = {isa = PBXBuildFile; fileRef = F725C6601CC16E79083046960376E58E /* MCTexture.c */; };
-		E8DA021D391D55014642DEAB0EBFBC78 /* MCSet.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE0777E5F4A1D4BD7E0F1153FDC0A7B /* MCSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8F6CFE33C64BBB44B221D3E9E51F4FF /* MCContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC8E0D5FD072CA6E48A62171D5908E0 /* MCContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E91268C03E0FA1992578CD31D7DB4C3C /* MCUnitTest.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0B703ADD5A996626FE148AAF03B716 /* MCUnitTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E97A953221D602B414AD5973792AB13A /* MC3DModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E0452DD1573D13B3570B9BB23C6503 /* MC3DModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC4A3BCC13BA71AE0B728E6EDD64072C /* BERendererCAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B762F6BCB6F1A87F4FBABF25E2F11FC /* BERendererCAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC7CD8FBC0E0DF4E52D610673CA5D0FA /* MCMesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 94392C339E4AEC80D3D04A2B0C6C8214 /* MCMesh.c */; };
-		EC95A919FF804739992C27F92CD964CA /* MCGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = 62BF8BE04E1B7D4782CDDF1BF26DB778 /* MCGraph.c */; };
-		EEB8D6C5B8810125861DAEB62D29768F /* BAMtlParser.c in Sources */ = {isa = PBXBuildFile; fileRef = 4142BA4C1E028D19F477ED61428360C2 /* BAMtlParser.c */; };
-		EFB3EBBE5D3B3E6D288376D9F9C25AEA /* MCGLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB9B462600882E8BEB7E9D4E8BA5C09 /* MCGLRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F540CF20A31BFFFDC686899BD41ED5F9 /* SOIL.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ECCDCBA77E7A6791193116B79CC0C9F /* SOIL.c */; };
-		F592F23BC4A723F08E13A1ED4239BA22 /* BEAssetsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC984E49DCA7E26E3BE984AD1C50E30 /* BEAssetsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F77BA914EF1BD40C3CD8F709D3F2E2F3 /* BEView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDA96F7E3335BF91451C8A7DE68AF88 /* BEView.m */; };
-		F96B293EC7F3C13D64FC64743DF16CE9 /* BAObjParser.c in Sources */ = {isa = PBXBuildFile; fileRef = FDBA5380348DB86768D2EC696FFCDD01 /* BAObjParser.c */; };
-		FA119F96239220DE258E75FBB619D46A /* MC2DTex.c in Sources */ = {isa = PBXBuildFile; fileRef = 23A573B595DABEE0319E22C7264D169F /* MC2DTex.c */; };
-		FBE04E5B62233F44E4E9C77758F6285F /* MC3DShapeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F4655E99D344FDF2FBB29E82E93E44B0 /* MC3DShapeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7DD2FA6E9A082384C6555949828ECF3 /* stbi_DDS_aug.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8B0F492FDF499007532F83AE09771 /* stbi_DDS_aug.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AAABB757EEC884A41F0CE9B58257F509 /* MCLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0231503799EBBDA1EAA39AC501AEE9CD /* MCLinkedList.c */; };
+		AB0E745BE0F5E09B4349E890BD0E854C /* MCWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB33DF7077BFDA2AFA6AB1459BB697 /* MCWorld.c */; };
+		AC2BE8424935F9A0C9F2D2787CD0434A /* MCTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = AD38211C376EA7BF5EFB8EF100FEC657 /* MCTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6A875791BFACC4FADF9D725E61DC30 /* stb_image_aug.c in Sources */ = {isa = PBXBuildFile; fileRef = 35726C6D294C55889A21297973F69162 /* stb_image_aug.c */; };
+		B038170E3F6ECD602260D6DAD1375F5B /* MCClock.c in Sources */ = {isa = PBXBuildFile; fileRef = 93F826A80FED4B5B4DC65E1175F2887D /* MCClock.c */; };
+		B3B294724A08DED79BDB615852A93963 /* MCGLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5204CE96C9B1A8CB2D7CCED783DB8798 /* MCGLRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B47F3153DD921F0E3B27A05BD8C69E7F /* MC3DNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F807D518926618689C7050474FE3BD47 /* MC3DNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEBBA07FFDFA2462DEAB54C4FC1390AC /* MCGLContext.c in Sources */ = {isa = PBXBuildFile; fileRef = DA2C8FDF3226B8F187A1FE6A36DBC0AA /* MCGLContext.c */; };
+		C2A4834EB118297E0D0C580F64111E7D /* MCSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A63F16BEF229779537B540F9D00305 /* MCSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D50A8E014A6960B678DB6A1DA5883F /* monkc.c in Sources */ = {isa = PBXBuildFile; fileRef = C9D58FADEE97E1E5D5F5D8BD7041DB77 /* monkc.c */; };
+		C399814BE3241066A0C74B85A8DBD143 /* MCGLShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1296F26EAAFC4F76E89D0FCEDDA1E13C /* MCGLShader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C77478DB83D46F965A1053693640FC /* BEResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C44C213AD36335916031285DCEE7346 /* BEResource.m */; };
+		C758F2DEC9642B0807CE6EF89AF7BFD8 /* BEResource.h in Headers */ = {isa = PBXBuildFile; fileRef = D177B216B7C041A7C379A85D03BA87B3 /* BEResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A3CDC3E59F00356130993661DA6561 /* MCDirector.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EFAEBAD64FCBBADF9550193DAF0E180 /* MCDirector.c */; };
+		CA86E551D4B30B4732BAE75053429AA9 /* MCCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = B45DF2CADD85D17578FFAF21B2DE6521 /* MCCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE7040D8CA38C6EC6CEFDBCE0C213B35 /* BAMtlParser.c in Sources */ = {isa = PBXBuildFile; fileRef = CE22EF8AC986BEB06847196A87DB6118 /* BAMtlParser.c */; };
+		CEA40C9DAC701898CA45B5282EA4AF24 /* MCProcess.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFA9386DE6457368A247BFA7C9246D /* MCProcess.c */; };
+		CFE7396A0B235BCE87036FE23698ECC1 /* BAObjParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D5DB4C9FBDB47EAD3B52206366C0E4 /* BAObjParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D34F76F55F11CC0D5DD3D833A653D136 /* BEView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7B24F5BD6AF207465DBB9603369AD /* BEView.m */; };
+		D60571535D125EE57511E44FC14B175A /* MCGLBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 240CFF0A69AF984EB4DFEE0A322BEE53 /* MCGLBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA95E79A64F80BEB450AD552060389C1 /* MCBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 90FAC471426436C5612642BE92C52854 /* MCBuffer.c */; };
+		DE313FA7FB93F3A40A621D8A8D2FAF7B /* MCTextureCache.c in Sources */ = {isa = PBXBuildFile; fileRef = 7E9C6840E2082045F07A6A900AB6F8A8 /* MCTextureCache.c */; };
+		DE349793418971A183CDA02CBF26525C /* BERenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4AD910916A1D99A4D9EC91A65FFCE8 /* BERenderer.m */; };
+		DF2A63A7340E755FBC28F9DA35E682E8 /* BATrianglization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B872F1E1CAB006DABC4B5679CEA1C4D /* BATrianglization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A4D828486DCC32280C1F0C7EE809A2 /* MCUIBase.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D6F6C23573A22E9161E17A8F416982 /* MCUIBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E5389C7E3678A65C68E8C14CDAB64E /* BEGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F906A9453AA6435A471CF051675F1F3 /* BEGameController.m */; };
+		E1EB4B0573C66A0A95A0C624E220FE3A /* BE2DTextureData.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C181DCBE1646FA7D6C5DEF486F41D8 /* BE2DTextureData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2C044BBF3C46EE3ABE5FA8A9FC61515 /* MCGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A651257028057E249E2DD88F8F39AE9C /* MCGLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35C9FD47F348411AFE256B230260CA6 /* MCCube.c in Sources */ = {isa = PBXBuildFile; fileRef = A4B1171BDDDF2F5E16B5937F9F9E69F3 /* MCCube.c */; };
+		E38472DBAD89CFA1FC6894F38C7E6257 /* MCPanel.c in Sources */ = {isa = PBXBuildFile; fileRef = 13921E4CC9262E7A39FC8ED0050D3788 /* MCPanel.c */; };
+		E753EC5A4816927A8D61D59285A97494 /* MCString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1B925CED1BD76B62FDDBE849AA39CA /* MCString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E793618680101BEE89785F867024E471 /* stb_image_aug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE89BF36A3E440A789DB3B0437E6D61 /* stb_image_aug.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA33F4EF577E9912BCE83C35D1466A36 /* MCGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = 84F3A34BB523B52EC265879083DA0CB9 /* MCGraph.c */; };
+		ECA39D6B2C6A1A2AFB098267567AFE80 /* MCSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 586A48B6E72E41ED1B4FBCE5E5D11D06 /* MCSocket.c */; };
+		F17797D45DBD7D041041A4953B0C5BC5 /* MCPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DA716E4CB315498560EF3048C9BBD1 /* MCPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2CBC901E44250FC26A7CF0D8119E182 /* MCException.c in Sources */ = {isa = PBXBuildFile; fileRef = 971106235EE0CE9271A149E5DC18DD75 /* MCException.c */; };
+		F4F86760D7A0A72E72BF59F9019D7008 /* MCSkysphere.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC0C798BDD0EB8921A0563118CAD8DF /* MCSkysphere.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F51742A7D8804218BB77767985FC229C /* BAMtlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B49C40BFB6F0F7F3D2B8677B3342E00F /* BAMtlParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5FECB565CF29DCAB3C7B5777B871184 /* MCArray.c in Sources */ = {isa = PBXBuildFile; fileRef = A9BF55F313062BFB5C07B3AB26D91A5D /* MCArray.c */; };
+		F67DC77A69DB2AA4B570B084BE703F21 /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = D1D203939D44AC58E4D8C0BABCE46F92 /* image_DXT.c */; };
+		F8F91CC3D001C8A2845C9831A528AD34 /* MCGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 8001E8E4E4313B11E5DF75D9C6C02D84 /* MCGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FABCE3EF4330B8554273575EBFA8908B /* MCLight.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBD9BD56AEF013BF2B2715BECBDCF8F /* MCLight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB15EE5EFC5E6632E152807F64C972E5 /* MC2DTex.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F30DAD3A5DF0AF30AD35E9AA452A8FA /* MC2DTex.c */; };
+		FCC4FDA5865154460FE160647E4D744B /* BAObjParser.c in Sources */ = {isa = PBXBuildFile; fileRef = 27B6CD25C1D88091A842C84FFBDD13CD /* BAObjParser.c */; };
+		FE7F57C468D8742CD0B2C812D8014F47 /* MCMap.h in Headers */ = {isa = PBXBuildFile; fileRef = DC58D97E761645649B089C8FD4C6FA6B /* MCMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF981573252815A7D15BDDBDDC1720E6 /* SOIL.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E1643B359A8D10E1FF635206846149 /* SOIL.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,164 +164,167 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021E9C74E462F233C86DD10FA83DBBD6 /* BEModelCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEModelCache.m; sourceTree = "<group>"; };
+		0231503799EBBDA1EAA39AC501AEE9CD /* MCLinkedList.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCLinkedList.c; sourceTree = "<group>"; };
 		02518EB6688058101AE76D1670A0E5ED /* Pods-BEMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEMac.release.xcconfig"; sourceTree = "<group>"; };
-		0330A7140DB779280988DB73B20D6FEB /* MCLinkedList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCLinkedList.h; path = BohdiEngine/Classes/MonkC/MCLinkedList.h; sourceTree = "<group>"; };
-		042D5FDF1D4EF13327DEF27242CFFCD4 /* image_DXT.c */ = {isa = PBXFileReference; includeInIndex = 1; name = image_DXT.c; path = BohdiEngine/External/SOIL/image_DXT.c; sourceTree = "<group>"; };
-		05E3683C2C013851244BA3A1D571D683 /* MCSort.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCSort.c; path = BohdiEngine/Classes/MonkC/MCSort.c; sourceTree = "<group>"; };
+		026F18482C9D9F343AA24CB9552705F3 /* BohdiEngine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BohdiEngine-dummy.m"; sourceTree = "<group>"; };
+		0752FCC2D5F18212E458CA6B8E96CFE9 /* MCDirector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCDirector.h; sourceTree = "<group>"; };
 		07C1934ADEC2FD195E426819508043D2 /* Pods-BEMac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEMac-acknowledgements.plist"; sourceTree = "<group>"; };
-		07F732B43B154E1C6A5AAA0C833FFE07 /* MCProcess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCProcess.h; path = BohdiEngine/Classes/MonkC/MCProcess.h; sourceTree = "<group>"; };
-		0917D2BA2A1A6FE9EF6DBDE58852E019 /* monkc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = monkc.h; path = BohdiEngine/Classes/MonkC/monkc.h; sourceTree = "<group>"; };
-		0AEE5FC48ECA56D3AFCD1BB0156D0420 /* MCGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCGeometry.h; path = BohdiEngine/Classes/MonkC/MCGeometry.h; sourceTree = "<group>"; };
-		0BB08F5A6C9BBBA412BED8EE1DFF82BD /* MCProcess.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCProcess.c; path = BohdiEngine/Classes/MonkC/MCProcess.c; sourceTree = "<group>"; };
-		0C835EDD36B65373DB3713A431355138 /* MCTextureCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCTextureCache.h; path = BohdiEngine/Classes/Engine/MCTextureCache.h; sourceTree = "<group>"; };
-		0CF0C95E18230A0C8BB12C7EA70A8692 /* MCMesh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCMesh.h; path = BohdiEngine/Classes/Engine/MCMesh.h; sourceTree = "<group>"; };
+		08A14725BB840A433D3F707AF858655C /* MCLinkedList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCLinkedList.h; sourceTree = "<group>"; };
+		0A0169003722BFE23E23C5908A7CF2BB /* MCMath.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCMath.c; sourceTree = "<group>"; };
+		0A486BC8539A8C2DB71BFEB45A3039F0 /* MCSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCSocket.h; sourceTree = "<group>"; };
+		0B872F1E1CAB006DABC4B5679CEA1C4D /* BATrianglization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATrianglization.h; sourceTree = "<group>"; };
+		0CCB33DF7077BFDA2AFA6AB1459BB697 /* MCWorld.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCWorld.c; sourceTree = "<group>"; };
 		0E2F9D2F6987C22A8ABC55429EAEEF62 /* Pods-BEMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEMac.debug.xcconfig"; sourceTree = "<group>"; };
-		0E8821592EF02D1727B5B03549092561 /* BE2DTextureData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BE2DTextureData.h; path = BohdiEngine/Classes/BEAssets/BE2DTextureData.h; sourceTree = "<group>"; };
-		0F4CC0AE2F082497EF0258242998A18D /* MCLexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCLexer.h; path = BohdiEngine/Classes/MonkC/MCLexer.h; sourceTree = "<group>"; };
-		1281AFE660DA79771D3FF462E357BC75 /* BEResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEResource.m; path = BohdiEngine/Classes/Interface/BEResource.m; sourceTree = "<group>"; };
-		1381E55DCEC4448B141DBC33DF000E05 /* stb_image_aug.c */ = {isa = PBXFileReference; includeInIndex = 1; name = stb_image_aug.c; path = BohdiEngine/External/SOIL/stb_image_aug.c; sourceTree = "<group>"; };
-		13E429410A0005A6AACBF7ED555AF646 /* MCHeap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCHeap.h; path = BohdiEngine/Classes/MonkC/MCHeap.h; sourceTree = "<group>"; };
-		15B648D78BEF442F9D899C63A78C4895 /* BAMtlParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAMtlParser.h; path = BohdiEngine/Classes/BEAssets/BAMtlParser.h; sourceTree = "<group>"; };
-		16182084F1F6455E000CAFFC147B7C3C /* MCSkysphere.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSkysphere.h; path = BohdiEngine/Classes/Engine/MCSkysphere.h; sourceTree = "<group>"; };
-		178C08077413F7CE427787DEE650B173 /* BohdiEngine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BohdiEngine-dummy.m"; sourceTree = "<group>"; };
-		185AA6078C2C64AD6DF42D1CD7D20987 /* BERunLoop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BERunLoop.m; path = BohdiEngine/Classes/Interface/BERunLoop.m; sourceTree = "<group>"; };
-		1BC984E49DCA7E26E3BE984AD1C50E30 /* BEAssetsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEAssetsManager.h; path = BohdiEngine/Classes/BEAssets/BEAssetsManager.h; sourceTree = "<group>"; };
-		1C98FCA505B06A2D39BE3CD623F536EE /* MCSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSocket.h; path = BohdiEngine/Classes/MonkC/MCSocket.h; sourceTree = "<group>"; };
-		1E9BF5DB2AF06BE4F9F987878F5AF587 /* MCHeap.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCHeap.c; path = BohdiEngine/Classes/MonkC/MCHeap.c; sourceTree = "<group>"; };
-		1ECCDCBA77E7A6791193116B79CC0C9F /* SOIL.c */ = {isa = PBXFileReference; includeInIndex = 1; name = SOIL.c; path = BohdiEngine/External/SOIL/SOIL.c; sourceTree = "<group>"; };
-		1FB1528923D92E6266FCB631F6A51A57 /* MCSocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCSocket.c; path = BohdiEngine/Classes/MonkC/MCSocket.c; sourceTree = "<group>"; };
-		2210207552FB31CAAAF6C28B833412FC /* MC3DScene.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MC3DScene.c; path = BohdiEngine/Classes/Engine/MC3DScene.c; sourceTree = "<group>"; };
-		23A573B595DABEE0319E22C7264D169F /* MC2DTex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MC2DTex.c; path = BohdiEngine/Classes/Engine/MC2DTex.c; sourceTree = "<group>"; };
-		245373F3B78E1BB553041D6118C50462 /* MC2DTex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MC2DTex.h; path = BohdiEngine/Classes/Engine/MC2DTex.h; sourceTree = "<group>"; };
-		24E6B71A99C0604694F07D75E8E7CE60 /* image_DXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = image_DXT.h; path = BohdiEngine/External/SOIL/image_DXT.h; sourceTree = "<group>"; };
-		25E77237510336B6E86F1D9C8742E95B /* image_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = image_helper.h; path = BohdiEngine/External/SOIL/image_helper.h; sourceTree = "<group>"; };
-		262CBD7530D0C1D4EDD371163B1D4B31 /* MCTree.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCTree.c; path = BohdiEngine/Classes/MonkC/MCTree.c; sourceTree = "<group>"; };
-		28BA8DABA05B5E4BA671C947C234A174 /* monkc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = monkc.c; path = BohdiEngine/Classes/MonkC/monkc.c; sourceTree = "<group>"; };
-		2A4714C529E49CE60079ED6378A89FD1 /* MC3DNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MC3DNode.h; path = BohdiEngine/Classes/Engine/MC3DNode.h; sourceTree = "<group>"; };
-		2AAD644F984AEFA190B6F0255F31B4C5 /* BERendererCAPI.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BERendererCAPI.c; path = BohdiEngine/Classes/Engine/BERendererCAPI.c; sourceTree = "<group>"; };
-		2B1D3F12CA8A6A8EE859EFC41AD635D1 /* BATrianglization.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BATrianglization.c; path = BohdiEngine/Classes/BEAssets/BATrianglization.c; sourceTree = "<group>"; };
-		2C5E7ED5E695CE4075F370C11FA8EFDC /* BAObjParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAObjParser.h; path = BohdiEngine/Classes/BEAssets/BAObjParser.h; sourceTree = "<group>"; };
-		2FFA2B42C8C02D85A7A612E32F799369 /* MCBuffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCBuffer.c; path = BohdiEngine/Classes/MonkC/MCBuffer.c; sourceTree = "<group>"; };
-		32917088BC115E0D81966490309C99A5 /* MCTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCTexture.h; path = BohdiEngine/Classes/Engine/MCTexture.h; sourceTree = "<group>"; };
-		32B07D2E5944911006B06315EDE8B03F /* MCGLEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCGLEngine.h; path = BohdiEngine/Classes/Engine/MCGLEngine.h; sourceTree = "<group>"; };
+		0F30DAD3A5DF0AF30AD35E9AA452A8FA /* MC2DTex.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MC2DTex.c; sourceTree = "<group>"; };
+		0FDB04FCFD4592F3EA0D4D25DC76166E /* MCTexture.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCTexture.c; sourceTree = "<group>"; };
+		10596ADB3DDF76D5FFB203996393CD6E /* MCCamera.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCCamera.c; sourceTree = "<group>"; };
+		1178AA4F3A0E19108ED1C4AC5622CEC4 /* MCOrbit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCOrbit.h; sourceTree = "<group>"; };
+		11F7F4F87F8FB28BF87D0BBD401958F4 /* MCJNI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCJNI.h; sourceTree = "<group>"; };
+		12677BBD186C903440A119D84537AB4B /* BATrianglization.c */ = {isa = PBXFileReference; includeInIndex = 1; path = BATrianglization.c; sourceTree = "<group>"; };
+		1296F26EAAFC4F76E89D0FCEDDA1E13C /* MCGLShader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCGLShader.h; sourceTree = "<group>"; };
+		13921E4CC9262E7A39FC8ED0050D3788 /* MCPanel.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCPanel.c; sourceTree = "<group>"; };
+		145B1020BD278F7DCE689ECA37512D78 /* BERenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BERenderer.h; sourceTree = "<group>"; };
+		17AD47D0A637FBCC0D9A6DA5DA9ADD48 /* MC3DBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MC3DBase.h; sourceTree = "<group>"; };
+		19D5455D1A96AB974A8E9EAFEFA99F13 /* MCBits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCBits.h; sourceTree = "<group>"; };
+		1B4AD910916A1D99A4D9EC91A65FFCE8 /* BERenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BERenderer.m; sourceTree = "<group>"; };
+		1DD093D5AB93357FCEFE7B255206C88D /* MCMesh.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCMesh.c; sourceTree = "<group>"; };
+		1E40F1E8AFE8993DE0FF0F9AF3F21603 /* MC3DModelCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MC3DModelCache.h; sourceTree = "<group>"; };
+		1FA879A75447105B6B377B47BC2B03EA /* MCSkysphere.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCSkysphere.c; sourceTree = "<group>"; };
+		21C48E4728F49623C26A4198258784D4 /* monkc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = monkc.h; sourceTree = "<group>"; };
+		240CFF0A69AF984EB4DFEE0A322BEE53 /* MCGLBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCGLBase.h; sourceTree = "<group>"; };
+		27B6CD25C1D88091A842C84FFBDD13CD /* BAObjParser.c */ = {isa = PBXFileReference; includeInIndex = 1; path = BAObjParser.c; sourceTree = "<group>"; };
+		28BF301D006DBDAB0D0521481485DA43 /* MCLexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCLexer.h; sourceTree = "<group>"; };
+		30628E3EF26BD26AE608B5836D7A9AD4 /* MCString.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCString.c; sourceTree = "<group>"; };
+		3096523D1620680532934856573C1887 /* MCContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCContext.h; sourceTree = "<group>"; };
+		32650CECE0EA2E405CE4560EDB9B62DC /* MC3DModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MC3DModel.h; sourceTree = "<group>"; };
+		32951C5FC7C0619FE87A8D18ED7DA7BA /* MCIO.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCIO.c; sourceTree = "<group>"; };
+		32F3D86C227042C8A83CB5FA9A9C1F14 /* MCWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCWorld.h; sourceTree = "<group>"; };
+		35726C6D294C55889A21297973F69162 /* stb_image_aug.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stb_image_aug.c; sourceTree = "<group>"; };
+		36F713FD2414B6E62E13F88E561BBC46 /* MCCube.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCCube.h; sourceTree = "<group>"; };
 		398B1C4F5F89AD77E8CB020047A5E266 /* Pods_BEMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BEMac.framework; path = "Pods-BEMac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A5AD5B58C05D82963CDEFA4728B7805 /* MCSkybox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSkybox.h; path = BohdiEngine/Classes/Engine/MCSkybox.h; sourceTree = "<group>"; };
-		3B3BE7754513FA10BED5B7CB4E898C11 /* BEGameController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEGameController.m; path = BohdiEngine/Classes/Interface/BEGameController.m; sourceTree = "<group>"; };
-		3B7611CA42C3232F2FBBB6C807019332 /* MCBits.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCBits.c; path = BohdiEngine/Classes/MonkC/MCBits.c; sourceTree = "<group>"; };
-		3C0D952246C8E47B251070E1994A6A7D /* MCException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCException.h; path = BohdiEngine/Classes/MonkC/MCException.h; sourceTree = "<group>"; };
+		39C76CEDD46C3563F91886C1B395540F /* BohdiEngine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BohdiEngine-prefix.pch"; sourceTree = "<group>"; };
+		3CE55C039700B4A22781FDBD16BF980F /* BERunLoop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BERunLoop.m; sourceTree = "<group>"; };
+		3D6C3D7E022F8338DB7995D6EBA573D7 /* MCGLRenderer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCGLRenderer.c; sourceTree = "<group>"; };
 		3DCDF5FD2B7B0FE7726A7D93C3593397 /* Pods-BEMac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEMac-frameworks.sh"; sourceTree = "<group>"; };
-		4142BA4C1E028D19F477ED61428360C2 /* BAMtlParser.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BAMtlParser.c; path = BohdiEngine/Classes/BEAssets/BAMtlParser.c; sourceTree = "<group>"; };
-		44C7CB085E0677FAD3C925FA3B4D8A56 /* MCContext.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCContext.c; path = BohdiEngine/Classes/MonkC/MCContext.c; sourceTree = "<group>"; };
-		45C4A7F6402F0C06C2C850A880CEACC2 /* MCDirector.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCDirector.c; path = BohdiEngine/Classes/Engine/MCDirector.c; sourceTree = "<group>"; };
-		46FFED6F45E6F92F8F65B05F4632CE47 /* MCCube.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCCube.h; path = BohdiEngine/Classes/Engine/MCCube.h; sourceTree = "<group>"; };
-		474F0AE4B8EB58466B6F2FD56C5F0D2D /* MCClock.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCClock.c; path = BohdiEngine/Classes/MonkC/MCClock.c; sourceTree = "<group>"; };
-		4883105583F173EB78F21E1869531123 /* BohdiEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BohdiEngine.xcconfig; sourceTree = "<group>"; };
-		4A796AA0874F2DC09F8E1A02FE660A70 /* MCMap.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCMap.c; path = BohdiEngine/Classes/MonkC/MCMap.c; sourceTree = "<group>"; };
-		4DC501806C0D6DC6AB9E929A3E37CFCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FBCFF0014BE15112F9F6A1A78234B4E /* MCOrbit.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCOrbit.c; path = BohdiEngine/Classes/Engine/MCOrbit.c; sourceTree = "<group>"; };
-		534334233575460AF68A8C5D7C34CA53 /* MCCube.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCCube.c; path = BohdiEngine/Classes/Engine/MCCube.c; sourceTree = "<group>"; };
-		54435DF6881978A9E5BE30726420E227 /* MCLight.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCLight.c; path = BohdiEngine/Classes/Engine/MCLight.c; sourceTree = "<group>"; };
-		5ACD254F556ADE79D7B662750F3DB066 /* MC3DModelCache.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MC3DModelCache.c; path = BohdiEngine/Classes/Engine/MC3DModelCache.c; sourceTree = "<group>"; };
-		5BB6413BF488A3D96DE45A0D185C97EE /* BERenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BERenderer.h; path = BohdiEngine/Classes/Interface/BERenderer.h; sourceTree = "<group>"; };
-		5DF922FB67703587A33D60C3567A8F59 /* BEAssetsManager.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BEAssetsManager.c; path = BohdiEngine/Classes/BEAssets/BEAssetsManager.c; sourceTree = "<group>"; };
-		6134356875DECF1475DE7F61E7836036 /* MCString.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCString.c; path = BohdiEngine/Classes/MonkC/MCString.c; sourceTree = "<group>"; };
-		613B4B31D6D9EB39D6DFF6F2157B3124 /* MCTextureCache.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCTextureCache.c; path = BohdiEngine/Classes/Engine/MCTextureCache.c; sourceTree = "<group>"; };
-		61FA6B1EA542D0AB7C38A756177F3CD6 /* stbi_DDS_aug_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stbi_DDS_aug_c.h; path = BohdiEngine/External/SOIL/stbi_DDS_aug_c.h; sourceTree = "<group>"; };
-		62BF8BE04E1B7D4782CDDF1BF26DB778 /* MCGraph.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCGraph.c; path = BohdiEngine/Classes/MonkC/MCGraph.c; sourceTree = "<group>"; };
-		647A12A82C14C1ED495E07A0E1C39B0A /* BEModelCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEModelCache.h; path = BohdiEngine/Classes/Interface/BEModelCache.h; sourceTree = "<group>"; };
-		64885906F822E528BEA0D2E8BB94798F /* stbi_DDS_aug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stbi_DDS_aug.h; path = BohdiEngine/External/SOIL/stbi_DDS_aug.h; sourceTree = "<group>"; };
-		670FA3A34D09261430D14667704E9BC5 /* BEResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEResource.h; path = BohdiEngine/Classes/Interface/BEResource.h; sourceTree = "<group>"; };
+		3F1D42586AA303CB69851EEACD1BCFC9 /* MCSet.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCSet.c; sourceTree = "<group>"; };
+		4017007CE0FAE05842EAA3649DE3467C /* BEMotionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEMotionManager.m; sourceTree = "<group>"; };
+		414BF135569273A553FD81D6BE68FCC5 /* MCTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCTree.h; sourceTree = "<group>"; };
+		41EFA9386DE6457368A247BFA7C9246D /* MCProcess.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCProcess.c; sourceTree = "<group>"; };
+		42646E02AF004AF7FB314A163F1748AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D7501E757A8225A70F4DA79D5DE484 /* BE2DTextureData.c */ = {isa = PBXFileReference; includeInIndex = 1; path = BE2DTextureData.c; sourceTree = "<group>"; };
+		46FAECE615684D0326791DE26903788F /* MC2DTex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MC2DTex.h; sourceTree = "<group>"; };
+		49E7FBDEB95AA24D12519AAF1E68A9D7 /* MCThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCThread.h; sourceTree = "<group>"; };
+		4C13352FC58B4D16E18A5B12DB7D3815 /* MCMap.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCMap.c; sourceTree = "<group>"; };
+		4C214EDAF3A6EC56F9946D37F5CC6F67 /* MCThread.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCThread.c; sourceTree = "<group>"; };
+		4D9A0F6F339FA12D970651B43784F990 /* MCHeap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCHeap.h; sourceTree = "<group>"; };
+		4E1B925CED1BD76B62FDDBE849AA39CA /* MCString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCString.h; sourceTree = "<group>"; };
+		4EFAEBAD64FCBBADF9550193DAF0E180 /* MCDirector.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCDirector.c; sourceTree = "<group>"; };
+		514AF801AE7B2A785E90BDB3DF7C40F5 /* MCMaterial.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCMaterial.c; sourceTree = "<group>"; };
+		51A3D015F29F0AE5C2397DC043C1F639 /* MCUnitTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCUnitTest.h; sourceTree = "<group>"; };
+		5204CE96C9B1A8CB2D7CCED783DB8798 /* MCGLRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCGLRenderer.h; sourceTree = "<group>"; };
+		55691DB517979FE2CD1FC59A7882CCA1 /* MCSkybox.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCSkybox.c; sourceTree = "<group>"; };
+		5673E90AAB83E8F00E2C3A960374A1EE /* MCMaterial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCMaterial.h; sourceTree = "<group>"; };
+		56A7556CC2AE5D5839624D63267EF228 /* BENSView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BENSView.h; sourceTree = "<group>"; };
+		56BF58D962A02666222FB90B16913E0B /* image_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = image_helper.h; sourceTree = "<group>"; };
+		573B292F88EE4D8DA6A4E05B045C540E /* BERendererCAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BERendererCAPI.h; sourceTree = "<group>"; };
+		586A48B6E72E41ED1B4FBCE5E5D11D06 /* MCSocket.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCSocket.c; sourceTree = "<group>"; };
+		5B17323D4A26FA903F5FA5E6FCC71576 /* MCGeometry.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCGeometry.c; sourceTree = "<group>"; };
+		5C44C213AD36335916031285DCEE7346 /* BEResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEResource.m; sourceTree = "<group>"; };
+		61B94C330A96996301E571831891BF07 /* MC3DAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MC3DAxis.h; sourceTree = "<group>"; };
+		62DA716E4CB315498560EF3048C9BBD1 /* MCPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCPanel.h; sourceTree = "<group>"; };
+		63F0FB6C611AC48F11B9799F28EB39E8 /* MCSkybox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCSkybox.h; sourceTree = "<group>"; };
+		65E1643B359A8D10E1FF635206846149 /* SOIL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SOIL.h; sourceTree = "<group>"; };
 		68534A54C795585437996C64DE5809B4 /* Pods-BEMac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BEMac-resources.sh"; sourceTree = "<group>"; };
-		68EB986AD75790FBA5027698C374527C /* MCSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSort.h; path = BohdiEngine/Classes/MonkC/MCSort.h; sourceTree = "<group>"; };
-		69D40F2EE33C1C5EACBC8C99EA8D9662 /* MCArrayLinkedList.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCArrayLinkedList.c; path = BohdiEngine/Classes/MonkC/MCArrayLinkedList.c; sourceTree = "<group>"; };
-		6A355B4A3C5D4102D7240A533FAB1BD0 /* MC3DModelCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MC3DModelCache.h; path = BohdiEngine/Classes/Engine/MC3DModelCache.h; sourceTree = "<group>"; };
-		6B00F91228C6BF4D5862846CE166E4B4 /* MCException.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCException.c; path = BohdiEngine/Classes/MonkC/MCException.c; sourceTree = "<group>"; };
-		6F12B18314586A96B1545CA487D7DF4B /* MCPanel.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCPanel.c; path = BohdiEngine/Classes/Engine/MCPanel.c; sourceTree = "<group>"; };
-		7029959CCD787D6900E3F059E3590B44 /* BENSView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BENSView.h; path = BohdiEngine/Classes/Interface/Mac/BENSView.h; sourceTree = "<group>"; };
-		70AA7900241E2D747B9BC9FE3F806960 /* MC3DModel.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MC3DModel.c; path = BohdiEngine/Classes/Engine/MC3DModel.c; sourceTree = "<group>"; };
-		72DEC93976CBF2B5E9D4E2B902A8BBB1 /* BENSView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BENSView.m; path = BohdiEngine/Classes/Interface/Mac/BENSView.m; sourceTree = "<group>"; };
-		77A882C8804A4AFDE91606F37151CC1F /* BATrianglization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BATrianglization.h; path = BohdiEngine/Classes/BEAssets/BATrianglization.h; sourceTree = "<group>"; };
-		796E33F60250A2BB2E9912FD6D4A21CB /* SOIL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOIL.h; path = BohdiEngine/External/SOIL/SOIL.h; sourceTree = "<group>"; };
-		7C0AE8C60A4ED477CB19EF15FAF8C253 /* BEMotionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMotionManager.h; path = BohdiEngine/Classes/Interface/BEMotionManager.h; sourceTree = "<group>"; };
-		7D9748673C64A9D34E7D02C8B64261F3 /* MCGLEngine.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCGLEngine.c; path = BohdiEngine/Classes/Engine/MCGLEngine.c; sourceTree = "<group>"; };
-		7DDA96F7E3335BF91451C8A7DE68AF88 /* BEView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEView.m; path = BohdiEngine/Classes/Interface/BEView.m; sourceTree = "<group>"; };
-		7E78D46D4B88041764519067696F0614 /* MCUIBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCUIBase.h; path = BohdiEngine/Classes/Engine/MCUIBase.h; sourceTree = "<group>"; };
-		7E88527A71F1E993722257AAD4CCDF9F /* MCBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCBuffer.h; path = BohdiEngine/Classes/MonkC/MCBuffer.h; sourceTree = "<group>"; };
-		7F5BF3885A28015A031977B783D81932 /* MCString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCString.h; path = BohdiEngine/Classes/MonkC/MCString.h; sourceTree = "<group>"; };
-		7FBC000BB0F6142601FCF81882AB2015 /* MCSkybox.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCSkybox.c; path = BohdiEngine/Classes/Engine/MCSkybox.c; sourceTree = "<group>"; };
+		692067D6EC6A4BED8815DDA65E365B8D /* MCGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCGeometry.h; sourceTree = "<group>"; };
+		69FF5BD6454C496B1CD5A06526357AD9 /* MCSort.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCSort.c; sourceTree = "<group>"; };
+		6AC7A4BDF5FDB8070110C2E05A8E5180 /* BohdiEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BohdiEngine.xcconfig; sourceTree = "<group>"; };
+		6D5F5AD1492113DC12B2CA061571214F /* BEView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEView.h; sourceTree = "<group>"; };
+		6E1CC35311656FF3DDC3712419650324 /* MC3DShapeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MC3DShapeBase.h; sourceTree = "<group>"; };
+		71E7B24F5BD6AF207465DBB9603369AD /* BEView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEView.m; sourceTree = "<group>"; };
+		76FAE41998664FE2294295E4FFD3C555 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		771F0405C13B94A213B214FE195C30F6 /* MCUnitTest.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCUnitTest.c; sourceTree = "<group>"; };
+		77C181DCBE1646FA7D6C5DEF486F41D8 /* BE2DTextureData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BE2DTextureData.h; sourceTree = "<group>"; };
+		7C31C88BAFB4592F009E6D8739FADBB7 /* MCClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCClock.h; sourceTree = "<group>"; };
+		7C9F7B72D91856E21A363652FA90B3C1 /* stbi_DDS_aug_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stbi_DDS_aug_c.h; sourceTree = "<group>"; };
+		7E9C6840E2082045F07A6A900AB6F8A8 /* MCTextureCache.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCTextureCache.c; sourceTree = "<group>"; };
 		7FDBD744211AD64F77179E9C51E86F6C /* BohdiEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BohdiEngine.framework; path = BohdiEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87CA7BCC94E2420F7DD845E4CE245E45 /* MCMath.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCMath.c; path = BohdiEngine/Classes/MonkC/MCMath.c; sourceTree = "<group>"; };
-		8890048E0D4C66BFCF9144B6BC7C87ED /* MCMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCMath.h; path = BohdiEngine/Classes/MonkC/MCMath.h; sourceTree = "<group>"; };
-		8B762F6BCB6F1A87F4FBABF25E2F11FC /* BERendererCAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BERendererCAPI.h; path = BohdiEngine/Classes/Engine/BERendererCAPI.h; sourceTree = "<group>"; };
-		92FA3C630BC0AF4CD948A77D630E001A /* MCOrbit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCOrbit.h; path = BohdiEngine/Classes/Engine/MCOrbit.h; sourceTree = "<group>"; };
+		8001E8E4E4313B11E5DF75D9C6C02D84 /* MCGraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCGraph.h; sourceTree = "<group>"; };
+		811B91B2992D403183F6B899D34B4E54 /* MCSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCSort.h; sourceTree = "<group>"; };
+		8467EAE726D1ABFF0C20762494A6A6A3 /* BEAssetsManager.c */ = {isa = PBXFileReference; includeInIndex = 1; path = BEAssetsManager.c; sourceTree = "<group>"; };
+		84CF010D6A0F5BD64E822BCEA6F82766 /* BohdiEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BohdiEngine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84F3A34BB523B52EC265879083DA0CB9 /* MCGraph.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCGraph.c; sourceTree = "<group>"; };
+		86939C14165B1F11C90B1F58C6045D40 /* image_DXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = image_DXT.h; sourceTree = "<group>"; };
+		88AF12105D71DAA64A148B97A5EE54B6 /* MCMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCMath.h; sourceTree = "<group>"; };
+		88BB01EFBF4EBAAE9A395FB181414A7A /* MCArrayLinkedList.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCArrayLinkedList.c; sourceTree = "<group>"; };
+		88E0CBD30F82F89C4E2611245742A50D /* SOIL.c */ = {isa = PBXFileReference; includeInIndex = 1; path = SOIL.c; sourceTree = "<group>"; };
+		89CA5B73EFF0632022D15A03680FB5DF /* MCHeap.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCHeap.c; sourceTree = "<group>"; };
+		8C25C1A5B3C7854435D8380ABF3149AE /* MCOrbit.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCOrbit.c; sourceTree = "<group>"; };
+		8E82CFC9C983F2C63EC632041CA774EC /* MC3DAxis.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MC3DAxis.c; sourceTree = "<group>"; };
+		8F906A9453AA6435A471CF051675F1F3 /* BEGameController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEGameController.m; sourceTree = "<group>"; };
+		8FE89BF36A3E440A789DB3B0437E6D61 /* stb_image_aug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stb_image_aug.h; sourceTree = "<group>"; };
+		90FAC471426436C5612642BE92C52854 /* MCBuffer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCBuffer.c; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94392C339E4AEC80D3D04A2B0C6C8214 /* MCMesh.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCMesh.c; path = BohdiEngine/Classes/Engine/MCMesh.c; sourceTree = "<group>"; };
-		947C5F9615AED3750EE8E8AC4BF7BD6B /* MCJNI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCJNI.h; path = BohdiEngine/Classes/MonkC/MCJNI.h; sourceTree = "<group>"; };
-		9528F2334FFB57B2D7A107405EAB03AC /* MCCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCCamera.h; path = BohdiEngine/Classes/Engine/MCCamera.h; sourceTree = "<group>"; };
+		93F826A80FED4B5B4DC65E1175F2887D /* MCClock.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCClock.c; sourceTree = "<group>"; };
+		949F74E0BCC99A9519E0D99279D22A91 /* BEModelCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEModelCache.h; sourceTree = "<group>"; };
 		954A4E4D865072216909672ADD961228 /* Pods-BEMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BEMac.modulemap"; sourceTree = "<group>"; };
-		962FDBE65654228B310B5FAF8F94A70F /* BECubeTextureData.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BECubeTextureData.c; path = BohdiEngine/Classes/BEAssets/BECubeTextureData.c; sourceTree = "<group>"; };
+		971106235EE0CE9271A149E5DC18DD75 /* MCException.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCException.c; sourceTree = "<group>"; };
+		98280AEDEAC6634C5CC62A62AF1CE6A3 /* MCContext.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCContext.c; sourceTree = "<group>"; };
+		98A6590057F7BDE3AC7DEA9F765ABD8F /* BEPanoramaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BEPanoramaView.m; sourceTree = "<group>"; };
+		9967E8F4A4929A2F3C25EFCEB3326CF6 /* BEPanoramaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEPanoramaView.h; sourceTree = "<group>"; };
 		9AC931B1D1E8A79410B64834A3D503B2 /* Pods-BEMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BEMac-umbrella.h"; sourceTree = "<group>"; };
-		9CB0D63641338929225881554D53F07E /* MCSet.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCSet.c; path = BohdiEngine/Classes/MonkC/MCSet.c; sourceTree = "<group>"; };
-		9CB9B462600882E8BEB7E9D4E8BA5C09 /* MCGLRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCGLRenderer.h; path = BohdiEngine/Classes/Engine/MCGLRenderer.h; sourceTree = "<group>"; };
-		A014AE44EEB303BF1E1EED6F2C47958D /* MCLight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCLight.h; path = BohdiEngine/Classes/Engine/MCLight.h; sourceTree = "<group>"; };
-		A0E43ECE1EE868F85D657AF9857A77AC /* BEPanoramaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEPanoramaView.m; path = BohdiEngine/Classes/Interface/BEPanoramaView.m; sourceTree = "<group>"; };
-		A5FD7F6A582EEFBBC3BF7FC2308D5751 /* MCLinkedList.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCLinkedList.c; path = BohdiEngine/Classes/MonkC/MCLinkedList.c; sourceTree = "<group>"; };
-		A7944EE03377CBC40BFE002B5B2EEC53 /* MCThread.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCThread.c; path = BohdiEngine/Classes/MonkC/MCThread.c; sourceTree = "<group>"; };
+		9F8004128ED69703B89BA235B6A17A38 /* MCException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCException.h; sourceTree = "<group>"; };
+		A4B1171BDDDF2F5E16B5937F9F9E69F3 /* MCCube.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCCube.c; sourceTree = "<group>"; };
+		A651257028057E249E2DD88F8F39AE9C /* MCGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCGLContext.h; sourceTree = "<group>"; };
 		A7ECDB3E00BF74C3BDA6B9B398164C6B /* Pods-BEMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEMac-dummy.m"; sourceTree = "<group>"; };
-		AB010783247733A605CC2B8ED67D4B22 /* image_helper.c */ = {isa = PBXFileReference; includeInIndex = 1; name = image_helper.c; path = BohdiEngine/External/SOIL/image_helper.c; sourceTree = "<group>"; };
+		A9BF55F313062BFB5C07B3AB26D91A5D /* MCArray.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCArray.c; sourceTree = "<group>"; };
+		ABC8B0F492FDF499007532F83AE09771 /* stbi_DDS_aug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stbi_DDS_aug.h; sourceTree = "<group>"; };
 		AC1FA8A5BD8C237B8A90DA3E93CEBE33 /* Pods-BEMac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BEMac-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD860FBA035BA9E8B27EE088B7112A75 /* MCSkysphere.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCSkysphere.c; path = BohdiEngine/Classes/Engine/MCSkysphere.c; sourceTree = "<group>"; };
-		AD9A5190C5886C5D0FB8D085CCF1AAD5 /* MCGeometry.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCGeometry.c; path = BohdiEngine/Classes/MonkC/MCGeometry.c; sourceTree = "<group>"; };
-		B17A38925CCCF89B2F4D19A12D4BB794 /* BEMotionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMotionManager.m; path = BohdiEngine/Classes/Interface/BEMotionManager.m; sourceTree = "<group>"; };
-		B3C2EA0437B5860CFC8810ADFDA68DC4 /* MCWorld.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCWorld.c; path = BohdiEngine/Classes/Engine/MCWorld.c; sourceTree = "<group>"; };
-		B55FCCDA5D9793FCB5D558D32E60C7D4 /* MCBits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCBits.h; path = BohdiEngine/Classes/MonkC/MCBits.h; sourceTree = "<group>"; };
-		B8AAE41E6EB43037099175F1DD55B1D4 /* BE2DTextureData.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BE2DTextureData.c; path = BohdiEngine/Classes/BEAssets/BE2DTextureData.c; sourceTree = "<group>"; };
-		B8DD278BD5552F38A3B330029455E747 /* MCArrayLinkedList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCArrayLinkedList.h; path = BohdiEngine/Classes/MonkC/MCArrayLinkedList.h; sourceTree = "<group>"; };
-		BD27E52A6A589D68D56D8849902E5FB7 /* BERunLoop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BERunLoop.h; path = BohdiEngine/Classes/Interface/BERunLoop.h; sourceTree = "<group>"; };
-		BE0B703ADD5A996626FE148AAF03B716 /* MCUnitTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCUnitTest.h; path = BohdiEngine/Classes/MonkC/MCUnitTest.h; sourceTree = "<group>"; };
-		C1E8E6EDDFE322B28794985D50640F01 /* MCGLRenderer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCGLRenderer.c; path = BohdiEngine/Classes/Engine/MCGLRenderer.c; sourceTree = "<group>"; };
-		C2C99CA1A009C58318C30DDC8B401DE9 /* MCTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCTree.h; path = BohdiEngine/Classes/MonkC/MCTree.h; sourceTree = "<group>"; };
-		C3BF25197C607031D9DB0EB7E694CB4E /* MCGLBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCGLBase.h; path = BohdiEngine/Classes/Engine/MCGLBase.h; sourceTree = "<group>"; };
-		C649ABDFE41A51897A4725E3D6EA4329 /* stb_image_aug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stb_image_aug.h; path = BohdiEngine/External/SOIL/stb_image_aug.h; sourceTree = "<group>"; };
-		C80639C24BFA263224D50646AF5A89D0 /* MCPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCPanel.h; path = BohdiEngine/Classes/Engine/MCPanel.h; sourceTree = "<group>"; };
-		C997375C24DA081AB93EEFB9D1FEF6A3 /* BEGameController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEGameController.h; path = BohdiEngine/Classes/Interface/BEGameController.h; sourceTree = "<group>"; };
-		C9E9C0DCA2145A6C26F8E8DFCD34FCB3 /* BEView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEView.h; path = BohdiEngine/Classes/Interface/BEView.h; sourceTree = "<group>"; };
-		CA449164E2DE00A9169A01D6C240FA91 /* BEPanoramaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEPanoramaView.h; path = BohdiEngine/Classes/Interface/BEPanoramaView.h; sourceTree = "<group>"; };
-		D070C547B6CBFEB86901F6AFD4B78C7B /* BohdiEngine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BohdiEngine-umbrella.h"; sourceTree = "<group>"; };
-		D072180B9AFCA538EA314E42C887CC90 /* MCThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCThread.h; path = BohdiEngine/Classes/MonkC/MCThread.h; sourceTree = "<group>"; };
-		D0CAF22D9691081D412DB7B49C2F0161 /* MCGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCGLContext.h; path = BohdiEngine/Classes/Engine/MCGLContext.h; sourceTree = "<group>"; };
-		D2538E4C4CAB94E9450124FBC5421D4D /* BohdiEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BohdiEngine.modulemap; sourceTree = "<group>"; };
-		D3433671D2117895D88A71E18E949882 /* MCMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCMap.h; path = BohdiEngine/Classes/MonkC/MCMap.h; sourceTree = "<group>"; };
-		D357330ADACDA652232B2D79DA3628C8 /* MC3DAxis.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MC3DAxis.c; path = BohdiEngine/Classes/Engine/MC3DAxis.c; sourceTree = "<group>"; };
+		AC82505FB9444660BB16740BD0F1E028 /* MCProcess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCProcess.h; sourceTree = "<group>"; };
+		AD38211C376EA7BF5EFB8EF100FEC657 /* MCTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCTexture.h; sourceTree = "<group>"; };
+		AD56CBD9AA4D70D63F20391D19670C4C /* BECubeTextureData.c */ = {isa = PBXFileReference; includeInIndex = 1; path = BECubeTextureData.c; sourceTree = "<group>"; };
+		B40D3BFC15146C5452F2ACA49A4BC496 /* BEAssetsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEAssetsManager.h; sourceTree = "<group>"; };
+		B45DF2CADD85D17578FFAF21B2DE6521 /* MCCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCCamera.h; sourceTree = "<group>"; };
+		B49C40BFB6F0F7F3D2B8677B3342E00F /* BAMtlParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BAMtlParser.h; sourceTree = "<group>"; };
+		B790811B025C108350131F3FA45E7D3D /* MCBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCBuffer.h; sourceTree = "<group>"; };
+		BB007DDF51F9C45AA3693AAC8C3B1D8D /* MCIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCIO.h; sourceTree = "<group>"; };
+		BC258F7F412A1FC5EDC5650486090C50 /* MC3DScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MC3DScene.h; sourceTree = "<group>"; };
+		C02BC7A4DE69708D9AE23B6584F1380B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C0F4DCECCED5BFC1252DC8AF9B05DC9D /* BohdiEngine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BohdiEngine-umbrella.h"; sourceTree = "<group>"; };
+		C4D5DB4C9FBDB47EAD3B52206366C0E4 /* BAObjParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BAObjParser.h; sourceTree = "<group>"; };
+		C741044DAE9DF36C2F8E24E802F5E1EE /* BECubeTextureData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BECubeTextureData.h; sourceTree = "<group>"; };
+		C76B146CE04F0D9EF5B25660FCE532B7 /* MC3DModelCache.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MC3DModelCache.c; sourceTree = "<group>"; };
+		C8D6F6C23573A22E9161E17A8F416982 /* MCUIBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCUIBase.h; sourceTree = "<group>"; };
+		C9D58FADEE97E1E5D5F5D8BD7041DB77 /* monkc.c */ = {isa = PBXFileReference; includeInIndex = 1; path = monkc.c; sourceTree = "<group>"; };
+		CBBD9BD56AEF013BF2B2715BECBDCF8F /* MCLight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCLight.h; sourceTree = "<group>"; };
+		CE22EF8AC986BEB06847196A87DB6118 /* BAMtlParser.c */ = {isa = PBXFileReference; includeInIndex = 1; path = BAMtlParser.c; sourceTree = "<group>"; };
+		D177B216B7C041A7C379A85D03BA87B3 /* BEResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEResource.h; sourceTree = "<group>"; };
+		D17E3E19CF12A1987DDAF6FE73EC4963 /* MCTree.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCTree.c; sourceTree = "<group>"; };
+		D1D203939D44AC58E4D8C0BABCE46F92 /* image_DXT.c */ = {isa = PBXFileReference; includeInIndex = 1; path = image_DXT.c; sourceTree = "<group>"; };
 		D48AA0C686FF3DE45CAA77195C28B0DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4FF030D75CE7194696B2F5567590D6D /* BEModelCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEModelCache.m; path = BohdiEngine/Classes/Interface/BEModelCache.m; sourceTree = "<group>"; };
-		D6B378227F43EF8B71C679E93308CB32 /* MCClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCClock.h; path = BohdiEngine/Classes/MonkC/MCClock.h; sourceTree = "<group>"; };
-		D75C20C0D66CCDBE802C4CCFE9CC2342 /* MCArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCArray.h; path = BohdiEngine/Classes/MonkC/MCArray.h; sourceTree = "<group>"; };
-		D78CF5238EE340439F2F9F0DBEE86F10 /* MCDirector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCDirector.h; path = BohdiEngine/Classes/Engine/MCDirector.h; sourceTree = "<group>"; };
-		DACB1BED144F335496DEBD68BB7EBA2B /* BohdiEngine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BohdiEngine-prefix.pch"; sourceTree = "<group>"; };
-		DB0471F75D2D2047556583D67E8823C9 /* MC3DAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MC3DAxis.h; path = BohdiEngine/Classes/Engine/MC3DAxis.h; sourceTree = "<group>"; };
-		DDAADF806A189688B2271F599844CB3E /* MCMaterial.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCMaterial.c; path = BohdiEngine/Classes/Engine/MCMaterial.c; sourceTree = "<group>"; };
-		DF209E6818C06A0C4800A06CC3F6F9A0 /* MCIO.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCIO.c; path = BohdiEngine/Classes/MonkC/MCIO.c; sourceTree = "<group>"; };
+		DA2C8FDF3226B8F187A1FE6A36DBC0AA /* MCGLContext.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCGLContext.c; sourceTree = "<group>"; };
+		DC47A1903E74052CB94186699D5EBA45 /* MC3DNode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MC3DNode.c; sourceTree = "<group>"; };
+		DC58D97E761645649B089C8FD4C6FA6B /* MCMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCMap.h; sourceTree = "<group>"; };
+		DDC0C798BDD0EB8921A0563118CAD8DF /* MCSkysphere.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCSkysphere.h; sourceTree = "<group>"; };
 		DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		DF641F241A5C4E79E456C7F77BF4FDC0 /* MC3DBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MC3DBase.h; path = BohdiEngine/Classes/Engine/MC3DBase.h; sourceTree = "<group>"; };
-		E2103BD6F36DEE49C0A55DB3C69E529B /* MCIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCIO.h; path = BohdiEngine/Classes/MonkC/MCIO.h; sourceTree = "<group>"; };
-		E5033996C57264BAEF67059479839B13 /* BECubeTextureData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BECubeTextureData.h; path = BohdiEngine/Classes/BEAssets/BECubeTextureData.h; sourceTree = "<group>"; };
-		E5347BCADDE967D0ABCE6640578D8594 /* MC3DNode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MC3DNode.c; path = BohdiEngine/Classes/Engine/MC3DNode.c; sourceTree = "<group>"; };
-		E8CE04C23252A3BA8D608348B93DC1B2 /* MCMaterial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCMaterial.h; path = BohdiEngine/Classes/Engine/MCMaterial.h; sourceTree = "<group>"; };
-		E922E40DFAD1C723C8E39C90F401D28A /* MCGraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCGraph.h; path = BohdiEngine/Classes/MonkC/MCGraph.h; sourceTree = "<group>"; };
-		EA35D2CD270C87316A232275E554E6B0 /* MCGLContext.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCGLContext.c; path = BohdiEngine/Classes/Engine/MCGLContext.c; sourceTree = "<group>"; };
-		EDC8E0D5FD072CA6E48A62171D5908E0 /* MCContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCContext.h; path = BohdiEngine/Classes/MonkC/MCContext.h; sourceTree = "<group>"; };
-		EF8E155416334DEBDC6E8D73C6FA07D7 /* MCArray.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCArray.c; path = BohdiEngine/Classes/MonkC/MCArray.c; sourceTree = "<group>"; };
-		F0BD72472FC6FD7F844A940689788CA2 /* MCWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCWorld.h; path = BohdiEngine/Classes/Engine/MCWorld.h; sourceTree = "<group>"; };
-		F4655E99D344FDF2FBB29E82E93E44B0 /* MC3DShapeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MC3DShapeBase.h; path = BohdiEngine/Classes/Engine/MC3DShapeBase.h; sourceTree = "<group>"; };
-		F65982FA194E87EE21A03E710F2683EF /* MC3DScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MC3DScene.h; path = BohdiEngine/Classes/Engine/MC3DScene.h; sourceTree = "<group>"; };
-		F725C6601CC16E79083046960376E58E /* MCTexture.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCTexture.c; path = BohdiEngine/Classes/Engine/MCTexture.c; sourceTree = "<group>"; };
-		F74B3339252A6C601DF5690B7EC64453 /* BERenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BERenderer.m; path = BohdiEngine/Classes/Interface/BERenderer.m; sourceTree = "<group>"; };
-		F9E0452DD1573D13B3570B9BB23C6503 /* MC3DModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MC3DModel.h; path = BohdiEngine/Classes/Engine/MC3DModel.h; sourceTree = "<group>"; };
-		FCE0777E5F4A1D4BD7E0F1153FDC0A7B /* MCSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSet.h; path = BohdiEngine/Classes/MonkC/MCSet.h; sourceTree = "<group>"; };
-		FD698CB4FEFD193874F001D9C35E2C52 /* MCUnitTest.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCUnitTest.c; path = BohdiEngine/Classes/MonkC/MCUnitTest.c; sourceTree = "<group>"; };
-		FDBA5380348DB86768D2EC696FFCDD01 /* BAObjParser.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BAObjParser.c; path = BohdiEngine/Classes/BEAssets/BAObjParser.c; sourceTree = "<group>"; };
-		FF7B3DE214F8C84E7A80DCCCAD7780C6 /* MCCamera.c */ = {isa = PBXFileReference; includeInIndex = 1; name = MCCamera.c; path = BohdiEngine/Classes/Engine/MCCamera.c; sourceTree = "<group>"; };
+		E30EA8D61A732123C253428D7AC627A8 /* MCMesh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCMesh.h; sourceTree = "<group>"; };
+		E351385EC6D0985342DBBEC6E89C60CB /* image_helper.c */ = {isa = PBXFileReference; includeInIndex = 1; path = image_helper.c; sourceTree = "<group>"; };
+		E47A7FF9C6330642A345A15BF74041CA /* BohdiEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BohdiEngine.modulemap; sourceTree = "<group>"; };
+		E97590E24BAA2DCF05841731B13FF958 /* BENSView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BENSView.m; sourceTree = "<group>"; };
+		EA87513689EB063E7B7A047D6543591C /* MCBits.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCBits.c; sourceTree = "<group>"; };
+		ED77953A13876A973F2BD2925DA54D25 /* BEMotionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEMotionManager.h; sourceTree = "<group>"; };
+		F15AE1568F453A1B52D28757F54EDB32 /* MCArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCArray.h; sourceTree = "<group>"; };
+		F191DBD8A77DC57AAA1F17A0DF79BB2A /* MCLight.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCLight.c; sourceTree = "<group>"; };
+		F2D01D52FCCD54FDB70D1EB649E78712 /* BEGameController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BEGameController.h; sourceTree = "<group>"; };
+		F5A63F16BEF229779537B540F9D00305 /* MCSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCSet.h; sourceTree = "<group>"; };
+		F7262F883938042D1F3DE25C5D4BEFE6 /* MCArrayLinkedList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCArrayLinkedList.h; sourceTree = "<group>"; };
+		F807D518926618689C7050474FE3BD47 /* MC3DNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MC3DNode.h; sourceTree = "<group>"; };
+		FAF21D1E56CBBE9EE8CBE071A94E291A /* MCTextureCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCTextureCache.h; sourceTree = "<group>"; };
+		FC8A00CBF2AEF5269CD5D9ACA901EE65 /* BERunLoop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BERunLoop.h; sourceTree = "<group>"; };
+		FD45F5A805BB100C701561FA191314BD /* BERendererCAPI.c */ = {isa = PBXFileReference; includeInIndex = 1; path = BERendererCAPI.c; sourceTree = "<group>"; };
+		FEC475A0D0BA5F573B8B4E198A5DDE65 /* MC3DScene.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MC3DScene.c; sourceTree = "<group>"; };
+		FF41A5298A6EA19014F31F747D862C18 /* MCGLShader.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MCGLShader.c; sourceTree = "<group>"; };
+		FF79A79B17AB282FA6C6E874A5524182 /* MC3DModel.c */ = {isa = PBXFileReference; includeInIndex = 1; path = MC3DModel.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +347,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11BC9BFB7AA8087E020E4F77E4274AA1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63E46C36893DD01FFDCC1235C444D793 /* BEAssets */,
+				4F29FCD8986272016FC5CC9F1FD5721F /* Engine */,
+				CAEACE279FCA3D88ECAC51E3A7BC6E5F /* Interface */,
+				147CB4437924848E9CF25FFF483CC841 /* MonkC */,
+			);
+			name = Classes;
+			path = BohdiEngine/Classes;
+			sourceTree = "<group>";
+		};
+		147CB4437924848E9CF25FFF483CC841 /* MonkC */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF55F313062BFB5C07B3AB26D91A5D /* MCArray.c */,
+				F15AE1568F453A1B52D28757F54EDB32 /* MCArray.h */,
+				88BB01EFBF4EBAAE9A395FB181414A7A /* MCArrayLinkedList.c */,
+				F7262F883938042D1F3DE25C5D4BEFE6 /* MCArrayLinkedList.h */,
+				EA87513689EB063E7B7A047D6543591C /* MCBits.c */,
+				19D5455D1A96AB974A8E9EAFEFA99F13 /* MCBits.h */,
+				90FAC471426436C5612642BE92C52854 /* MCBuffer.c */,
+				B790811B025C108350131F3FA45E7D3D /* MCBuffer.h */,
+				93F826A80FED4B5B4DC65E1175F2887D /* MCClock.c */,
+				7C31C88BAFB4592F009E6D8739FADBB7 /* MCClock.h */,
+				98280AEDEAC6634C5CC62A62AF1CE6A3 /* MCContext.c */,
+				3096523D1620680532934856573C1887 /* MCContext.h */,
+				971106235EE0CE9271A149E5DC18DD75 /* MCException.c */,
+				9F8004128ED69703B89BA235B6A17A38 /* MCException.h */,
+				5B17323D4A26FA903F5FA5E6FCC71576 /* MCGeometry.c */,
+				692067D6EC6A4BED8815DDA65E365B8D /* MCGeometry.h */,
+				84F3A34BB523B52EC265879083DA0CB9 /* MCGraph.c */,
+				8001E8E4E4313B11E5DF75D9C6C02D84 /* MCGraph.h */,
+				89CA5B73EFF0632022D15A03680FB5DF /* MCHeap.c */,
+				4D9A0F6F339FA12D970651B43784F990 /* MCHeap.h */,
+				32951C5FC7C0619FE87A8D18ED7DA7BA /* MCIO.c */,
+				BB007DDF51F9C45AA3693AAC8C3B1D8D /* MCIO.h */,
+				11F7F4F87F8FB28BF87D0BBD401958F4 /* MCJNI.h */,
+				28BF301D006DBDAB0D0521481485DA43 /* MCLexer.h */,
+				0231503799EBBDA1EAA39AC501AEE9CD /* MCLinkedList.c */,
+				08A14725BB840A433D3F707AF858655C /* MCLinkedList.h */,
+				4C13352FC58B4D16E18A5B12DB7D3815 /* MCMap.c */,
+				DC58D97E761645649B089C8FD4C6FA6B /* MCMap.h */,
+				0A0169003722BFE23E23C5908A7CF2BB /* MCMath.c */,
+				88AF12105D71DAA64A148B97A5EE54B6 /* MCMath.h */,
+				41EFA9386DE6457368A247BFA7C9246D /* MCProcess.c */,
+				AC82505FB9444660BB16740BD0F1E028 /* MCProcess.h */,
+				3F1D42586AA303CB69851EEACD1BCFC9 /* MCSet.c */,
+				F5A63F16BEF229779537B540F9D00305 /* MCSet.h */,
+				586A48B6E72E41ED1B4FBCE5E5D11D06 /* MCSocket.c */,
+				0A486BC8539A8C2DB71BFEB45A3039F0 /* MCSocket.h */,
+				69FF5BD6454C496B1CD5A06526357AD9 /* MCSort.c */,
+				811B91B2992D403183F6B899D34B4E54 /* MCSort.h */,
+				30628E3EF26BD26AE608B5836D7A9AD4 /* MCString.c */,
+				4E1B925CED1BD76B62FDDBE849AA39CA /* MCString.h */,
+				4C214EDAF3A6EC56F9946D37F5CC6F67 /* MCThread.c */,
+				49E7FBDEB95AA24D12519AAF1E68A9D7 /* MCThread.h */,
+				D17E3E19CF12A1987DDAF6FE73EC4963 /* MCTree.c */,
+				414BF135569273A553FD81D6BE68FCC5 /* MCTree.h */,
+				771F0405C13B94A213B214FE195C30F6 /* MCUnitTest.c */,
+				51A3D015F29F0AE5C2397DC043C1F639 /* MCUnitTest.h */,
+				C9D58FADEE97E1E5D5F5D8BD7041DB77 /* monkc.c */,
+				21C48E4728F49623C26A4198258784D4 /* monkc.h */,
+			);
+			name = MonkC;
+			path = MonkC;
+			sourceTree = "<group>";
+		};
 		2D6C4ADB2734C45E2AE773354C1118F6 /* Pods-BEMac */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,6 +433,15 @@
 			path = "Target Support Files/Pods-BEMac";
 			sourceTree = "<group>";
 		};
+		338A3B46DBD973596386EA3B9692A54C /* External */ = {
+			isa = PBXGroup;
+			children = (
+				C8A2DF4B862B4DD4CDCDCC303FB99EAE /* SOIL */,
+			);
+			name = External;
+			path = BohdiEngine/External;
+			sourceTree = "<group>";
+		};
 		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,23 +450,111 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7D571CD3B6740BF704FF86AA5174AC1F /* Pods */ = {
+		4E4E66ADEFF7F65D515EA9FBCD142713 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A8218D7EFDEBF7380EE6DD7EA4749D21 /* BohdiEngine */,
+				84CF010D6A0F5BD64E822BCEA6F82766 /* BohdiEngine.podspec */,
+				76FAE41998664FE2294295E4FFD3C555 /* LICENSE */,
+				C02BC7A4DE69708D9AE23B6584F1380B /* README.md */,
 			);
-			name = Pods;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4F29FCD8986272016FC5CC9F1FD5721F /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				FD45F5A805BB100C701561FA191314BD /* BERendererCAPI.c */,
+				573B292F88EE4D8DA6A4E05B045C540E /* BERendererCAPI.h */,
+				0F30DAD3A5DF0AF30AD35E9AA452A8FA /* MC2DTex.c */,
+				46FAECE615684D0326791DE26903788F /* MC2DTex.h */,
+				8E82CFC9C983F2C63EC632041CA774EC /* MC3DAxis.c */,
+				61B94C330A96996301E571831891BF07 /* MC3DAxis.h */,
+				17AD47D0A637FBCC0D9A6DA5DA9ADD48 /* MC3DBase.h */,
+				FF79A79B17AB282FA6C6E874A5524182 /* MC3DModel.c */,
+				32650CECE0EA2E405CE4560EDB9B62DC /* MC3DModel.h */,
+				C76B146CE04F0D9EF5B25660FCE532B7 /* MC3DModelCache.c */,
+				1E40F1E8AFE8993DE0FF0F9AF3F21603 /* MC3DModelCache.h */,
+				DC47A1903E74052CB94186699D5EBA45 /* MC3DNode.c */,
+				F807D518926618689C7050474FE3BD47 /* MC3DNode.h */,
+				FEC475A0D0BA5F573B8B4E198A5DDE65 /* MC3DScene.c */,
+				BC258F7F412A1FC5EDC5650486090C50 /* MC3DScene.h */,
+				6E1CC35311656FF3DDC3712419650324 /* MC3DShapeBase.h */,
+				10596ADB3DDF76D5FFB203996393CD6E /* MCCamera.c */,
+				B45DF2CADD85D17578FFAF21B2DE6521 /* MCCamera.h */,
+				A4B1171BDDDF2F5E16B5937F9F9E69F3 /* MCCube.c */,
+				36F713FD2414B6E62E13F88E561BBC46 /* MCCube.h */,
+				4EFAEBAD64FCBBADF9550193DAF0E180 /* MCDirector.c */,
+				0752FCC2D5F18212E458CA6B8E96CFE9 /* MCDirector.h */,
+				240CFF0A69AF984EB4DFEE0A322BEE53 /* MCGLBase.h */,
+				DA2C8FDF3226B8F187A1FE6A36DBC0AA /* MCGLContext.c */,
+				A651257028057E249E2DD88F8F39AE9C /* MCGLContext.h */,
+				3D6C3D7E022F8338DB7995D6EBA573D7 /* MCGLRenderer.c */,
+				5204CE96C9B1A8CB2D7CCED783DB8798 /* MCGLRenderer.h */,
+				FF41A5298A6EA19014F31F747D862C18 /* MCGLShader.c */,
+				1296F26EAAFC4F76E89D0FCEDDA1E13C /* MCGLShader.h */,
+				F191DBD8A77DC57AAA1F17A0DF79BB2A /* MCLight.c */,
+				CBBD9BD56AEF013BF2B2715BECBDCF8F /* MCLight.h */,
+				514AF801AE7B2A785E90BDB3DF7C40F5 /* MCMaterial.c */,
+				5673E90AAB83E8F00E2C3A960374A1EE /* MCMaterial.h */,
+				1DD093D5AB93357FCEFE7B255206C88D /* MCMesh.c */,
+				E30EA8D61A732123C253428D7AC627A8 /* MCMesh.h */,
+				8C25C1A5B3C7854435D8380ABF3149AE /* MCOrbit.c */,
+				1178AA4F3A0E19108ED1C4AC5622CEC4 /* MCOrbit.h */,
+				13921E4CC9262E7A39FC8ED0050D3788 /* MCPanel.c */,
+				62DA716E4CB315498560EF3048C9BBD1 /* MCPanel.h */,
+				55691DB517979FE2CD1FC59A7882CCA1 /* MCSkybox.c */,
+				63F0FB6C611AC48F11B9799F28EB39E8 /* MCSkybox.h */,
+				1FA879A75447105B6B377B47BC2B03EA /* MCSkysphere.c */,
+				DDC0C798BDD0EB8921A0563118CAD8DF /* MCSkysphere.h */,
+				0FDB04FCFD4592F3EA0D4D25DC76166E /* MCTexture.c */,
+				AD38211C376EA7BF5EFB8EF100FEC657 /* MCTexture.h */,
+				7E9C6840E2082045F07A6A900AB6F8A8 /* MCTextureCache.c */,
+				FAF21D1E56CBBE9EE8CBE071A94E291A /* MCTextureCache.h */,
+				C8D6F6C23573A22E9161E17A8F416982 /* MCUIBase.h */,
+				0CCB33DF7077BFDA2AFA6AB1459BB697 /* MCWorld.c */,
+				32F3D86C227042C8A83CB5FA9A9C1F14 /* MCWorld.h */,
+			);
+			name = Engine;
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		63E46C36893DD01FFDCC1235C444D793 /* BEAssets */ = {
+			isa = PBXGroup;
+			children = (
+				CE22EF8AC986BEB06847196A87DB6118 /* BAMtlParser.c */,
+				B49C40BFB6F0F7F3D2B8677B3342E00F /* BAMtlParser.h */,
+				27B6CD25C1D88091A842C84FFBDD13CD /* BAObjParser.c */,
+				C4D5DB4C9FBDB47EAD3B52206366C0E4 /* BAObjParser.h */,
+				12677BBD186C903440A119D84537AB4B /* BATrianglization.c */,
+				0B872F1E1CAB006DABC4B5679CEA1C4D /* BATrianglization.h */,
+				43D7501E757A8225A70F4DA79D5DE484 /* BE2DTextureData.c */,
+				77C181DCBE1646FA7D6C5DEF486F41D8 /* BE2DTextureData.h */,
+				8467EAE726D1ABFF0C20762494A6A6A3 /* BEAssetsManager.c */,
+				B40D3BFC15146C5452F2ACA49A4BC496 /* BEAssetsManager.h */,
+				AD56CBD9AA4D70D63F20391D19670C4C /* BECubeTextureData.c */,
+				C741044DAE9DF36C2F8E24E802F5E1EE /* BECubeTextureData.h */,
+			);
+			name = BEAssets;
+			path = BEAssets;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				876086148ABC7833E9B1A969C1E31457 /* Development Pods */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
-				7D571CD3B6740BF704FF86AA5174AC1F /* Pods */,
 				9940545051E865CE0E2A69C9C15DB9C2 /* Products */,
 				DAAEB45E5C276533BBA2FA1587288062 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		876086148ABC7833E9B1A969C1E31457 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3C62B39573BF8A755ECF5295772719D /* BohdiEngine */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9940545051E865CE0E2A69C9C15DB9C2 /* Products */ = {
@@ -398,151 +566,71 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8218D7EFDEBF7380EE6DD7EA4749D21 /* BohdiEngine */ = {
+		9F5FE91F5A9CF69EB18E77F7F8835652 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4142BA4C1E028D19F477ED61428360C2 /* BAMtlParser.c */,
-				15B648D78BEF442F9D899C63A78C4895 /* BAMtlParser.h */,
-				FDBA5380348DB86768D2EC696FFCDD01 /* BAObjParser.c */,
-				2C5E7ED5E695CE4075F370C11FA8EFDC /* BAObjParser.h */,
-				2B1D3F12CA8A6A8EE859EFC41AD635D1 /* BATrianglization.c */,
-				77A882C8804A4AFDE91606F37151CC1F /* BATrianglization.h */,
-				B8AAE41E6EB43037099175F1DD55B1D4 /* BE2DTextureData.c */,
-				0E8821592EF02D1727B5B03549092561 /* BE2DTextureData.h */,
-				5DF922FB67703587A33D60C3567A8F59 /* BEAssetsManager.c */,
-				1BC984E49DCA7E26E3BE984AD1C50E30 /* BEAssetsManager.h */,
-				962FDBE65654228B310B5FAF8F94A70F /* BECubeTextureData.c */,
-				E5033996C57264BAEF67059479839B13 /* BECubeTextureData.h */,
-				C997375C24DA081AB93EEFB9D1FEF6A3 /* BEGameController.h */,
-				3B3BE7754513FA10BED5B7CB4E898C11 /* BEGameController.m */,
-				647A12A82C14C1ED495E07A0E1C39B0A /* BEModelCache.h */,
-				D4FF030D75CE7194696B2F5567590D6D /* BEModelCache.m */,
-				7C0AE8C60A4ED477CB19EF15FAF8C253 /* BEMotionManager.h */,
-				B17A38925CCCF89B2F4D19A12D4BB794 /* BEMotionManager.m */,
-				7029959CCD787D6900E3F059E3590B44 /* BENSView.h */,
-				72DEC93976CBF2B5E9D4E2B902A8BBB1 /* BENSView.m */,
-				CA449164E2DE00A9169A01D6C240FA91 /* BEPanoramaView.h */,
-				A0E43ECE1EE868F85D657AF9857A77AC /* BEPanoramaView.m */,
-				5BB6413BF488A3D96DE45A0D185C97EE /* BERenderer.h */,
-				F74B3339252A6C601DF5690B7EC64453 /* BERenderer.m */,
-				2AAD644F984AEFA190B6F0255F31B4C5 /* BERendererCAPI.c */,
-				8B762F6BCB6F1A87F4FBABF25E2F11FC /* BERendererCAPI.h */,
-				670FA3A34D09261430D14667704E9BC5 /* BEResource.h */,
-				1281AFE660DA79771D3FF462E357BC75 /* BEResource.m */,
-				BD27E52A6A589D68D56D8849902E5FB7 /* BERunLoop.h */,
-				185AA6078C2C64AD6DF42D1CD7D20987 /* BERunLoop.m */,
-				C9E9C0DCA2145A6C26F8E8DFCD34FCB3 /* BEView.h */,
-				7DDA96F7E3335BF91451C8A7DE68AF88 /* BEView.m */,
-				042D5FDF1D4EF13327DEF27242CFFCD4 /* image_DXT.c */,
-				24E6B71A99C0604694F07D75E8E7CE60 /* image_DXT.h */,
-				AB010783247733A605CC2B8ED67D4B22 /* image_helper.c */,
-				25E77237510336B6E86F1D9C8742E95B /* image_helper.h */,
-				23A573B595DABEE0319E22C7264D169F /* MC2DTex.c */,
-				245373F3B78E1BB553041D6118C50462 /* MC2DTex.h */,
-				D357330ADACDA652232B2D79DA3628C8 /* MC3DAxis.c */,
-				DB0471F75D2D2047556583D67E8823C9 /* MC3DAxis.h */,
-				DF641F241A5C4E79E456C7F77BF4FDC0 /* MC3DBase.h */,
-				70AA7900241E2D747B9BC9FE3F806960 /* MC3DModel.c */,
-				F9E0452DD1573D13B3570B9BB23C6503 /* MC3DModel.h */,
-				5ACD254F556ADE79D7B662750F3DB066 /* MC3DModelCache.c */,
-				6A355B4A3C5D4102D7240A533FAB1BD0 /* MC3DModelCache.h */,
-				E5347BCADDE967D0ABCE6640578D8594 /* MC3DNode.c */,
-				2A4714C529E49CE60079ED6378A89FD1 /* MC3DNode.h */,
-				2210207552FB31CAAAF6C28B833412FC /* MC3DScene.c */,
-				F65982FA194E87EE21A03E710F2683EF /* MC3DScene.h */,
-				F4655E99D344FDF2FBB29E82E93E44B0 /* MC3DShapeBase.h */,
-				EF8E155416334DEBDC6E8D73C6FA07D7 /* MCArray.c */,
-				D75C20C0D66CCDBE802C4CCFE9CC2342 /* MCArray.h */,
-				69D40F2EE33C1C5EACBC8C99EA8D9662 /* MCArrayLinkedList.c */,
-				B8DD278BD5552F38A3B330029455E747 /* MCArrayLinkedList.h */,
-				3B7611CA42C3232F2FBBB6C807019332 /* MCBits.c */,
-				B55FCCDA5D9793FCB5D558D32E60C7D4 /* MCBits.h */,
-				2FFA2B42C8C02D85A7A612E32F799369 /* MCBuffer.c */,
-				7E88527A71F1E993722257AAD4CCDF9F /* MCBuffer.h */,
-				FF7B3DE214F8C84E7A80DCCCAD7780C6 /* MCCamera.c */,
-				9528F2334FFB57B2D7A107405EAB03AC /* MCCamera.h */,
-				474F0AE4B8EB58466B6F2FD56C5F0D2D /* MCClock.c */,
-				D6B378227F43EF8B71C679E93308CB32 /* MCClock.h */,
-				44C7CB085E0677FAD3C925FA3B4D8A56 /* MCContext.c */,
-				EDC8E0D5FD072CA6E48A62171D5908E0 /* MCContext.h */,
-				534334233575460AF68A8C5D7C34CA53 /* MCCube.c */,
-				46FFED6F45E6F92F8F65B05F4632CE47 /* MCCube.h */,
-				45C4A7F6402F0C06C2C850A880CEACC2 /* MCDirector.c */,
-				D78CF5238EE340439F2F9F0DBEE86F10 /* MCDirector.h */,
-				6B00F91228C6BF4D5862846CE166E4B4 /* MCException.c */,
-				3C0D952246C8E47B251070E1994A6A7D /* MCException.h */,
-				AD9A5190C5886C5D0FB8D085CCF1AAD5 /* MCGeometry.c */,
-				0AEE5FC48ECA56D3AFCD1BB0156D0420 /* MCGeometry.h */,
-				C3BF25197C607031D9DB0EB7E694CB4E /* MCGLBase.h */,
-				EA35D2CD270C87316A232275E554E6B0 /* MCGLContext.c */,
-				D0CAF22D9691081D412DB7B49C2F0161 /* MCGLContext.h */,
-				7D9748673C64A9D34E7D02C8B64261F3 /* MCGLEngine.c */,
-				32B07D2E5944911006B06315EDE8B03F /* MCGLEngine.h */,
-				C1E8E6EDDFE322B28794985D50640F01 /* MCGLRenderer.c */,
-				9CB9B462600882E8BEB7E9D4E8BA5C09 /* MCGLRenderer.h */,
-				62BF8BE04E1B7D4782CDDF1BF26DB778 /* MCGraph.c */,
-				E922E40DFAD1C723C8E39C90F401D28A /* MCGraph.h */,
-				1E9BF5DB2AF06BE4F9F987878F5AF587 /* MCHeap.c */,
-				13E429410A0005A6AACBF7ED555AF646 /* MCHeap.h */,
-				DF209E6818C06A0C4800A06CC3F6F9A0 /* MCIO.c */,
-				E2103BD6F36DEE49C0A55DB3C69E529B /* MCIO.h */,
-				947C5F9615AED3750EE8E8AC4BF7BD6B /* MCJNI.h */,
-				0F4CC0AE2F082497EF0258242998A18D /* MCLexer.h */,
-				54435DF6881978A9E5BE30726420E227 /* MCLight.c */,
-				A014AE44EEB303BF1E1EED6F2C47958D /* MCLight.h */,
-				A5FD7F6A582EEFBBC3BF7FC2308D5751 /* MCLinkedList.c */,
-				0330A7140DB779280988DB73B20D6FEB /* MCLinkedList.h */,
-				4A796AA0874F2DC09F8E1A02FE660A70 /* MCMap.c */,
-				D3433671D2117895D88A71E18E949882 /* MCMap.h */,
-				DDAADF806A189688B2271F599844CB3E /* MCMaterial.c */,
-				E8CE04C23252A3BA8D608348B93DC1B2 /* MCMaterial.h */,
-				87CA7BCC94E2420F7DD845E4CE245E45 /* MCMath.c */,
-				8890048E0D4C66BFCF9144B6BC7C87ED /* MCMath.h */,
-				94392C339E4AEC80D3D04A2B0C6C8214 /* MCMesh.c */,
-				0CF0C95E18230A0C8BB12C7EA70A8692 /* MCMesh.h */,
-				4FBCFF0014BE15112F9F6A1A78234B4E /* MCOrbit.c */,
-				92FA3C630BC0AF4CD948A77D630E001A /* MCOrbit.h */,
-				6F12B18314586A96B1545CA487D7DF4B /* MCPanel.c */,
-				C80639C24BFA263224D50646AF5A89D0 /* MCPanel.h */,
-				0BB08F5A6C9BBBA412BED8EE1DFF82BD /* MCProcess.c */,
-				07F732B43B154E1C6A5AAA0C833FFE07 /* MCProcess.h */,
-				9CB0D63641338929225881554D53F07E /* MCSet.c */,
-				FCE0777E5F4A1D4BD7E0F1153FDC0A7B /* MCSet.h */,
-				7FBC000BB0F6142601FCF81882AB2015 /* MCSkybox.c */,
-				3A5AD5B58C05D82963CDEFA4728B7805 /* MCSkybox.h */,
-				AD860FBA035BA9E8B27EE088B7112A75 /* MCSkysphere.c */,
-				16182084F1F6455E000CAFFC147B7C3C /* MCSkysphere.h */,
-				1FB1528923D92E6266FCB631F6A51A57 /* MCSocket.c */,
-				1C98FCA505B06A2D39BE3CD623F536EE /* MCSocket.h */,
-				05E3683C2C013851244BA3A1D571D683 /* MCSort.c */,
-				68EB986AD75790FBA5027698C374527C /* MCSort.h */,
-				6134356875DECF1475DE7F61E7836036 /* MCString.c */,
-				7F5BF3885A28015A031977B783D81932 /* MCString.h */,
-				F725C6601CC16E79083046960376E58E /* MCTexture.c */,
-				32917088BC115E0D81966490309C99A5 /* MCTexture.h */,
-				613B4B31D6D9EB39D6DFF6F2157B3124 /* MCTextureCache.c */,
-				0C835EDD36B65373DB3713A431355138 /* MCTextureCache.h */,
-				A7944EE03377CBC40BFE002B5B2EEC53 /* MCThread.c */,
-				D072180B9AFCA538EA314E42C887CC90 /* MCThread.h */,
-				262CBD7530D0C1D4EDD371163B1D4B31 /* MCTree.c */,
-				C2C99CA1A009C58318C30DDC8B401DE9 /* MCTree.h */,
-				7E78D46D4B88041764519067696F0614 /* MCUIBase.h */,
-				FD698CB4FEFD193874F001D9C35E2C52 /* MCUnitTest.c */,
-				BE0B703ADD5A996626FE148AAF03B716 /* MCUnitTest.h */,
-				B3C2EA0437B5860CFC8810ADFDA68DC4 /* MCWorld.c */,
-				F0BD72472FC6FD7F844A940689788CA2 /* MCWorld.h */,
-				28BA8DABA05B5E4BA671C947C234A174 /* monkc.c */,
-				0917D2BA2A1A6FE9EF6DBDE58852E019 /* monkc.h */,
-				1ECCDCBA77E7A6791193116B79CC0C9F /* SOIL.c */,
-				796E33F60250A2BB2E9912FD6D4A21CB /* SOIL.h */,
-				1381E55DCEC4448B141DBC33DF000E05 /* stb_image_aug.c */,
-				C649ABDFE41A51897A4725E3D6EA4329 /* stb_image_aug.h */,
-				64885906F822E528BEA0D2E8BB94798F /* stbi_DDS_aug.h */,
-				61FA6B1EA542D0AB7C38A756177F3CD6 /* stbi_DDS_aug_c.h */,
-				E3FF3B7596ADF6AA72AD89221E639370 /* Support Files */,
+				E47A7FF9C6330642A345A15BF74041CA /* BohdiEngine.modulemap */,
+				6AC7A4BDF5FDB8070110C2E05A8E5180 /* BohdiEngine.xcconfig */,
+				026F18482C9D9F343AA24CB9552705F3 /* BohdiEngine-dummy.m */,
+				39C76CEDD46C3563F91886C1B395540F /* BohdiEngine-prefix.pch */,
+				C0F4DCECCED5BFC1252DC8AF9B05DC9D /* BohdiEngine-umbrella.h */,
+				42646E02AF004AF7FB314A163F1748AC /* Info.plist */,
 			);
-			name = BohdiEngine;
-			path = BohdiEngine;
+			name = "Support Files";
+			path = "../../BEMac/Pods/Target Support Files/BohdiEngine";
+			sourceTree = "<group>";
+		};
+		AF189ABB66BE3E4D634C46531CA00B58 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				56A7556CC2AE5D5839624D63267EF228 /* BENSView.h */,
+				E97590E24BAA2DCF05841731B13FF958 /* BENSView.m */,
+			);
+			name = Mac;
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		C8A2DF4B862B4DD4CDCDCC303FB99EAE /* SOIL */ = {
+			isa = PBXGroup;
+			children = (
+				D1D203939D44AC58E4D8C0BABCE46F92 /* image_DXT.c */,
+				86939C14165B1F11C90B1F58C6045D40 /* image_DXT.h */,
+				E351385EC6D0985342DBBEC6E89C60CB /* image_helper.c */,
+				56BF58D962A02666222FB90B16913E0B /* image_helper.h */,
+				88E0CBD30F82F89C4E2611245742A50D /* SOIL.c */,
+				65E1643B359A8D10E1FF635206846149 /* SOIL.h */,
+				35726C6D294C55889A21297973F69162 /* stb_image_aug.c */,
+				8FE89BF36A3E440A789DB3B0437E6D61 /* stb_image_aug.h */,
+				ABC8B0F492FDF499007532F83AE09771 /* stbi_DDS_aug.h */,
+				7C9F7B72D91856E21A363652FA90B3C1 /* stbi_DDS_aug_c.h */,
+			);
+			name = SOIL;
+			path = SOIL;
+			sourceTree = "<group>";
+		};
+		CAEACE279FCA3D88ECAC51E3A7BC6E5F /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				F2D01D52FCCD54FDB70D1EB649E78712 /* BEGameController.h */,
+				8F906A9453AA6435A471CF051675F1F3 /* BEGameController.m */,
+				949F74E0BCC99A9519E0D99279D22A91 /* BEModelCache.h */,
+				021E9C74E462F233C86DD10FA83DBBD6 /* BEModelCache.m */,
+				ED77953A13876A973F2BD2925DA54D25 /* BEMotionManager.h */,
+				4017007CE0FAE05842EAA3649DE3467C /* BEMotionManager.m */,
+				9967E8F4A4929A2F3C25EFCEB3326CF6 /* BEPanoramaView.h */,
+				98A6590057F7BDE3AC7DEA9F765ABD8F /* BEPanoramaView.m */,
+				145B1020BD278F7DCE689ECA37512D78 /* BERenderer.h */,
+				1B4AD910916A1D99A4D9EC91A65FFCE8 /* BERenderer.m */,
+				D177B216B7C041A7C379A85D03BA87B3 /* BEResource.h */,
+				5C44C213AD36335916031285DCEE7346 /* BEResource.m */,
+				FC8A00CBF2AEF5269CD5D9ACA901EE65 /* BERunLoop.h */,
+				3CE55C039700B4A22781FDBD16BF980F /* BERunLoop.m */,
+				6D5F5AD1492113DC12B2CA061571214F /* BEView.h */,
+				71E7B24F5BD6AF207465DBB9603369AD /* BEView.m */,
+				AF189ABB66BE3E4D634C46531CA00B58 /* Mac */,
+			);
+			name = Interface;
+			path = Interface;
 			sourceTree = "<group>";
 		};
 		DAAEB45E5C276533BBA2FA1587288062 /* Targets Support Files */ = {
@@ -553,18 +641,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E3FF3B7596ADF6AA72AD89221E639370 /* Support Files */ = {
+		E3C62B39573BF8A755ECF5295772719D /* BohdiEngine */ = {
 			isa = PBXGroup;
 			children = (
-				D2538E4C4CAB94E9450124FBC5421D4D /* BohdiEngine.modulemap */,
-				4883105583F173EB78F21E1869531123 /* BohdiEngine.xcconfig */,
-				178C08077413F7CE427787DEE650B173 /* BohdiEngine-dummy.m */,
-				DACB1BED144F335496DEBD68BB7EBA2B /* BohdiEngine-prefix.pch */,
-				D070C547B6CBFEB86901F6AFD4B78C7B /* BohdiEngine-umbrella.h */,
-				4DC501806C0D6DC6AB9E929A3E37CFCC /* Info.plist */,
+				11BC9BFB7AA8087E020E4F77E4274AA1 /* Classes */,
+				338A3B46DBD973596386EA3B9692A54C /* External */,
+				4E4E66ADEFF7F65D515EA9FBCD142713 /* Pod */,
+				9F5FE91F5A9CF69EB18E77F7F8835652 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/BohdiEngine";
+			name = BohdiEngine;
+			path = "../../pods/BohdiEngine-pod";
 			sourceTree = "<group>";
 		};
 		FA7AC8429882A95AA0810A9DCDED54FF /* OS X */ = {
@@ -586,84 +672,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74D8E361AAA2173018DC30FFC273A7C0 /* Headers */ = {
+		A8AB1682DDF08DBE53F2F469AE591E26 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731A6F8DAC3EC2EB88B7201567B45213 /* BAMtlParser.h in Headers */,
-				66B2EB589E0ED420D8A28D295443FBD8 /* BAObjParser.h in Headers */,
-				DD4D934D1FE651D648A0472975D4C187 /* BATrianglization.h in Headers */,
-				21854332ED8A049BAFB525CDD444933E /* BE2DTextureData.h in Headers */,
-				F592F23BC4A723F08E13A1ED4239BA22 /* BEAssetsManager.h in Headers */,
-				A8BE684B8F83E3A9CDC7B61645E8FB9B /* BECubeTextureData.h in Headers */,
-				23D267E88CE732A92549956C053939C9 /* BEGameController.h in Headers */,
-				886C5D0A9E54F99B24FAFA62E8CD2A65 /* BEModelCache.h in Headers */,
-				4A5505C9B614C9D5D395E4ADCDBF6230 /* BEMotionManager.h in Headers */,
-				D8E6614C50D1B77AE6E465C809493084 /* BENSView.h in Headers */,
-				1BE5BDCBC2F57DAB5CB31A2715863BC1 /* BEPanoramaView.h in Headers */,
-				914C47493CE379827C04AE05CAD97B44 /* BERenderer.h in Headers */,
-				EC4A3BCC13BA71AE0B728E6EDD64072C /* BERendererCAPI.h in Headers */,
-				6268B82DD07BB15FA4B618CDC0F9E0EB /* BEResource.h in Headers */,
-				88A60FEE25EC9466A3F3A7EB9F229613 /* BERunLoop.h in Headers */,
-				D6E2289B05145467646306CFC509BF42 /* BEView.h in Headers */,
-				DF4ECB181CC86A2AC5866C8838A21C14 /* BohdiEngine-umbrella.h in Headers */,
-				DD2F75DECB1BB2EA85E457C3E94D25EC /* image_DXT.h in Headers */,
-				DF4792C7249F15C8D9A98708B9874F41 /* image_helper.h in Headers */,
-				8989B00A53E685B3D8104CF12A73616F /* MC2DTex.h in Headers */,
-				A66B538B5F65B2A54E059197C861601F /* MC3DAxis.h in Headers */,
-				B776676C0B9B831F9AB757D4BC786BA2 /* MC3DBase.h in Headers */,
-				E97A953221D602B414AD5973792AB13A /* MC3DModel.h in Headers */,
-				9E77C85FC50B8109211FE22F1F128879 /* MC3DModelCache.h in Headers */,
-				BFA74F421408C08DBD0DBD5CCCE85E5E /* MC3DNode.h in Headers */,
-				CDA5A5CD3FE0C4B04F84AC67F24D6977 /* MC3DScene.h in Headers */,
-				FBE04E5B62233F44E4E9C77758F6285F /* MC3DShapeBase.h in Headers */,
-				9CBE15D489D27B0F232C3EF9FB5F604F /* MCArray.h in Headers */,
-				36E44853E7F4BFAD1215E02BDE6D9D9D /* MCArrayLinkedList.h in Headers */,
-				048C1DAC125EE5AE64F931443410ECD6 /* MCBits.h in Headers */,
-				8C92279B1C1C73F0599E5B49BF75EE53 /* MCBuffer.h in Headers */,
-				9F8CD6E8DC90E49FA5C114606670D294 /* MCCamera.h in Headers */,
-				DD2D92FFA5C9FA40D38E86CC082032D7 /* MCClock.h in Headers */,
-				E8F6CFE33C64BBB44B221D3E9E51F4FF /* MCContext.h in Headers */,
-				AD21246E4FEE673D55BDFE62606E9303 /* MCCube.h in Headers */,
-				553D0483C07AEC4DD11A5373505DB0E9 /* MCDirector.h in Headers */,
-				E1A8632122B8BCD71E934AD96489023D /* MCException.h in Headers */,
-				6EE01981DFF9A871F12354FCE71FAF1D /* MCGeometry.h in Headers */,
-				8D33F327590972C96DA03D2AE004006F /* MCGLBase.h in Headers */,
-				9E7540E18954DE1CC78560A8C3CF071A /* MCGLContext.h in Headers */,
-				B4A1CD57C23AD597DAFFCE49429B6A0A /* MCGLEngine.h in Headers */,
-				EFB3EBBE5D3B3E6D288376D9F9C25AEA /* MCGLRenderer.h in Headers */,
-				69E706073E68DE96BDF80B7E45EA473B /* MCGraph.h in Headers */,
-				C0224B993785677B59D63B329CD527D4 /* MCHeap.h in Headers */,
-				A491B223272F65D412C8025B2CB496E1 /* MCIO.h in Headers */,
-				DC4260FCAF98A992C0D75298A1ADF7CF /* MCJNI.h in Headers */,
-				13882486349C03B7E9EA553C10319D67 /* MCLexer.h in Headers */,
-				E14AACF93935C014F75A8ED6170BA7C9 /* MCLight.h in Headers */,
-				94716E2091D0FF01B8A40500A14E1730 /* MCLinkedList.h in Headers */,
-				66C6F4142432E3966D76758B6AE1DC35 /* MCMap.h in Headers */,
-				8E070FAB1E01F5C9E8FB4DC6136A3117 /* MCMaterial.h in Headers */,
-				A214E70AE4FF1E987F6532B3B4E4DFE5 /* MCMath.h in Headers */,
-				C57223FB60746DAC331426B9790F38D5 /* MCMesh.h in Headers */,
-				7227127FB7B689E0D3814C64555338E4 /* MCOrbit.h in Headers */,
-				88486213C7C9873A2698E7536AA740C0 /* MCPanel.h in Headers */,
-				14D9AE44095A4BA5750505CE6D421809 /* MCProcess.h in Headers */,
-				E8DA021D391D55014642DEAB0EBFBC78 /* MCSet.h in Headers */,
-				AC677AD8BB1162ABDF44426A3FFA50DD /* MCSkybox.h in Headers */,
-				0222EF0F6375D2E0D8117CE98F925D79 /* MCSkysphere.h in Headers */,
-				6BB94CEF26D2C2CB8777BCD04DE62D46 /* MCSocket.h in Headers */,
-				14DA3E9A5D40B26F6425A734964012F5 /* MCSort.h in Headers */,
-				D28A1BC8CB96DE34C9D9E3E545E4FE03 /* MCString.h in Headers */,
-				24D656314172F8FC0ACD631F50E6798B /* MCTexture.h in Headers */,
-				8EB72B3E5A95B4AE6A9415621F2C9A1C /* MCTextureCache.h in Headers */,
-				570E33E82F8298160B4A9AA9FDF4D945 /* MCThread.h in Headers */,
-				8F2450D978E248586C7D3EB231CA4E80 /* MCTree.h in Headers */,
-				A9569948D9F2392CB9133F7C7B3ACCFD /* MCUIBase.h in Headers */,
-				E91268C03E0FA1992578CD31D7DB4C3C /* MCUnitTest.h in Headers */,
-				A0B62A48A3757499357908DBD4803CD9 /* MCWorld.h in Headers */,
-				BFFC1D857C4C5DADFD4B9FB83FB83AAC /* monkc.h in Headers */,
-				05C4D4CBDA01348EB4F4FBF98C3894D8 /* SOIL.h in Headers */,
-				D50DE05EB5F78239B49DDA74444E6AC1 /* stb_image_aug.h in Headers */,
-				60BDFA20B7FE12A11EFA2E19E94E7640 /* stbi_DDS_aug.h in Headers */,
-				BE9523F218C89C0BC72BF222498A3D9E /* stbi_DDS_aug_c.h in Headers */,
+				F51742A7D8804218BB77767985FC229C /* BAMtlParser.h in Headers */,
+				CFE7396A0B235BCE87036FE23698ECC1 /* BAObjParser.h in Headers */,
+				DF2A63A7340E755FBC28F9DA35E682E8 /* BATrianglization.h in Headers */,
+				E1EB4B0573C66A0A95A0C624E220FE3A /* BE2DTextureData.h in Headers */,
+				5BBBAE41BA3E08638D95A8989EB05675 /* BEAssetsManager.h in Headers */,
+				985153A0596F3ABDC669FE715E0C5BBC /* BECubeTextureData.h in Headers */,
+				29A3B900DA06A265DB3B0857C9FA3018 /* BEGameController.h in Headers */,
+				6054FCF724053CDA8FC63C46071862F9 /* BEModelCache.h in Headers */,
+				14459C945DA7D122F0C40B1F43D841A2 /* BEMotionManager.h in Headers */,
+				258CDEC6A4FF0A30185958369513BB35 /* BENSView.h in Headers */,
+				888723ADC39982C336B3EF61FA443775 /* BEPanoramaView.h in Headers */,
+				93E9056674177D9A34485A1F1D209707 /* BERenderer.h in Headers */,
+				71AA13AE85615FC34635316DADB33FA0 /* BERendererCAPI.h in Headers */,
+				C758F2DEC9642B0807CE6EF89AF7BFD8 /* BEResource.h in Headers */,
+				8BEE5BD4B6552980D5C0C9C8A58A90C0 /* BERunLoop.h in Headers */,
+				97B50E6AE72D6B3502A485B6E275209F /* BEView.h in Headers */,
+				82053367BC0A3EF6A512746CE1CEB8D2 /* BohdiEngine-umbrella.h in Headers */,
+				608F36FE69D6EFF3B40BFE5AA26E4993 /* image_DXT.h in Headers */,
+				739A31FA1A4680F45ED34EA2F42E7467 /* image_helper.h in Headers */,
+				3F26EC9A900C0A6D0445562BBD66800D /* MC2DTex.h in Headers */,
+				5F522C792055AB39780B46C7BAC38728 /* MC3DAxis.h in Headers */,
+				3706E0B26108D6F2889ABDCF19C3F685 /* MC3DBase.h in Headers */,
+				8CDEA1D6521CAE4BA5A902AD4F770978 /* MC3DModel.h in Headers */,
+				3C9E342F8EC2D173E7807CA16ADBF829 /* MC3DModelCache.h in Headers */,
+				B47F3153DD921F0E3B27A05BD8C69E7F /* MC3DNode.h in Headers */,
+				3F382F20699EA427D4FC75D5892D4493 /* MC3DScene.h in Headers */,
+				8D9F40772B573E05BA5DA6F516ACF6AA /* MC3DShapeBase.h in Headers */,
+				53D4DA2C4A5EA233EA239651E2005CD0 /* MCArray.h in Headers */,
+				7AE6A2C148AE7FFEAB3F4B1510255DC1 /* MCArrayLinkedList.h in Headers */,
+				470EE54DE6BB28CC888A1D8BE6F07C1F /* MCBits.h in Headers */,
+				1547E4B9680B81FBD5D61CB4AD3B7540 /* MCBuffer.h in Headers */,
+				CA86E551D4B30B4732BAE75053429AA9 /* MCCamera.h in Headers */,
+				93FEE6FFDEC19F34279C5FF64711D0E3 /* MCClock.h in Headers */,
+				3E012C4B912FA2C56C56B247940EE884 /* MCContext.h in Headers */,
+				227343FEC422AE6B51A9DA3EF2DFC462 /* MCCube.h in Headers */,
+				80A18AAE6543A0BE173AB8DBCFAC92DD /* MCDirector.h in Headers */,
+				0EF0C9D509CB58144398B0535822FCA8 /* MCException.h in Headers */,
+				80323B2A55A9353AB12CD17820CE5C89 /* MCGeometry.h in Headers */,
+				D60571535D125EE57511E44FC14B175A /* MCGLBase.h in Headers */,
+				E2C044BBF3C46EE3ABE5FA8A9FC61515 /* MCGLContext.h in Headers */,
+				B3B294724A08DED79BDB615852A93963 /* MCGLRenderer.h in Headers */,
+				C399814BE3241066A0C74B85A8DBD143 /* MCGLShader.h in Headers */,
+				F8F91CC3D001C8A2845C9831A528AD34 /* MCGraph.h in Headers */,
+				4904885DCA595869D72DC91F1DFA82B8 /* MCHeap.h in Headers */,
+				788A5AB4A47C9C754C71D0B62FA61020 /* MCIO.h in Headers */,
+				7C905EA21B194AEBFDD9D58A87850CE8 /* MCJNI.h in Headers */,
+				3C31F127007BE3D76FE409A17BDFCF25 /* MCLexer.h in Headers */,
+				FABCE3EF4330B8554273575EBFA8908B /* MCLight.h in Headers */,
+				23EABEE762D9C04F62B2EB66FEF52868 /* MCLinkedList.h in Headers */,
+				FE7F57C468D8742CD0B2C812D8014F47 /* MCMap.h in Headers */,
+				72B5096017EC8C4E9859A28F2D477284 /* MCMaterial.h in Headers */,
+				3BE9CB83D482E2DE68FBA7E3A2E45A4B /* MCMath.h in Headers */,
+				2A9ACF6D31EFED50F21CAD169A920C5D /* MCMesh.h in Headers */,
+				9F4C5BE6317CF980BBD409100B8E0A29 /* MCOrbit.h in Headers */,
+				F17797D45DBD7D041041A4953B0C5BC5 /* MCPanel.h in Headers */,
+				8819E5621F0F8E1FBB1F87118D7E53B5 /* MCProcess.h in Headers */,
+				C2A4834EB118297E0D0C580F64111E7D /* MCSet.h in Headers */,
+				87A1658CECC6BAF0A61AB64EC42D7F40 /* MCSkybox.h in Headers */,
+				F4F86760D7A0A72E72BF59F9019D7008 /* MCSkysphere.h in Headers */,
+				0A5E1FA9A8707F890B82EC87E8B62089 /* MCSocket.h in Headers */,
+				748AB45E871A6426717F204F677AC0E0 /* MCSort.h in Headers */,
+				E753EC5A4816927A8D61D59285A97494 /* MCString.h in Headers */,
+				AC2BE8424935F9A0C9F2D2787CD0434A /* MCTexture.h in Headers */,
+				3E24E17E8EEE7F2A17EF759C1B098BD9 /* MCTextureCache.h in Headers */,
+				5E16C75D53F7E0E48EEB28B4D65C0393 /* MCThread.h in Headers */,
+				4DDB00813D8FECE30949A5A4F5A3D1CE /* MCTree.h in Headers */,
+				E0A4D828486DCC32280C1F0C7EE809A2 /* MCUIBase.h in Headers */,
+				1EAF4405A6E72C60862155DDBB21917E /* MCUnitTest.h in Headers */,
+				403C03FCF4294CE5249CAE385C85688A /* MCWorld.h in Headers */,
+				3F7A20857A478BAC7CFC256D11FF435F /* monkc.h in Headers */,
+				FF981573252815A7D15BDDBDDC1720E6 /* SOIL.h in Headers */,
+				E793618680101BEE89785F867024E471 /* stb_image_aug.h in Headers */,
+				A7DD2FA6E9A082384C6555949828ECF3 /* stbi_DDS_aug.h in Headers */,
+				94532ED121A33FE5983559D332EC57C7 /* stbi_DDS_aug_c.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,9 +778,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1E11D6ABE895901BEB1CAC8FD7B8B48 /* Build configuration list for PBXNativeTarget "BohdiEngine" */;
 			buildPhases = (
-				C6EF1AF45E2BF349182AA5A86936002A /* Sources */,
+				A1B3AA8EF4CF8D92508C0F4CB2C5848A /* Sources */,
 				1AB5C4475676F82F59D338DAE7282941 /* Frameworks */,
-				74D8E361AAA2173018DC30FFC273A7C0 /* Headers */,
+				A8AB1682DDF08DBE53F2F469AE591E26 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -741,76 +827,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6EF1AF45E2BF349182AA5A86936002A /* Sources */ = {
+		A1B3AA8EF4CF8D92508C0F4CB2C5848A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEB8D6C5B8810125861DAEB62D29768F /* BAMtlParser.c in Sources */,
-				F96B293EC7F3C13D64FC64743DF16CE9 /* BAObjParser.c in Sources */,
-				C51411C77A1976051CB3ED5628375E7B /* BATrianglization.c in Sources */,
-				304C16C87EB1B075E79B46E25D332F4C /* BE2DTextureData.c in Sources */,
-				B70869BBB950DDB8E4D706CAFFCE2900 /* BEAssetsManager.c in Sources */,
-				07C10D224F6201F8C8EBCEA1E12DAC24 /* BECubeTextureData.c in Sources */,
-				C24DFC3495A7EE44E739A27C0E50706E /* BEGameController.m in Sources */,
-				85521FD64EC07EFB8CE2CF606C412852 /* BEModelCache.m in Sources */,
-				40C7DB242D4C9DC2F28FCF058FD8B994 /* BEMotionManager.m in Sources */,
-				035E74235831BCB7A4C84B9096867B40 /* BENSView.m in Sources */,
-				B5386ECD70AD2ABCF9117B9ED57B00FD /* BEPanoramaView.m in Sources */,
-				916182E385B9D3383AF757C72FC1B049 /* BERenderer.m in Sources */,
-				7372DF2CF55D2E3A09C84628622AA103 /* BERendererCAPI.c in Sources */,
-				D2594B46D2A1DD61593E5A9B8E1B97F3 /* BEResource.m in Sources */,
-				C3B1E6F27418A442C38C01BD18E64250 /* BERunLoop.m in Sources */,
-				F77BA914EF1BD40C3CD8F709D3F2E2F3 /* BEView.m in Sources */,
-				338A589B2675A4AAD4C750C3E95A8548 /* BohdiEngine-dummy.m in Sources */,
-				8F0695D4477B61822B02BDE67F01C18A /* image_DXT.c in Sources */,
-				3D92B1657E6374F6305F21193F2F6113 /* image_helper.c in Sources */,
-				FA119F96239220DE258E75FBB619D46A /* MC2DTex.c in Sources */,
-				320A467821277484E466A93589615AFA /* MC3DAxis.c in Sources */,
-				39E73AC08193A39E87956C55C8E929AE /* MC3DModel.c in Sources */,
-				108170DC157BE7A3DB9B5097174494EA /* MC3DModelCache.c in Sources */,
-				0E26948DE0B3CA44BCA223C4C605639E /* MC3DNode.c in Sources */,
-				7EE5E94FC432E84F5398F18DD7F40F7C /* MC3DScene.c in Sources */,
-				78C7DDED91779B9D5F5E8CCC9F1CB5A9 /* MCArray.c in Sources */,
-				90D30E1AFF639D951805292A64372B1B /* MCArrayLinkedList.c in Sources */,
-				13F1ED35E22162DAEC9EC145C30E182D /* MCBits.c in Sources */,
-				979CA00C3780E652D0AECB5DE88C140E /* MCBuffer.c in Sources */,
-				7AC13806D4E4A35078370489D10A9339 /* MCCamera.c in Sources */,
-				44CCF3C81A1DC33D11DF4192DDC14CF7 /* MCClock.c in Sources */,
-				AD819F5F95D3E3D277C27C0555542335 /* MCContext.c in Sources */,
-				69CEFAF0456DB03C5894864FA2EBE3F7 /* MCCube.c in Sources */,
-				C3C790756007E1328381EA9124C2E895 /* MCDirector.c in Sources */,
-				72EE9D4671BA4F052136A40782AB97EB /* MCException.c in Sources */,
-				BAFE125D1FCB1700A3B6A72A45D5FDBE /* MCGeometry.c in Sources */,
-				841D49B42753B6CA4F3380225900698D /* MCGLContext.c in Sources */,
-				7D2642A1B8D1D97492704690BD1EDD6B /* MCGLEngine.c in Sources */,
-				04571C388E140081DAE8FA6106B93674 /* MCGLRenderer.c in Sources */,
-				EC95A919FF804739992C27F92CD964CA /* MCGraph.c in Sources */,
-				5740D72E46B6FBD28932DB66CC732EFD /* MCHeap.c in Sources */,
-				B9179FA449C666E0562483182D043703 /* MCIO.c in Sources */,
-				7889A0AC5504811943B510C85CC3E1EF /* MCLight.c in Sources */,
-				E128419269EC294AC7FDF5192B5DB59B /* MCLinkedList.c in Sources */,
-				4DC5BB8AE2ABA7265E92091A53938177 /* MCMap.c in Sources */,
-				9888246F829363FF320EB354A42B9277 /* MCMaterial.c in Sources */,
-				436B95F94845F7FC0323B2E25779D5D1 /* MCMath.c in Sources */,
-				EC7CD8FBC0E0DF4E52D610673CA5D0FA /* MCMesh.c in Sources */,
-				197E260715913776AF0906E93D398AC3 /* MCOrbit.c in Sources */,
-				1F4A9992E7A1D80BAA56DFFBFEDC1CEC /* MCPanel.c in Sources */,
-				A56639C347C29AC2098B805EBBDF4FC8 /* MCProcess.c in Sources */,
-				1BB7B411C580A638244190E29BCE2D44 /* MCSet.c in Sources */,
-				51A4E1082C38DF91513B85B13B49C817 /* MCSkybox.c in Sources */,
-				CE538E21338AB7F45CA0D0951194EECA /* MCSkysphere.c in Sources */,
-				782B7A8A0C332E1E00AA1877B20EF029 /* MCSocket.c in Sources */,
-				B1D83C25A01E06BCA5819B1B01DE746F /* MCSort.c in Sources */,
-				6491D409C69A5999C62A6298741F21C5 /* MCString.c in Sources */,
-				E86145BED010B5BCBB27125D05FDFAF2 /* MCTexture.c in Sources */,
-				6F0CEBE8EAE55C64BA821A05B6025352 /* MCTextureCache.c in Sources */,
-				E2F1788728BC37C2D39298D5A5E52454 /* MCThread.c in Sources */,
-				3B0AADF58DA119B487E66E7B58C2F9C4 /* MCTree.c in Sources */,
-				9B6ECC0D4CBB2D0E3CFC5324B7B72369 /* MCUnitTest.c in Sources */,
-				A1F2624CB79156C68ED860B68BA50E48 /* MCWorld.c in Sources */,
-				4B0308D3F77BDC7366128814C2C0C027 /* monkc.c in Sources */,
-				F540CF20A31BFFFDC686899BD41ED5F9 /* SOIL.c in Sources */,
-				3EFA0B8E47739E662EC06417D9E0C722 /* stb_image_aug.c in Sources */,
+				CE7040D8CA38C6EC6CEFDBCE0C213B35 /* BAMtlParser.c in Sources */,
+				FCC4FDA5865154460FE160647E4D744B /* BAObjParser.c in Sources */,
+				1977235466F406E5DE7554664A6E5944 /* BATrianglization.c in Sources */,
+				64D53BC228854829060D605B39040708 /* BE2DTextureData.c in Sources */,
+				13765068B9C6BD645834873637CA3AD9 /* BEAssetsManager.c in Sources */,
+				19592A292DE1BB19819558CE011A8A47 /* BECubeTextureData.c in Sources */,
+				E1E5389C7E3678A65C68E8C14CDAB64E /* BEGameController.m in Sources */,
+				A12438C8E2C52547AEC2A8F9B2DB9416 /* BEModelCache.m in Sources */,
+				5CD1E342F03175B4E18E4E3478C5D9A7 /* BEMotionManager.m in Sources */,
+				540EA0BB0A0741BE5E1AAE9FAE13D81E /* BENSView.m in Sources */,
+				48DC0BB94A4CD2A5870FDF8F18C3EABE /* BEPanoramaView.m in Sources */,
+				DE349793418971A183CDA02CBF26525C /* BERenderer.m in Sources */,
+				9F88E028E8193F08229381AF664F60EE /* BERendererCAPI.c in Sources */,
+				C3C77478DB83D46F965A1053693640FC /* BEResource.m in Sources */,
+				333C7A2743CC261509EA585562BCB089 /* BERunLoop.m in Sources */,
+				D34F76F55F11CC0D5DD3D833A653D136 /* BEView.m in Sources */,
+				52F63010EEFBAB07D0286059B3ED273E /* BohdiEngine-dummy.m in Sources */,
+				F67DC77A69DB2AA4B570B084BE703F21 /* image_DXT.c in Sources */,
+				9FD1B5A4DAFA9EB2F6D72753FE4A70C3 /* image_helper.c in Sources */,
+				FB15EE5EFC5E6632E152807F64C972E5 /* MC2DTex.c in Sources */,
+				19DBE713FB4F474140F7CCCEED5E5366 /* MC3DAxis.c in Sources */,
+				74DFB07CFDBB5823C6C78C0EDC645451 /* MC3DModel.c in Sources */,
+				159F12988382173F198A86CB9E0F0071 /* MC3DModelCache.c in Sources */,
+				A0AC317081634CA02CA0CD0FB86C2464 /* MC3DNode.c in Sources */,
+				23EBCBD62711919D83D4E1F81C4507F2 /* MC3DScene.c in Sources */,
+				F5FECB565CF29DCAB3C7B5777B871184 /* MCArray.c in Sources */,
+				5BC56FABFDBFBEFD0AD944BEF58A6F8C /* MCArrayLinkedList.c in Sources */,
+				08F8204A52132252C8278B5CBF48EE06 /* MCBits.c in Sources */,
+				DA95E79A64F80BEB450AD552060389C1 /* MCBuffer.c in Sources */,
+				9C4DC8AD16DE4E8B065601A9D1291635 /* MCCamera.c in Sources */,
+				B038170E3F6ECD602260D6DAD1375F5B /* MCClock.c in Sources */,
+				1F47CDB2ECF5E1F88488F040E2E8B778 /* MCContext.c in Sources */,
+				E35C9FD47F348411AFE256B230260CA6 /* MCCube.c in Sources */,
+				C7A3CDC3E59F00356130993661DA6561 /* MCDirector.c in Sources */,
+				F2CBC901E44250FC26A7CF0D8119E182 /* MCException.c in Sources */,
+				68F99F23435CB5EE319E6A264B6BC64B /* MCGeometry.c in Sources */,
+				BEBBA07FFDFA2462DEAB54C4FC1390AC /* MCGLContext.c in Sources */,
+				1C81A4802C65554E4F3DF3676E7324D1 /* MCGLRenderer.c in Sources */,
+				304EB28DE4B823975FCA61C692AF961E /* MCGLShader.c in Sources */,
+				EA33F4EF577E9912BCE83C35D1466A36 /* MCGraph.c in Sources */,
+				818ADFBE0E6949BF8F3534EC168764DE /* MCHeap.c in Sources */,
+				4D3887A8DB432AC94F5291A60FF2B50D /* MCIO.c in Sources */,
+				4B37BBE6ADF5372EB2879F26EE52AB27 /* MCLight.c in Sources */,
+				AAABB757EEC884A41F0CE9B58257F509 /* MCLinkedList.c in Sources */,
+				145F886A0F2A3F56A7734BC008F4345C /* MCMap.c in Sources */,
+				786C5B62844AF810C78AC49A1D78319B /* MCMaterial.c in Sources */,
+				9966613870F6D942B1D9C3340A53C38D /* MCMath.c in Sources */,
+				9A0B0BF6568E0E1E17B24EB9EE1527D7 /* MCMesh.c in Sources */,
+				51D2B45468FE2F813F7274D83E449DF9 /* MCOrbit.c in Sources */,
+				E38472DBAD89CFA1FC6894F38C7E6257 /* MCPanel.c in Sources */,
+				CEA40C9DAC701898CA45B5282EA4AF24 /* MCProcess.c in Sources */,
+				9E6CA31C3756109069DFE47E99B8658E /* MCSet.c in Sources */,
+				354D8D0238CB4B0357A32E0D1AD6B6B2 /* MCSkybox.c in Sources */,
+				3D6AD7D00C094190A71C8E2811BE3EFD /* MCSkysphere.c in Sources */,
+				ECA39D6B2C6A1A2AFB098267567AFE80 /* MCSocket.c in Sources */,
+				3A15513B0D481DEC47A3949CB49DB215 /* MCSort.c in Sources */,
+				92142FC5A54E3DE6E8D77F11D3193391 /* MCString.c in Sources */,
+				13C196DA8FA2782198920EF937173668 /* MCTexture.c in Sources */,
+				DE313FA7FB93F3A40A621D8A8D2FAF7B /* MCTextureCache.c in Sources */,
+				11A0F0A6E49211060D078F326003F338 /* MCThread.c in Sources */,
+				A33D6C634917D65F33AB3350685534FF /* MCTree.c in Sources */,
+				186298F4850FD14AC72F331ACFBA80BB /* MCUnitTest.c in Sources */,
+				AB0E745BE0F5E09B4349E890BD0E854C /* MCWorld.c in Sources */,
+				C2D50A8E014A6960B678DB6A1DA5883F /* monkc.c in Sources */,
+				4E7780245A9599785F66861862ABAEEE /* SOIL.c in Sources */,
+				AE6A875791BFACC4FADF9D725E61DC30 /* stb_image_aug.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,7 +949,7 @@
 		};
 		3705D5331FC242B3A5E8316D87E5478F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4883105583F173EB78F21E1869531123 /* BohdiEngine.xcconfig */;
+			baseConfigurationReference = 6AC7A4BDF5FDB8070110C2E05A8E5180 /* BohdiEngine.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -994,7 +1080,7 @@
 		};
 		E559D3088F6A1B5974E26A2F2253A76C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4883105583F173EB78F21E1869531123 /* BohdiEngine.xcconfig */;
+			baseConfigurationReference = 6AC7A4BDF5FDB8070110C2E05A8E5180 /* BohdiEngine.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";

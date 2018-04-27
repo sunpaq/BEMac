@@ -16,8 +16,6 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override var representedObject: Any? {
@@ -29,8 +27,8 @@ class ViewController: NSViewController {
 
     override func viewDidAppear() {
         super.viewDidAppear()
-        //bewindow.renderer.setBackgroundColor(NSColor.black)
-        //bewindow.renderer.doesDrawWireFrame = true
+        bewindow.renderer.setBackgroundColor(NSColor.black)
+        bewindow.renderer.doesDrawWireFrame = true
         bewindow.loadModelNamed("maya-blender.obj")
         bewindow.startDraw3DContent(BECameraRotateAroundModelManual)
     }
