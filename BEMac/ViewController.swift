@@ -27,8 +27,8 @@ class ViewController: NSViewController {
 
     override func viewDidAppear() {
         super.viewDidAppear()
-        bewindow.renderer.setBackgroundColor(NSColor.black)
-        bewindow.renderer.doesDrawWireFrame = true
+        bewindow.renderer.setBackgroundColor(NSColor.darkGray)
+        bewindow.renderer.doesDrawWireFrame = false
         bewindow.loadModelNamed("maya-blender.obj")
         bewindow.startDraw3DContent(BECameraRotateAroundModelManual)
     }
