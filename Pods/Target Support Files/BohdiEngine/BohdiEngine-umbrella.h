@@ -30,6 +30,7 @@
 #import "MCDirector.h"
 #import "MCGLBase.h"
 #import "MCGLContext.h"
+#import "MCGLDefaultShader.h"
 #import "MCGLRenderer.h"
 #import "MCGLShader.h"
 #import "MCLight.h"
