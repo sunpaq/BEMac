@@ -1,5 +1,5 @@
 PODS:
-  - BohdiEngine (1.1.21)
+  - BohdiEngine (1.1.25)
 
 DEPENDENCIES:
   - BohdiEngine (from `https://github.com/sunpaq/BohdiEngine-pod.git`, branch `develop`)
@@ -11,11 +11,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BohdiEngine:
-    :commit: f139227c85b88c33613cf117a607225fa8a3aa2a
+    :commit: bac264e18a2e7ee7ca7eb2cb2ac5b0d55b659ef9
     :git: https://github.com/sunpaq/BohdiEngine-pod.git
 
 SPEC CHECKSUMS:
-  BohdiEngine: 776944256d724626a22ae21be9ad35a794287e6c
+  BohdiEngine: 5d99822e66c6c1f4753f3c138f1d509e8483d322
 
 PODFILE CHECKSUM: 47e1c67d74926bd2cce48622af2865568a844572
 

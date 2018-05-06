@@ -1,14 +1,5 @@
-//
-//  BEMainLoop.c
-//  BEDemo
-//
-//  Created by YuliSun on 16/01/2017.
-//  Copyright © 2017 SODEC. All rights reserved.
-//
-
 #import "BERendererCAPI.h"
 #import "MCDirector.h"
-#import "MCGLEngine.h"
 
 static MCDirector* director = null;
 static float pinch_scale = 10.0;
@@ -115,7 +106,7 @@ void BERemoveCurrentSkysph()
 
 void BESetClearScreenColor(float R, float G, float B, float A)
 {
-    MCGLEngine_setClearScreenColor((MCColorf){R,G,B,A});
+    MCGLContext_setClearScreenColor((MCColorf){R,G,B,A});
 }
 
 void BESetDeviceRotateMat3(float m00, float m01, float m02,
