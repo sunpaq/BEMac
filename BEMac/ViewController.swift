@@ -9,8 +9,6 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
-    //@IBOutlet weak var beview: !
     
     @IBOutlet var bewindow: BENSView!
     
