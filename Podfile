@@ -6,7 +6,7 @@ target 'BEMac' do
   use_frameworks!
 
   # Pods for BEMac
-  #pod 'BohdiEngine', :path => '../pods/BohdiEngine-pod'
+  #pod 'BohdiEngine', :path => '../pods/BohdiEngine-pod', :branch => 'develop'
   pod 'BohdiEngine', :git => 'https://github.com/sunpaq/BohdiEngine-pod.git', :branch => 'develop'
   #pod 'BohdiEngine'
 end

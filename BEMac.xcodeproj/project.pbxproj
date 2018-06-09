@@ -15,6 +15,7 @@
 		FD049CCE208EF0DB00614534 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */; };
 		FD049CD0208EF0DB00614534 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC6208EF0DB00614534 /* maya-blender.obj */; };
 		FD0E4E51208DC64400585800 /* monkey.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD0E4E50208DC64400585800 /* monkey.obj */; };
+		FDCD5D3D20CBFE360052BAD3 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCD5D3C20CBFE360052BAD3 /* GameController.framework */; };
 		FDF72BFA2037CB0E00AFDF72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF72BF92037CB0E00AFDF72 /* AppDelegate.swift */; };
 		FDF72BFC2037CB0E00AFDF72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF72BFB2037CB0E00AFDF72 /* ViewController.swift */; };
 		FDF72BFE2037CB0E00AFDF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF72BFD2037CB0E00AFDF72 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		FD049CC6208EF0DB00614534 /* maya-blender.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "maya-blender.obj"; sourceTree = "<group>"; };
 		FD0E4E50208DC64400585800 /* monkey.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = monkey.obj; path = ../../objs/monkey.obj; sourceTree = "<group>"; };
 		FD3D017B2078BB4400E49ECF /* BEMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		FDCD5D3C20CBFE360052BAD3 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		FDF72BF62037CB0E00AFDF72 /* BEMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF72BF92037CB0E00AFDF72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDF72BFB2037CB0E00AFDF72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDCD5D3D20CBFE360052BAD3 /* GameController.framework in Frameworks */,
 				159A41B339AF55123E99AD38 /* Pods_BEMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +60,7 @@
 		97FB57110A1ECB7D5704ADDD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDCD5D3C20CBFE360052BAD3 /* GameController.framework */,
 				EB8DA4F8822CDF29DD04DF3C /* Pods_BEMac.framework */,
 			);
 			name = Frameworks;
