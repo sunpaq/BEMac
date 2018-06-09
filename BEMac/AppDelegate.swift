@@ -15,6 +15,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         BEResource.shared().detectObjModelNames()
         BEResource.shared().preloadTGATextures()
+        
+        BEGameController.shared().stickFactor = 10.0
+        BEGameController.shared().startUsingGameController()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

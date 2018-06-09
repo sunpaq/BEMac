@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ViewController: NSViewController, BENSViewRenderingDelegate {
     
     @IBOutlet var bewindow: BENSView!
     
@@ -25,10 +25,24 @@ class ViewController: NSViewController {
 
     override func viewDidAppear() {
         super.viewDidAppear()
+                
+        bewindow.delegate = self
         bewindow.renderer.setBackgroundColor(NSColor.darkGray)
         bewindow.renderer.doesDrawWireFrame = false
         bewindow.loadModelNamed("maya-blender.obj")
         bewindow.startDraw3DContent(BECameraRotateAroundModelManual)
+    }
+    
+    func beforeRenderFrame() {
+        if let controller = BEGameController.shared() {
+            if controller.conneted {
+                bewindow.renderer.rotateModel(byPanGesture: controller.leftStick)
+            }
+        }
+    }
+    
+    func afterRenderFrame() {
+        
     }
     
     override func mouseDragged(with event: NSEvent) {
