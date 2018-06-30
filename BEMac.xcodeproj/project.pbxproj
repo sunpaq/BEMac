@@ -15,7 +15,21 @@
 		FD049CCE208EF0DB00614534 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */; };
 		FD049CD0208EF0DB00614534 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC6208EF0DB00614534 /* maya-blender.obj */; };
 		FD0E4E51208DC64400585800 /* monkey.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD0E4E50208DC64400585800 /* monkey.obj */; };
+		FD75F2EE20E73F190095BA13 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC6208EF0DB00614534 /* maya-blender.obj */; };
+		FD75F2EF20E73F210095BA13 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */; };
+		FD75F2F020E73F240095BA13 /* monkey.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD0E4E50208DC64400585800 /* monkey.obj */; };
+		FD75F2F120E73F300095BA13 /* SirenBody_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC2208EF0DB00614534 /* SirenBody_Bm.tga */; };
+		FD75F2F220E73F330095BA13 /* maya-blender.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC1208EF0DB00614534 /* maya-blender.mtl */; };
+		FD75F2F320E73F370095BA13 /* Mouth.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CBE208EF0DB00614534 /* Mouth.tga */; };
+		FD75F2F420E73F3A0095BA13 /* SirenHead_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CBD208EF0DB00614534 /* SirenHead_Bm.tga */; };
 		FDCD5D3D20CBFE360052BAD3 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCD5D3C20CBFE360052BAD3 /* GameController.framework */; };
+		FDE7E35120CD29E4007162C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7E35020CD29E4007162C5 /* AppDelegate.swift */; };
+		FDE7E35320CD29E4007162C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7E35220CD29E4007162C5 /* ViewController.swift */; };
+		FDE7E35620CD29E4007162C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE7E35420CD29E4007162C5 /* Main.storyboard */; };
+		FDE7E35820CD29E5007162C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE7E35720CD29E5007162C5 /* Assets.xcassets */; };
+		FDE7E35B20CD29E5007162C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE7E35920CD29E5007162C5 /* LaunchScreen.storyboard */; };
+		FDE7E36220CD2C68007162C5 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE7E36120CD2C68007162C5 /* GameController.framework */; };
+		FDE7E36420CD2C6F007162C5 /* Pods_BEIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE7E36320CD2C6F007162C5 /* Pods_BEIOS.framework */; };
 		FDF72BFA2037CB0E00AFDF72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF72BF92037CB0E00AFDF72 /* AppDelegate.swift */; };
 		FDF72BFC2037CB0E00AFDF72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF72BFB2037CB0E00AFDF72 /* ViewController.swift */; };
 		FDF72BFE2037CB0E00AFDF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF72BFD2037CB0E00AFDF72 /* Assets.xcassets */; };
@@ -24,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		16207517EED5503FBCC998E4 /* Pods-BEMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-BEMac/Pods-BEMac.release.xcconfig"; sourceTree = "<group>"; };
+		7DEE4B8B8364637B1097FBA3 /* Pods-BEIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEIOS/Pods-BEIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C4E017AF20F4ACFD927C955E /* Pods-BEIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BEIOS/Pods-BEIOS.release.xcconfig"; sourceTree = "<group>"; };
+		C6B7B80DAC1108281952BEF3 /* Pods_BEIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8DA4F8822CDF29DD04DF3C /* Pods_BEMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F448423C52BA2C4BB3B78B42 /* Pods-BEMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEMac/Pods-BEMac.debug.xcconfig"; sourceTree = "<group>"; };
 		FD049CBD208EF0DB00614534 /* SirenHead_Bm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHead_Bm.tga; sourceTree = "<group>"; };
@@ -34,7 +51,18 @@
 		FD049CC6208EF0DB00614534 /* maya-blender.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "maya-blender.obj"; sourceTree = "<group>"; };
 		FD0E4E50208DC64400585800 /* monkey.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = monkey.obj; path = ../../objs/monkey.obj; sourceTree = "<group>"; };
 		FD3D017B2078BB4400E49ECF /* BEMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD75F2EA20E7380C0095BA13 /* BohdiEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BohdiEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCD5D3C20CBFE360052BAD3 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		FDE7E34E20CD29E4007162C5 /* BEIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE7E35020CD29E4007162C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDE7E35220CD29E4007162C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDE7E35520CD29E4007162C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE7E35720CD29E5007162C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE7E35A20CD29E5007162C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDE7E35C20CD29E5007162C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE7E36020CD2B41007162C5 /* BEIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEIOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		FDE7E36120CD2C68007162C5 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		FDE7E36320CD2C6F007162C5 /* Pods_BEIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BEIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF72BF62037CB0E00AFDF72 /* BEMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF72BF92037CB0E00AFDF72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDF72BFB2037CB0E00AFDF72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +73,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FDE7E34B20CD29E4007162C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE7E36420CD2C6F007162C5 /* Pods_BEIOS.framework in Frameworks */,
+				FDE7E36220CD2C68007162C5 /* GameController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDF72BF32037CB0E00AFDF72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,8 +97,12 @@
 		97FB57110A1ECB7D5704ADDD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD75F2EA20E7380C0095BA13 /* BohdiEngine.framework */,
+				FDE7E36320CD2C6F007162C5 /* Pods_BEIOS.framework */,
 				FDCD5D3C20CBFE360052BAD3 /* GameController.framework */,
+				FDE7E36120CD2C68007162C5 /* GameController.framework */,
 				EB8DA4F8822CDF29DD04DF3C /* Pods_BEMac.framework */,
+				C6B7B80DAC1108281952BEF3 /* Pods_BEIOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,6 +112,8 @@
 			children = (
 				F448423C52BA2C4BB3B78B42 /* Pods-BEMac.debug.xcconfig */,
 				16207517EED5503FBCC998E4 /* Pods-BEMac.release.xcconfig */,
+				7DEE4B8B8364637B1097FBA3 /* Pods-BEIOS.debug.xcconfig */,
+				C4E017AF20F4ACFD927C955E /* Pods-BEIOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -98,11 +141,26 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		FDE7E34F20CD29E4007162C5 /* BEIOS */ = {
+			isa = PBXGroup;
+			children = (
+				FDE7E35020CD29E4007162C5 /* AppDelegate.swift */,
+				FDE7E35220CD29E4007162C5 /* ViewController.swift */,
+				FDE7E35420CD29E4007162C5 /* Main.storyboard */,
+				FDE7E35720CD29E5007162C5 /* Assets.xcassets */,
+				FDE7E35920CD29E5007162C5 /* LaunchScreen.storyboard */,
+				FDE7E35C20CD29E5007162C5 /* Info.plist */,
+				FDE7E36020CD2B41007162C5 /* BEIOS-Bridging-Header.h */,
+			);
+			path = BEIOS;
+			sourceTree = "<group>";
+		};
 		FDF72BED2037CB0E00AFDF72 = {
 			isa = PBXGroup;
 			children = (
 				FD0E4E172081B8EF00585800 /* Assets */,
 				FDF72BF82037CB0E00AFDF72 /* BEMac */,
+				FDE7E34F20CD29E4007162C5 /* BEIOS */,
 				FDF72BF72037CB0E00AFDF72 /* Products */,
 				A9818C9843BD1DBA4656933A /* Pods */,
 				97FB57110A1ECB7D5704ADDD /* Frameworks */,
@@ -113,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				FDF72BF62037CB0E00AFDF72 /* BEMac.app */,
+				FDE7E34E20CD29E4007162C5 /* BEIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +193,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FDE7E34D20CD29E4007162C5 /* BEIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE7E35D20CD29E5007162C5 /* Build configuration list for PBXNativeTarget "BEIOS" */;
+			buildPhases = (
+				ADDCEED434BBA73D91EB47D0 /* [CP] Check Pods Manifest.lock */,
+				FDE7E34A20CD29E4007162C5 /* Sources */,
+				FDE7E34B20CD29E4007162C5 /* Frameworks */,
+				FDE7E34C20CD29E4007162C5 /* Resources */,
+				C92C228D81139F67B1522C00 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEIOS;
+			productName = BEIOS;
+			productReference = FDE7E34E20CD29E4007162C5 /* BEIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FDF72BF52037CB0E00AFDF72 /* BEMac */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDF72C062037CB0E00AFDF72 /* Build configuration list for PBXNativeTarget "BEMac" */;
@@ -159,10 +237,14 @@
 		FDF72BEE2037CB0E00AFDF72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "孙御礼";
 				TargetAttributes = {
+					FDE7E34D20CD29E4007162C5 = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+					};
 					FDF72BF52037CB0E00AFDF72 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0930;
@@ -184,11 +266,29 @@
 			projectRoot = "";
 			targets = (
 				FDF72BF52037CB0E00AFDF72 /* BEMac */,
+				FDE7E34D20CD29E4007162C5 /* BEIOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FDE7E34C20CD29E4007162C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD75F2F320E73F370095BA13 /* Mouth.tga in Resources */,
+				FD75F2EF20E73F210095BA13 /* SirenHands_Dif.tga in Resources */,
+				FDE7E35B20CD29E5007162C5 /* LaunchScreen.storyboard in Resources */,
+				FDE7E35820CD29E5007162C5 /* Assets.xcassets in Resources */,
+				FD75F2EE20E73F190095BA13 /* maya-blender.obj in Resources */,
+				FD75F2F420E73F3A0095BA13 /* SirenHead_Bm.tga in Resources */,
+				FD75F2F220E73F330095BA13 /* maya-blender.mtl in Resources */,
+				FD75F2F020E73F240095BA13 /* monkey.obj in Resources */,
+				FDE7E35620CD29E4007162C5 /* Main.storyboard in Resources */,
+				FD75F2F120E73F300095BA13 /* SirenBody_Bm.tga in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDF72BF42037CB0E00AFDF72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,7 +333,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BEMac/Pods-BEMac-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BohdiEngine/BohdiEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/BohdiEngine-macOS/BohdiEngine.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -244,9 +344,54 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEMac/Pods-BEMac-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		ADDCEED434BBA73D91EB47D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BEIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92C228D81139F67B1522C00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BEIOS/Pods-BEIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BohdiEngine-iOS/BohdiEngine.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BohdiEngine.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEIOS/Pods-BEIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FDE7E34A20CD29E4007162C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE7E35320CD29E4007162C5 /* ViewController.swift in Sources */,
+				FDE7E35120CD29E4007162C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDF72BF22037CB0E00AFDF72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +404,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		FDE7E35420CD29E4007162C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE7E35520CD29E4007162C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE7E35920CD29E5007162C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE7E35A20CD29E5007162C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		FDF72BFF2037CB0E00AFDF72 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,6 +431,55 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FDE7E35E20CD29E5007162C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEE4B8B8364637B1097FBA3 /* Pods-BEIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7BTEXA73U;
+				INFOPLIST_FILE = BEIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oreisoft.BEIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_OBJC_BRIDGING_HEADER = "BEIOS/BEIOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		FDE7E35F20CD29E5007162C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E017AF20F4ACFD927C955E /* Pods-BEIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7BTEXA73U;
+				INFOPLIST_FILE = BEIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oreisoft.BEIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_OBJC_BRIDGING_HEADER = "BEIOS/BEIOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
 		FDF72C042037CB0E00AFDF72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -324,9 +534,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx ios";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
 		};
@@ -377,8 +588,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx ios";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Release;
 		};
@@ -438,6 +650,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FDE7E35D20CD29E5007162C5 /* Build configuration list for PBXNativeTarget "BEIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE7E35E20CD29E5007162C5 /* Debug */,
+				FDE7E35F20CD29E5007162C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FDF72BF12037CB0E00AFDF72 /* Build configuration list for PBXProject "BEMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
