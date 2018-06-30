@@ -1,0 +1,6 @@
+framework module Pods_BEIOS {
+  umbrella header "Pods-BEIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

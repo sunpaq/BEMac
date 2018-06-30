@@ -1,0 +1,6 @@
+framework module BohdiEngine {
+  umbrella header "BohdiEngine-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

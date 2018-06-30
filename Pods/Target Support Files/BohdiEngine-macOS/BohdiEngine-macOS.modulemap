@@ -1,5 +1,5 @@
 framework module BohdiEngine {
-  umbrella header "BohdiEngine-umbrella.h"
+  umbrella header "BohdiEngine-macOS-umbrella.h"
 
   export *
   module * { export * }
