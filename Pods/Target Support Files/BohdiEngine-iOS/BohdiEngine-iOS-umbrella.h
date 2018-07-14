@@ -34,6 +34,7 @@
 #import "MCMesh.h"
 #import "MCOrbit.h"
 #import "MCPanel.h"
+#import "MCRenderer.h"
 #import "MCSkybox.h"
 #import "MCSkysphere.h"
 #import "MCTexture.h"
