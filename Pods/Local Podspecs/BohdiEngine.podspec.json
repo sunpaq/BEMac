@@ -19,8 +19,8 @@
     "ios": "9.0",
     "osx": "10.13"
   },
-  "source_files": "BohdiEngine/**/**/*.{h,c,m,metal}",
-  "public_header_files": "BohdiEngine/Classes/**/*.h",
+  "source_files": "BohdiEngine/**/**/**/*.{h,c,m,metal}",
+  "public_header_files": "BohdiEngine/Classes/**/**/*.h",
   "private_header_files": "BohdiEngine/External/**/*.h",
   "frameworks": "MetalKit"
 }
