@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "BEMTContext.h"
 #import "BEMTRenderer.h"
 #import "BEMTShaderTypes.h"
 #import "BEMTView.h"
@@ -45,7 +44,7 @@
 #import "MCMesh.h"
 #import "MCOrbit.h"
 #import "MCPanel.h"
-#import "MCRenderer.h"
+#import "MCShaderTypes.h"
 #import "MCSkybox.h"
 #import "MCSkysphere.h"
 #import "MCTexture.h"
