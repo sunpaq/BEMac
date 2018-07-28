@@ -20,14 +20,16 @@
 #import "MCGLShader.h"
 #import "MCGLSkyboxShader.h"
 #import "MCGLSkysphereShader.h"
+#import "opengl_export.h"
 #import "BALexer.h"
 #import "BAMtlParser.h"
 #import "BAObjParser.h"
 #import "BATrianglization.h"
 #import "BE2DTextureData.h"
 #import "BEAssetsManager.h"
+#import "beassets_export.h"
 #import "BECubeTextureData.h"
-#import "BERendererCAPI.h"
+#import "beengine_export.h"
 #import "MC2DTex.h"
 #import "MC3DAxis.h"
 #import "MC3DBase.h"
@@ -60,6 +62,7 @@
 #import "BERunLoop.h"
 #import "BEView.h"
 #import "BENSView.h"
+#import "MC3DiOS.h"
 #import "MCArray.h"
 #import "MCArrayLinkedList.h"
 #import "MCBits.h"
@@ -84,6 +87,7 @@
 #import "MCTree.h"
 #import "MCUnitTest.h"
 #import "monkc.h"
+#import "monkc_export.h"
 
 FOUNDATION_EXPORT double BohdiEngineVersionNumber;
 FOUNDATION_EXPORT const unsigned char BohdiEngineVersionString[];
