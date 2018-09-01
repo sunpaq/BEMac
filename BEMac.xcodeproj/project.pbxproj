@@ -15,6 +15,7 @@
 		FD049CCE208EF0DB00614534 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */; };
 		FD049CD0208EF0DB00614534 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC6208EF0DB00614534 /* maya-blender.obj */; };
 		FD0E4E51208DC64400585800 /* monkey.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD0E4E50208DC64400585800 /* monkey.obj */; };
+		FD247E0F210C79B800E953E5 /* MTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD247E0E210C79B800E953E5 /* MTViewController.swift */; };
 		FD75F2EE20E73F190095BA13 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC6208EF0DB00614534 /* maya-blender.obj */; };
 		FD75F2EF20E73F210095BA13 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */; };
 		FD75F2F020E73F240095BA13 /* monkey.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD0E4E50208DC64400585800 /* monkey.obj */; };
@@ -50,6 +51,7 @@
 		FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHands_Dif.tga; sourceTree = "<group>"; };
 		FD049CC6208EF0DB00614534 /* maya-blender.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "maya-blender.obj"; sourceTree = "<group>"; };
 		FD0E4E50208DC64400585800 /* monkey.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = monkey.obj; path = ../../objs/monkey.obj; sourceTree = "<group>"; };
+		FD247E0E210C79B800E953E5 /* MTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTViewController.swift; sourceTree = "<group>"; };
 		FD3D017B2078BB4400E49ECF /* BEMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEMac-Bridging-Header.h"; sourceTree = "<group>"; };
 		FD75F2EA20E7380C0095BA13 /* BohdiEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BohdiEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCD5D3C20CBFE360052BAD3 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
@@ -181,6 +183,7 @@
 			children = (
 				FDF72BF92037CB0E00AFDF72 /* AppDelegate.swift */,
 				FDF72BFB2037CB0E00AFDF72 /* ViewController.swift */,
+				FD247E0E210C79B800E953E5 /* MTViewController.swift */,
 				FDF72BFD2037CB0E00AFDF72 /* Assets.xcassets */,
 				FDF72BFF2037CB0E00AFDF72 /* Main.storyboard */,
 				FDF72C022037CB0E00AFDF72 /* Info.plist */,
@@ -398,6 +401,7 @@
 			files = (
 				FDF72BFC2037CB0E00AFDF72 /* ViewController.swift in Sources */,
 				FDF72BFA2037CB0E00AFDF72 /* AppDelegate.swift in Sources */,
+				FD247E0F210C79B800E953E5 /* MTViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
