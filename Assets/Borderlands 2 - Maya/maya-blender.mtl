@@ -1,0 +1,24 @@
+# Exported from 3D Builder
+
+newmtl White_2
+Kd 0.000000 0.000000 0.000000
+map_Kd Mouth.tga
+illum 0
+
+newmtl White_1
+Kd 0.000000 0.000000 0.000000
+map_Kd SirenHead_Bm.tga
+map_Ns SirenHead_Nrm.tga
+illum 0
+
+newmtl White_0
+Kd 0.000000 0.000000 0.000000
+map_Kd SirenBody_Bm.tga
+map_Ns SirenBody_Nrm.tga
+illum 0
+
+newmtl White
+Kd 0.000000 0.000000 0.000000
+map_Kd SirenHands_Dif.tga
+map_Ns SirenHands_Nrm.tga
+illum 0

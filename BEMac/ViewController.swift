@@ -33,7 +33,8 @@ class ViewController: NSViewController, BENSViewRenderingDelegate {
         bewindow.renderer.doesDrawWireFrame = false
         //bewindow.loadModelNamed("monkey.obj")
         //bewindow.loadModelNamed("arcanegolem.obj")
-        bewindow.loadModelNamed("maya.obj")
+        //bewindow.loadModelNamed("maya.obj")
+        bewindow.loadModelNamed("maya-blender.obj")
         bewindow.startDraw3DContent(BECameraRotateAroundModelManual)
     }
     
