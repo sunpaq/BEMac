@@ -16,7 +16,7 @@ class MTViewController: NSViewController {
         super.viewDidLoad()
         // Do view setup here.
         
-        bewindow.loadModelNamed("monkey.obj")
+        //bewindow.loadModelNamed("monkey.obj")
     }
     
 }
