@@ -31,6 +31,9 @@ class ViewController: NSViewController, BENSViewRenderingDelegate {
         bewindow.delegate = self
         bewindow.renderer.setBackgroundColor(NSColor.darkGray)
         bewindow.renderer.doesDrawWireFrame = false
+        //bewindow.loadModelNamed("monkey.obj")
+        //bewindow.loadModelNamed("arcanegolem.obj")
+        //bewindow.loadModelNamed("maya.obj")
         bewindow.loadModelNamed("maya-blender.obj")
         bewindow.startDraw3DContent(BECameraRotateAroundModelManual)
     }

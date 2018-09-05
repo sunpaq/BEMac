@@ -8,20 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		159A41B339AF55123E99AD38 /* Pods_BEMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8DA4F8822CDF29DD04DF3C /* Pods_BEMac.framework */; };
-		FD049CC7208EF0DB00614534 /* SirenHead_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CBD208EF0DB00614534 /* SirenHead_Bm.tga */; };
-		FD049CC8208EF0DB00614534 /* Mouth.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CBE208EF0DB00614534 /* Mouth.tga */; };
-		FD049CCB208EF0DB00614534 /* maya-blender.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC1208EF0DB00614534 /* maya-blender.mtl */; };
-		FD049CCC208EF0DB00614534 /* SirenBody_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC2208EF0DB00614534 /* SirenBody_Bm.tga */; };
-		FD049CCE208EF0DB00614534 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */; };
-		FD049CD0208EF0DB00614534 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC6208EF0DB00614534 /* maya-blender.obj */; };
 		FD0E4E51208DC64400585800 /* monkey.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD0E4E50208DC64400585800 /* monkey.obj */; };
-		FD75F2EE20E73F190095BA13 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC6208EF0DB00614534 /* maya-blender.obj */; };
-		FD75F2EF20E73F210095BA13 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */; };
+		FD247E0F210C79B800E953E5 /* MTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD247E0E210C79B800E953E5 /* MTViewController.swift */; };
+		FD662B7E213C0758000F9F17 /* arcanegolem.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FD662B7A213C0758000F9F17 /* arcanegolem.mtl */; };
+		FD662B7F213C0758000F9F17 /* arcanegolem.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FD662B7A213C0758000F9F17 /* arcanegolem.mtl */; };
+		FD662B80213C0758000F9F17 /* arcanegolem.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD662B7B213C0758000F9F17 /* arcanegolem.obj */; };
+		FD662B81213C0758000F9F17 /* arcanegolem.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD662B7B213C0758000F9F17 /* arcanegolem.obj */; };
+		FD662B82213C0758000F9F17 /* ARMORREFLECT4.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD662B7C213C0758000F9F17 /* ARMORREFLECT4.tga */; };
+		FD662B83213C0758000F9F17 /* ARMORREFLECT4.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD662B7C213C0758000F9F17 /* ARMORREFLECT4.tga */; };
+		FD662B84213C0758000F9F17 /* AG_Model_Mesh_ArcaneDefense.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD662B7D213C0758000F9F17 /* AG_Model_Mesh_ArcaneDefense.tga */; };
+		FD662B85213C0758000F9F17 /* AG_Model_Mesh_ArcaneDefense.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD662B7D213C0758000F9F17 /* AG_Model_Mesh_ArcaneDefense.tga */; };
 		FD75F2F020E73F240095BA13 /* monkey.obj in Resources */ = {isa = PBXBuildFile; fileRef = FD0E4E50208DC64400585800 /* monkey.obj */; };
-		FD75F2F120E73F300095BA13 /* SirenBody_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC2208EF0DB00614534 /* SirenBody_Bm.tga */; };
-		FD75F2F220E73F330095BA13 /* maya-blender.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FD049CC1208EF0DB00614534 /* maya-blender.mtl */; };
-		FD75F2F320E73F370095BA13 /* Mouth.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CBE208EF0DB00614534 /* Mouth.tga */; };
-		FD75F2F420E73F3A0095BA13 /* SirenHead_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD049CBD208EF0DB00614534 /* SirenHead_Bm.tga */; };
+		FD8D3512213C36AA00A35A02 /* SirenHead_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D3507213C36AA00A35A02 /* SirenHead_Bm.tga */; };
+		FD8D3513213C36AA00A35A02 /* SirenHead_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D3507213C36AA00A35A02 /* SirenHead_Bm.tga */; };
+		FD8D3514213C36AA00A35A02 /* Mouth.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D3508213C36AA00A35A02 /* Mouth.tga */; };
+		FD8D3515213C36AA00A35A02 /* Mouth.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D3508213C36AA00A35A02 /* Mouth.tga */; };
+		FD8D351A213C36AA00A35A02 /* SirenBody_Nrm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D350B213C36AA00A35A02 /* SirenBody_Nrm.tga */; };
+		FD8D351B213C36AA00A35A02 /* SirenBody_Nrm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D350B213C36AA00A35A02 /* SirenBody_Nrm.tga */; };
+		FD8D351C213C36AA00A35A02 /* SirenBody_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D350C213C36AA00A35A02 /* SirenBody_Bm.tga */; };
+		FD8D351D213C36AA00A35A02 /* SirenBody_Bm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D350C213C36AA00A35A02 /* SirenBody_Bm.tga */; };
+		FD8D351E213C36AA00A35A02 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D350D213C36AA00A35A02 /* SirenHands_Dif.tga */; };
+		FD8D351F213C36AA00A35A02 /* SirenHands_Dif.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D350D213C36AA00A35A02 /* SirenHands_Dif.tga */; };
+		FD8D3520213C36AA00A35A02 /* SirenHead_Nrm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D350E213C36AA00A35A02 /* SirenHead_Nrm.tga */; };
+		FD8D3521213C36AA00A35A02 /* SirenHead_Nrm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D350E213C36AA00A35A02 /* SirenHead_Nrm.tga */; };
+		FD8D3524213C36AA00A35A02 /* SirenHands_Nrm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D3510213C36AA00A35A02 /* SirenHands_Nrm.tga */; };
+		FD8D3525213C36AA00A35A02 /* SirenHands_Nrm.tga in Resources */ = {isa = PBXBuildFile; fileRef = FD8D3510213C36AA00A35A02 /* SirenHands_Nrm.tga */; };
+		FDC04AFD213C42CA009B7AC9 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FDC04AFB213C42CA009B7AC9 /* maya-blender.obj */; };
+		FDC04AFE213C42CA009B7AC9 /* maya-blender.obj in Resources */ = {isa = PBXBuildFile; fileRef = FDC04AFB213C42CA009B7AC9 /* maya-blender.obj */; };
+		FDC04AFF213C42CA009B7AC9 /* maya-blender.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FDC04AFC213C42CA009B7AC9 /* maya-blender.mtl */; };
+		FDC04B00213C42CA009B7AC9 /* maya-blender.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FDC04AFC213C42CA009B7AC9 /* maya-blender.mtl */; };
 		FDCD5D3D20CBFE360052BAD3 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCD5D3C20CBFE360052BAD3 /* GameController.framework */; };
 		FDE7E35120CD29E4007162C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7E35020CD29E4007162C5 /* AppDelegate.swift */; };
 		FDE7E35320CD29E4007162C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7E35220CD29E4007162C5 /* ViewController.swift */; };
@@ -43,15 +58,23 @@
 		C6B7B80DAC1108281952BEF3 /* Pods_BEIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8DA4F8822CDF29DD04DF3C /* Pods_BEMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F448423C52BA2C4BB3B78B42 /* Pods-BEMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEMac/Pods-BEMac.debug.xcconfig"; sourceTree = "<group>"; };
-		FD049CBD208EF0DB00614534 /* SirenHead_Bm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHead_Bm.tga; sourceTree = "<group>"; };
-		FD049CBE208EF0DB00614534 /* Mouth.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mouth.tga; sourceTree = "<group>"; };
-		FD049CC1208EF0DB00614534 /* maya-blender.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "maya-blender.mtl"; sourceTree = "<group>"; };
-		FD049CC2208EF0DB00614534 /* SirenBody_Bm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenBody_Bm.tga; sourceTree = "<group>"; };
-		FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHands_Dif.tga; sourceTree = "<group>"; };
-		FD049CC6208EF0DB00614534 /* maya-blender.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "maya-blender.obj"; sourceTree = "<group>"; };
 		FD0E4E50208DC64400585800 /* monkey.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = monkey.obj; path = ../../objs/monkey.obj; sourceTree = "<group>"; };
+		FD247E0E210C79B800E953E5 /* MTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTViewController.swift; sourceTree = "<group>"; };
 		FD3D017B2078BB4400E49ECF /* BEMac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD662B7A213C0758000F9F17 /* arcanegolem.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arcanegolem.mtl; sourceTree = "<group>"; };
+		FD662B7B213C0758000F9F17 /* arcanegolem.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arcanegolem.obj; sourceTree = "<group>"; };
+		FD662B7C213C0758000F9F17 /* ARMORREFLECT4.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARMORREFLECT4.tga; sourceTree = "<group>"; };
+		FD662B7D213C0758000F9F17 /* AG_Model_Mesh_ArcaneDefense.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = AG_Model_Mesh_ArcaneDefense.tga; sourceTree = "<group>"; };
 		FD75F2EA20E7380C0095BA13 /* BohdiEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BohdiEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8D3507213C36AA00A35A02 /* SirenHead_Bm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHead_Bm.tga; sourceTree = "<group>"; };
+		FD8D3508213C36AA00A35A02 /* Mouth.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mouth.tga; sourceTree = "<group>"; };
+		FD8D350B213C36AA00A35A02 /* SirenBody_Nrm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenBody_Nrm.tga; sourceTree = "<group>"; };
+		FD8D350C213C36AA00A35A02 /* SirenBody_Bm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenBody_Bm.tga; sourceTree = "<group>"; };
+		FD8D350D213C36AA00A35A02 /* SirenHands_Dif.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHands_Dif.tga; sourceTree = "<group>"; };
+		FD8D350E213C36AA00A35A02 /* SirenHead_Nrm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHead_Nrm.tga; sourceTree = "<group>"; };
+		FD8D3510213C36AA00A35A02 /* SirenHands_Nrm.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SirenHands_Nrm.tga; sourceTree = "<group>"; };
+		FDC04AFB213C42CA009B7AC9 /* maya-blender.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "maya-blender.obj"; sourceTree = "<group>"; };
+		FDC04AFC213C42CA009B7AC9 /* maya-blender.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "maya-blender.mtl"; sourceTree = "<group>"; };
 		FDCD5D3C20CBFE360052BAD3 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		FDE7E34E20CD29E4007162C5 /* BEIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE7E35020CD29E4007162C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,27 +141,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FD049CBC208EF0DB00614534 /* maya2 */ = {
-			isa = PBXGroup;
-			children = (
-				FD049CBD208EF0DB00614534 /* SirenHead_Bm.tga */,
-				FD049CBE208EF0DB00614534 /* Mouth.tga */,
-				FD049CC1208EF0DB00614534 /* maya-blender.mtl */,
-				FD049CC2208EF0DB00614534 /* SirenBody_Bm.tga */,
-				FD049CC4208EF0DB00614534 /* SirenHands_Dif.tga */,
-				FD049CC6208EF0DB00614534 /* maya-blender.obj */,
-			);
-			name = maya2;
-			path = ../../objs/maya2;
-			sourceTree = "<group>";
-		};
 		FD0E4E172081B8EF00585800 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FD049CBC208EF0DB00614534 /* maya2 */,
+				FD8D3506213C36AA00A35A02 /* Borderlands 2 - Maya */,
+				FD662B79213C0758000F9F17 /* Arcanegolem */,
 				FD0E4E50208DC64400585800 /* monkey.obj */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		FD662B79213C0758000F9F17 /* Arcanegolem */ = {
+			isa = PBXGroup;
+			children = (
+				FD662B7A213C0758000F9F17 /* arcanegolem.mtl */,
+				FD662B7B213C0758000F9F17 /* arcanegolem.obj */,
+				FD662B7C213C0758000F9F17 /* ARMORREFLECT4.tga */,
+				FD662B7D213C0758000F9F17 /* AG_Model_Mesh_ArcaneDefense.tga */,
+			);
+			path = Arcanegolem;
+			sourceTree = "<group>";
+		};
+		FD8D3506213C36AA00A35A02 /* Borderlands 2 - Maya */ = {
+			isa = PBXGroup;
+			children = (
+				FDC04AFC213C42CA009B7AC9 /* maya-blender.mtl */,
+				FDC04AFB213C42CA009B7AC9 /* maya-blender.obj */,
+				FD8D3507213C36AA00A35A02 /* SirenHead_Bm.tga */,
+				FD8D3508213C36AA00A35A02 /* Mouth.tga */,
+				FD8D350B213C36AA00A35A02 /* SirenBody_Nrm.tga */,
+				FD8D350C213C36AA00A35A02 /* SirenBody_Bm.tga */,
+				FD8D350D213C36AA00A35A02 /* SirenHands_Dif.tga */,
+				FD8D350E213C36AA00A35A02 /* SirenHead_Nrm.tga */,
+				FD8D3510213C36AA00A35A02 /* SirenHands_Nrm.tga */,
+			);
+			path = "Borderlands 2 - Maya";
 			sourceTree = "<group>";
 		};
 		FDE7E34F20CD29E4007162C5 /* BEIOS */ = {
@@ -181,6 +218,7 @@
 			children = (
 				FDF72BF92037CB0E00AFDF72 /* AppDelegate.swift */,
 				FDF72BFB2037CB0E00AFDF72 /* ViewController.swift */,
+				FD247E0E210C79B800E953E5 /* MTViewController.swift */,
 				FDF72BFD2037CB0E00AFDF72 /* Assets.xcassets */,
 				FDF72BFF2037CB0E00AFDF72 /* Main.storyboard */,
 				FDF72C022037CB0E00AFDF72 /* Info.plist */,
@@ -276,16 +314,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD75F2F320E73F370095BA13 /* Mouth.tga in Resources */,
-				FD75F2EF20E73F210095BA13 /* SirenHands_Dif.tga in Resources */,
+				FD8D3515213C36AA00A35A02 /* Mouth.tga in Resources */,
+				FD8D3525213C36AA00A35A02 /* SirenHands_Nrm.tga in Resources */,
+				FD662B7F213C0758000F9F17 /* arcanegolem.mtl in Resources */,
+				FD662B81213C0758000F9F17 /* arcanegolem.obj in Resources */,
 				FDE7E35B20CD29E5007162C5 /* LaunchScreen.storyboard in Resources */,
+				FD8D351F213C36AA00A35A02 /* SirenHands_Dif.tga in Resources */,
 				FDE7E35820CD29E5007162C5 /* Assets.xcassets in Resources */,
-				FD75F2EE20E73F190095BA13 /* maya-blender.obj in Resources */,
-				FD75F2F420E73F3A0095BA13 /* SirenHead_Bm.tga in Resources */,
-				FD75F2F220E73F330095BA13 /* maya-blender.mtl in Resources */,
+				FD662B85213C0758000F9F17 /* AG_Model_Mesh_ArcaneDefense.tga in Resources */,
+				FD662B83213C0758000F9F17 /* ARMORREFLECT4.tga in Resources */,
+				FD8D3521213C36AA00A35A02 /* SirenHead_Nrm.tga in Resources */,
+				FD8D351B213C36AA00A35A02 /* SirenBody_Nrm.tga in Resources */,
+				FDC04AFE213C42CA009B7AC9 /* maya-blender.obj in Resources */,
 				FD75F2F020E73F240095BA13 /* monkey.obj in Resources */,
+				FD8D3513213C36AA00A35A02 /* SirenHead_Bm.tga in Resources */,
 				FDE7E35620CD29E4007162C5 /* Main.storyboard in Resources */,
-				FD75F2F120E73F300095BA13 /* SirenBody_Bm.tga in Resources */,
+				FD8D351D213C36AA00A35A02 /* SirenBody_Bm.tga in Resources */,
+				FDC04B00213C42CA009B7AC9 /* maya-blender.mtl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,15 +338,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD049CC8208EF0DB00614534 /* Mouth.tga in Resources */,
+				FD8D3514213C36AA00A35A02 /* Mouth.tga in Resources */,
+				FD8D351A213C36AA00A35A02 /* SirenBody_Nrm.tga in Resources */,
+				FDC04AFF213C42CA009B7AC9 /* maya-blender.mtl in Resources */,
+				FD662B80213C0758000F9F17 /* arcanegolem.obj in Resources */,
+				FD8D351E213C36AA00A35A02 /* SirenHands_Dif.tga in Resources */,
 				FDF72BFE2037CB0E00AFDF72 /* Assets.xcassets in Resources */,
-				FD049CCC208EF0DB00614534 /* SirenBody_Bm.tga in Resources */,
-				FD049CCE208EF0DB00614534 /* SirenHands_Dif.tga in Resources */,
+				FD8D3524213C36AA00A35A02 /* SirenHands_Nrm.tga in Resources */,
+				FD662B82213C0758000F9F17 /* ARMORREFLECT4.tga in Resources */,
+				FD8D3512213C36AA00A35A02 /* SirenHead_Bm.tga in Resources */,
+				FD8D351C213C36AA00A35A02 /* SirenBody_Bm.tga in Resources */,
+				FD8D3520213C36AA00A35A02 /* SirenHead_Nrm.tga in Resources */,
 				FDF72C012037CB0E00AFDF72 /* Main.storyboard in Resources */,
-				FD049CC7208EF0DB00614534 /* SirenHead_Bm.tga in Resources */,
+				FD662B7E213C0758000F9F17 /* arcanegolem.mtl in Resources */,
 				FD0E4E51208DC64400585800 /* monkey.obj in Resources */,
-				FD049CCB208EF0DB00614534 /* maya-blender.mtl in Resources */,
-				FD049CD0208EF0DB00614534 /* maya-blender.obj in Resources */,
+				FD662B84213C0758000F9F17 /* AG_Model_Mesh_ArcaneDefense.tga in Resources */,
+				FDC04AFD213C42CA009B7AC9 /* maya-blender.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +450,7 @@
 			files = (
 				FDF72BFC2037CB0E00AFDF72 /* ViewController.swift in Sources */,
 				FDF72BFA2037CB0E00AFDF72 /* AppDelegate.swift in Sources */,
+				FD247E0F210C79B800E953E5 /* MTViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,9 +673,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oreisoft.BEMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "BEMac/BEMac-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -642,8 +697,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oreisoft.BEMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "BEMac/BEMac-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};

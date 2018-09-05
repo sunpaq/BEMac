@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C694FA836C219B6866D693EB1DF723FE"
+               BlueprintIdentifier = "80E258D5EAAE026C006B39985DEDA064"
                BuildableName = "BohdiEngine.framework"
                BlueprintName = "BohdiEngine-macOS"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C694FA836C219B6866D693EB1DF723FE"
+            BlueprintIdentifier = "80E258D5EAAE026C006B39985DEDA064"
             BuildableName = "BohdiEngine.framework"
             BlueprintName = "BohdiEngine-macOS"
             ReferencedContainer = "container:Pods.xcodeproj">
