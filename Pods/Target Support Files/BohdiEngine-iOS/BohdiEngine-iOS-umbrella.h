@@ -65,7 +65,7 @@
 #import "BENSView.h"
 #import "MC3DiOS.h"
 #import "MCArray.h"
-#import "MCArrayLinkedList.h"
+#import "MCArrayList.h"
 #import "MCBits.h"
 #import "MCBuffer.h"
 #import "MCClock.h"
